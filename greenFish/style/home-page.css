@@ -97,3 +97,27 @@
 :root {
     --swiper-theme-color: #373F41!important;
 }
+
+.slide__image{
+    width: 50%;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    z-index: 10;
+}
+
+.slide__info{
+    width: 50%;
+    height: 490px;
+    background: rgba(51, 51, 51, 0.8);
+}
+
+
+.slide__info__title{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
