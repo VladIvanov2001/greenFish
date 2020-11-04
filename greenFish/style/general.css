@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+.title-small{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #CBF1D4;
+}
+
+.salad{
+    color: #CBF1D4;
+}
+
+.active{
+    color: #fff;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
+    padding-top: 5px;
+}
