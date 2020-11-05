@@ -25,3 +25,30 @@
     padding-bottom: 4px;
     padding-top: 5px;
 }
+
+.description-text-white{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.big-title{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #373F41;
+}
+
+.description-text-black{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #373F41;
+}
