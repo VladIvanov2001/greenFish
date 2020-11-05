@@ -52,3 +52,14 @@
     line-height: 22px;
     color: #373F41;
 }
+
+
+.subtitle-text{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #373F41;
+}

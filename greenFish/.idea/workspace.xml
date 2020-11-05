@@ -20,11 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="259e7cc6-8fbf-48f2-8f78-0c56a041af11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/home-page/green-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home-page/small-slider-picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home-page/colour.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home-page/fish.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home-page/gf-swing-impact4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home-page/gfeasyshiner4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home-page/popular-model-back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home-page/production.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/slider_home-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slider_home-page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/general.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/home-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/home-page.css" afterDir="false" />
     </list>
@@ -92,7 +95,7 @@
       <updated>1604470092264</updated>
       <workItem from="1604470093916" duration="20035000" />
       <workItem from="1604524212585" duration="2287000" />
-      <workItem from="1604556395636" duration="17285000" />
+      <workItem from="1604556395636" duration="23646000" />
     </task>
     <servers />
   </component>
