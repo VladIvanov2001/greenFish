@@ -17,6 +17,10 @@
     color: #CBF1D4;
 }
 
+.white{
+    color: #fff;
+}
+
 .active{
     color: #fff;
     border-top: 1px solid;
@@ -25,13 +29,12 @@
     padding-top: 5px;
 }
 
-.description-text-white{
+.description-text{
     font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 26px;
-    color: #FFFFFF;
 }
 
 .big-title{

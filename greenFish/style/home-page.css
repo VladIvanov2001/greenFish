@@ -304,6 +304,7 @@
     background: url("../images/home-page/popular-model-back.jpg");
     padding-top: 71px;
     padding-bottom: 1px;
+    margin-bottom: 84px;
 }
 
 .popular-models__info {
@@ -363,7 +364,8 @@
 }
 
 .popular-models__info__item:nth-child(2) img {
-    margin-bottom: 8px;
+    margin-bottom: 37px;
+    margin-top: -17px;
 }
 
 .popular-models__info__item:nth-child(3) img {
@@ -457,4 +459,15 @@
     box-sizing: border-box;
     text-decoration: none;
     color: #333333;
+}
+
+.advantages h2{
+    text-align: center;
+    margin-right: 29px;
+}
+
+.advantages-description{
+    width: 920px;
+    margin: 0 auto;
+    text-align: center;
 }
