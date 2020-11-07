@@ -464,10 +464,40 @@
 .advantages h2{
     text-align: center;
     margin-right: 29px;
+    margin-bottom: 24px;
 }
 
 .advantages-description{
-    width: 920px;
-    margin: 0 auto;
+    width: 960px;
+    margin: 0 auto 46px auto;
+    text-align: center;
+    padding-right: 27px;
+}
+
+.advantages__details{
+    display: flex;
+    justify-content: space-around;
+}
+
+.advantages__details__item{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -27px;
+}
+
+.advantages__details__item h3{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #373F41;
+}
+
+.advantages__details__item p{
     text-align: center;
 }
+
