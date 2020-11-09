@@ -65,3 +65,13 @@
     letter-spacing: 0.3px;
     color: #373F41;
 }
+
+.title-h3{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #373F41;
+}

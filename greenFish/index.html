@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style/general.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<fb603679-5ca0-475f-9617-e25c8a33b360>" type="text/javascript"></script>
 </head>
 <body>
 <header class="header">
@@ -152,7 +153,7 @@
     <section class="popular-models">
         <div class="container">
             <h2 class="big-title popular-models-title">Популярные модели</h2>
-            <div class="popular-models__info">
+            <article class="popular-models__info">
                 <a href="" class="popular-models__info__item"><img alt="GF Easy Shiner 4”"
                                                                    src="images/home-page/gfeasyshiner4.png"/>
                     <p class="popular-models__info__item-name">GF Easy Shiner 4”</p>
@@ -188,7 +189,7 @@
                                                                    src="images/home-page/gf-javastick.png">
                     <p class="popular-models__info__item-name">GF Javastick 2”</p>
                 </a>
-            </div>
+            </article>
             <a href="" class="popular-models__check title-small">Посмотреть каталог</a>
         </div>
     </section>
@@ -201,42 +202,107 @@
                 при сильном течении или ударах о&nbsp;дно водоёма. Доступная цена позволяет собрать целую коллекцию
                 моделей
                 для разных условий рыбалки.</p>
-            <div class="advantages__details">
+            <article class="advantages__details">
                 <div class="advantages__details__item">
                     <img alt="wallet" src="images/home-page/wallet.svg">
-                    <h3>Доступная цена</h3>
+                    <h3 class="title-h3">Доступная цена</h3>
                     <p class="description-text-black">Стоят дешевле зарубежных аналогов, при этом не уступают им по
                         качеству.</p>
                 </div>
                 <div class="advantages__details__item">
                     <img alt="silicone" src="images/home-page/silicone.svg">
-                    <h3>Прочный силикон</h3>
+                    <h3 class="title-h3">Прочный силикон</h3>
                     <p class="description-text-black">Надёжный материал выдерживает не одну поклёвку самого настойчивого
                         соперника.</p>
                 </div>
                 <div class="advantages__details__item">
                     <img alt="beaker" src="images/home-page/beaker.svg">
-                    <h3>Фирменный аттрактант</h3>
+                    <h3 class="title-h3">Фирменный аттрактант</h3>
                     <p class="description-text-black">Сильный аромат привлекает внимание рыбы на дальних
                         расстояниях.</p>
                 </div>
-            </div>
+            </article>
         </div>
     </section>
     <section class="news">
         <h2 class="big-title">Новости и отчеты рыболовов</h2>
         <div class="container">
-            <div></div>
-            <div>
-                <div></div>
-                <div></div>
+            <article class="news-content">
+                <a class="news-content__left-side" href="">
+                    <div class="news-content__left-side__info">
+                        <h3 class="title-h3">Заголовок</h3>
+                        <p class="description-text-black">Описание события в компании, изменения в продукте или о новом
+                            партнёре бизнеса. </p>
+                        <p class="subtitle-text">12.08.2020</p>
+                        <span class="subtitle-text">#НХНЧ</span>
+                        <span class="subtitle-text">#ПРИМАНКИ</span>
+                    </div>
+                </a>
+                <div class="news__right-side">
+                    <a class="news__right-side__item" href="">
+                        <div class="news__right-side__item-info">
+                            <h3 class="title-h3">Заголовок</h3>
+                            <p class="description-text-black">Описание события в компании, изменения в продукте или о
+                                новом партнёре бизнеса. </p>
+                            <p class="subtitle-text">12.08.2020</p>
+                            <span class="subtitle-text">#рыбалкавбеларуси</span>
+                        </div>
+                        <div class="news__right-side__item-image"></div>
+                    </a>
+                    <a class="news__right-side__item" href="">
+                        <div class="news__right-side__item-info">
+                            <h3 class="title-h3">Заголовок</h3>
+                            <p class="description-text-black">Описание события в компании, изменения в продукте или о
+                                новом партнёре бизнеса. </p>
+                            <p class="subtitle-text">12.08.2020</p>
+                            <span class="subtitle-text">#рыбалкавбеларуси</span>
+                        </div>
+                        <div class="news__right-side__item-image"></div>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="partners">
+        <div class="container">
+            <div class="partners-content">
+                <article class="partners-content__info">
+                    <h2 class="big-title">Партнёрам</h2>
+                    <p class="description-text">Работаем с оптовыми заказчиками и дилерскими магазинами на выгодных
+                        условиях. Заключаем договор
+                        на
+                        сотрудничество.</p>
+                    <p class="description-text">Предлагаем партнёрскую скидку от 5% до 20% и быстро выполненяем заказы. Оптовая партия — от 100
+                        упаковок.</p>
+                </article>
+                <article class="partners-content__contacts">
+                    <div class="partners-content__contacts__refs">
+                        <a href="" class="partners-content__contacts__refs-number">+375 (29) 899-83-68</a>
+                        <div class="partners-content__phone__refs-icons">
+                            <a href="">
+                                <img src="images/home-page/viber.svg" alt="viber"/>
+                            </a>
+                            <a href="">
+                                <img src="images/home-page/telegram.svg" alt="telegram"/>
+                            </a>
+                            <a href="">
+                                <img src="images/home-page/whatsup.svg" alt="whatsup"/>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="description-text-black partners-content__contacts__refs-description">Ответим на все интересующие вопросы, предложим лучшие условия для сотрудичества</p>
+                </article>
             </div>
         </div>
+    </section>
+    <section class="delivery">
+        <div id="map" style="width:100%;height:861px"></div>
     </section>
 </main>
 
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/slider_home-page.js"></script>
+<script src="js/yandex_map.js"></script>
 </body>
 </html>
