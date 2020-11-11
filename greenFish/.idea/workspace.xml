@@ -20,16 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="259e7cc6-8fbf-48f2-8f78-0c56a041af11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/home-page/news-picture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home-page/news-picture1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home-page/telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home-page/viber.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home-page/whatsup.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/yandex_map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home-page/label.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home-page/label.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/general.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/home-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/home-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/yandex_map.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/yandex_map.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,15 +58,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\home-page" />
-      <recent name="C:\GH\greenFish\greenFish\images\home-page" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GH\greenFish\greenFish\images\home-page" />
       <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\home-page" />
       <recent name="C:\Users\User\Desktop\greenFish\images\home-page" />
       <recent name="C:\Users\User\Desktop\greenFish" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\home-page" />
+      <recent name="C:\GH\greenFish\greenFish\images\home-page" />
     </key>
   </component>
   <component name="RunManager">
@@ -98,7 +93,8 @@
       <workItem from="1604470093916" duration="20035000" />
       <workItem from="1604524212585" duration="2287000" />
       <workItem from="1604556395636" duration="23646000" />
-      <workItem from="1604902493537" duration="13168000" />
+      <workItem from="1604902493537" duration="15199000" />
+      <workItem from="1605098532857" duration="9607000" />
     </task>
     <servers />
   </component>
