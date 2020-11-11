@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="259e7cc6-8fbf-48f2-8f78-0c56a041af11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/home-page/label.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home-page/label.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/yandex_map.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/yandex_map.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +39,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1joUlXT7LiwYsK5z5mpzeQPekmR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -94,7 +97,7 @@
       <workItem from="1604524212585" duration="2287000" />
       <workItem from="1604556395636" duration="23646000" />
       <workItem from="1604902493537" duration="15199000" />
-      <workItem from="1605098532857" duration="9607000" />
+      <workItem from="1605098532857" duration="11256000" />
     </task>
     <servers />
   </component>
