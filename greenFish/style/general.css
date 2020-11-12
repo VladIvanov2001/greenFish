@@ -75,3 +75,39 @@
     text-align: center;
     color: #373F41;
 }
+
+
+/*Styles for yandex map*/
+.info-popular-label{
+    background-color: #6979F8;
+    width: 200px;
+    height: 137px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 5px;
+    border-radius: 1px;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.info-popular-label__top{
+    border-bottom: 1px solid #fff;
+    display: flex;
+    padding-left: 6px;
+    padding-right: 14px;
+}
+
+.info-popular-label__bottom{
+    padding-right: 46px;
+    padding-left: 6px;
+}
+
+.info-popular-label__bottom p{
+    margin-bottom: 1px;
+}
+
+.info-popular-label__bottom a{
+    text-decoration: none;
+    color: #fff;
+}
