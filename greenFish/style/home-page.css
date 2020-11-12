@@ -738,6 +738,8 @@
 
 .instagram__pictures {
     padding-top: 8px;
+    max-width: 1225px;
+    white-space: nowrap;
 }
 
 .instagram__text h3 {

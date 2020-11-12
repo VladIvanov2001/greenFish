@@ -5,7 +5,7 @@ function init() {
         [53.90, 27.59],
         [54.90, 27.56],
         [52.90, 27.56]
-    ]
+    ];
 
     const clusterIcons = [{
         href: './images/home-page/label.svg',
@@ -46,8 +46,6 @@ function init() {
                 iconImageSize: [37, 49],
             balloonContentLayout: BalloonContentLayout,
             closeButton:false
-            // Запретим замену обычного балуна на балун-панель.
-            // Если не указывать эту опцию, на картах маленького размера откроется балун-панель.
          },
         );
     }
