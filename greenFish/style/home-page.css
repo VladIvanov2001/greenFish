@@ -738,7 +738,7 @@
 
 .instagram__pictures {
     padding-top: 8px;
-    max-width: 1225px;
+    max-width: 1205px;
     white-space: nowrap;
 }
 
@@ -750,4 +750,106 @@
     text-decoration: none;
     text-transform: uppercase;
     color: #3CB156;
+}
+
+.footer {
+    background-color: #373F41;
+    padding: 52px 0 58px 60px;
+}
+
+.footer > .container {
+    display: flex;
+    color: #fff;
+}
+
+.footer a {
+    text-decoration: none;
+    display: block;
+}
+
+.footer__catalog__phone-number {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.footer__catalog__props {
+    border: 2px solid #FFFFFF;
+    width: 202px;
+    box-sizing: border-box;
+}
+
+.footer__catalog {
+    width: 242px;
+    margin-right: 113px;
+}
+
+.footer__catalog h3, .footer__about-company h3, .footer__clients h3, .footer__social-networks h3 {
+    margin-bottom: 20px;
+}
+
+.footer__catalog a:nth-child(2) {
+    margin-bottom: 15px;
+}
+
+.footer__catalog a:nth-child(3) {
+    margin-bottom: 38px;
+}
+
+.footer__catalog p:nth-child(4) {
+    margin-bottom: 13px;
+}
+
+.footer__catalog__props {
+    padding: 12px 0 11px 49px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.footer__about-company {
+    margin-right: 119px;
+}
+
+.footer__about-company a, .footer__clients a {
+    margin-bottom: 16px;
+}
+
+.footer__clients{
+    margin-right: 75px;
+}
+
+.footer__clients a:last-child {
+    width: 100px;
+}
+
+.footer__social-networks{
+    margin-right: 148px;
+}
+
+.footer__social-networks a:nth-child(2){
+    margin-bottom: 15px;
+}
+
+.footer__social-networks a:nth-child(3){
+    margin-bottom: 110px;
+}
+
+.footer__info{
+    margin-top: 5px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__info p:last-child{
+    margin-bottom: 22px;
 }
