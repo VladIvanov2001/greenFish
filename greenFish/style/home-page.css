@@ -28,6 +28,13 @@
     position: relative;
     margin-left: 29px;
     margin-top: 16px;
+    z-index: 5;
+}
+
+.nav__logo-picture {
+    width: 272px;
+    height: 127px;
+    background: url("../images/home-page/logo.png");
 }
 
 .nav__logo__name {
@@ -51,12 +58,13 @@
     margin: 15px 140px 13px 0;
 }
 
-.nav__menu__item {
-    margin-left: 31px;
+.nav__menu a {
+    text-decoration: none;
+    color: #CBF1D4;
 }
 
-.nav__logo {
-    z-index: 5;
+.nav__menu__item {
+    margin-left: 31px;
 }
 
 .nav__basket {
@@ -110,6 +118,7 @@
 :root {
     --swiper-theme-color: #373F41 !important;
 }
+
 
 .slider__content__image {
     margin: 71px 43px 0 auto;
@@ -822,7 +831,7 @@
     margin-bottom: 16px;
 }
 
-.footer__clients{
+.footer__clients {
     margin-right: 75px;
 }
 
@@ -830,19 +839,19 @@
     width: 100px;
 }
 
-.footer__social-networks{
+.footer__social-networks {
     margin-right: 148px;
 }
 
-.footer__social-networks a:nth-child(2){
+.footer__social-networks a:nth-child(2) {
     margin-bottom: 15px;
 }
 
-.footer__social-networks a:nth-child(3){
+.footer__social-networks a:nth-child(3) {
     margin-bottom: 110px;
 }
 
-.footer__info{
+.footer__info {
     margin-top: 5px;
     width: 150px;
     display: flex;
@@ -850,6 +859,164 @@
     justify-content: space-between;
 }
 
-.footer__info p:last-child{
+.footer__info p:last-child {
     margin-bottom: 22px;
+}
+
+@media (max-width: 1409.98px) {
+    .container {
+        max-width: 1110px;
+    }
+
+    .nav {
+        max-width: 1215px;
+        padding-left: 77px;
+    }
+
+    .nav__basket {
+        margin-right: 78px;
+        margin-bottom: 7px;
+    }
+
+    .nav__menu {
+        margin: 28px 101px 13px -26px;
+    }
+
+    .nav__logo-picture {
+        width: 254px;
+        height: 119px;
+        background: url("../images/home-page/logo-for-laptop.png");
+    }
+
+    .nav__logo__name {
+        font-size: 10px;
+    }
+
+    .slider__content__info-title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+
+    .slider__content__info-container {
+        width: 413px;
+        margin-left: 14px;
+        margin-top: 17px;
+    }
+
+    .slider__content__info-container > .slider__content__info-description {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: normal;
+    }
+
+    .swiper-container {
+        height: 450px;
+    }
+
+    .slider__content__image img {
+        max-width: 490px;
+        margin: 3px 3px 0 200px;
+    }
+
+    .slider__content__info-description {
+        margin-bottom: 49px;
+    }
+
+    .company-info {
+        width: 958px;
+        left: 16px;
+    }
+
+    .company-info-background {
+        width: 920px;
+        left: 0;
+    }
+
+    .company-info__logo {
+        margin-left: 50px;
+        margin-right: 11px;
+    }
+
+    .company-info__text {
+        margin-top: 35px;
+    }
+
+    .production__info {
+        width: 635px;
+        margin-left: 16px;
+        padding-bottom: 72px;
+    }
+
+    .production__info h2 {
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: 0.2px;
+        margin-bottom: 5px;
+    }
+
+    .production__info p:nth-child(2) {
+        margin-bottom: 4px;
+    }
+
+    .production__info p:nth-child(3) {
+        margin-bottom: 38px;
+    }
+
+    .production__info-text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .production__photo {
+        background: url(../images/home-page/production.png);
+        width: 773px;
+        height: 336px;
+        background-size: cover;
+        margin-top: 0;
+    }
+
+    .popular-models {
+        background-size: cover;
+        padding-top: 71px;
+        margin-bottom: 84px;
+        margin-top: -29px;
+    }
+
+    .popular-models__info {
+        justify-content: initial;
+    }
+
+    .popular-models-title{
+        margin-left: 35px;
+        margin-top: 5px;
+        margin-bottom: 66px;
+    }
+
+    .popular-models__info__item img {
+        width: 332px;
+        height: 120px;
+    }
+
+    .popular-models__info__item {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .popular-models__info__item:nth-child(5) {
+        margin-right: 0;
+    }
+
+    .popular-models__info__item img:first-child {
+        margin-bottom: 19px;
+    }
+
+    .popular-models__info__item-name{
+        margin-left: 0;
+    }
+
 }
