@@ -1362,7 +1362,32 @@
         margin-bottom: 6px;
     }
 
-    .footer__catalog{
-        margin-right: 17px;
+    .footer__catalog {
+        margin-right: -24px;
+    }
+
+    .footer h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .footer a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .footer__social-networks {
+        margin-right: 0;
+        flex-grow: 0.23;
+    }
+
+    .footer__about-company {
+        flex-grow: 0.27;
+        margin-right: 0;
+    }
+
+    .footer__clients {
+        margin-right: 0;
+        flex-grow: 0.46;
     }
 }
