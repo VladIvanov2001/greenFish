@@ -1,5 +1,3 @@
-
-
 function swipeEventOnSlider(mySwiper) {
     const swiperMenuItems = document.querySelectorAll('.slider__content__info');
     mySwiper.on('slideChangeTransitionStart', () => {
