@@ -77,19 +77,8 @@
     margin-top: 6px;
 }
 
-.hamburger-menu {
-    background: #338290;
-    border-radius: 4px;
-    width: 50px;
-    height: 50px;
-}
-
-.hamburger-menu__bar {
-    width: 23px;
-    height: 3px;
-    background: #FFFFFF;
-    margin: 0 0 3px;
-    transition: background .2s;
+.hamburger-menu{
+    display: none;
 }
 
 .swiper {
@@ -908,6 +897,10 @@
         margin: 28px 36px 13px -26px;
     }
 
+    .nav__menu__item {
+        margin-left: 19px;
+    }
+
     .nav__logo-picture {
         width: 254px;
         height: 119px;
@@ -1412,12 +1405,173 @@
         max-width: 691px;
     }
 
+    .header {
+        height: 76px;
+    }
+
+    .nav {
+        max-width: 691px;
+        padding-left: initial;
+    }
+
     .nav__menu li:nth-child(2), .nav__menu li:nth-child(3), .nav__menu li:nth-child(4) {
         display: none;
     }
 
-    .nav__menu__item{
+    .nav__logo {
+        margin-left: 1px;
+        margin-top: 9px;
+    }
+
+    .nav__menu {
+        margin-left: 43px;
+        margin-top: 15px;
+    }
+
+    .nav__menu__item {
         font-size: 14px;
         line-height: 20px;
+    }
+
+    .nav__menu__item:first-child{
+        margin: 0 26px 0 32px;
+    }
+
+    .nav__logo-picture {
+        background: url("../images/home-page/logo-for-tablet.png");
+        width: 124px;
+        height: 58px;
+    }
+
+    .nav__logo__name {
+        display: none;
+    }
+
+    .nav__basket{
+        margin-right: 6px;
+        margin-top: 17px;
+    }
+
+    .hamburger-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #menu__toggle {
+        opacity: 0;
+    }
+    .menu__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background: #338290;
+        border-radius: 4px;
+        position: fixed;
+        cursor: pointer;
+        z-index: 25;
+        margin-left: 41px;
+    }
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+        position: absolute;
+        width: 23px;
+        margin-bottom: 6px;
+        height: 2px;
+        background-color: #fff;
+    }
+    .menu__btn > span::before {
+        content: '';
+        top: -8px;
+    }
+    .menu__btn > span::after {
+        content: '';
+        top: 8px;
+    }
+
+    .menu__box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        width: 704px;
+        height: 100%;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        background: #373F41;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+        z-index: 20;
+    }
+    .menu__item {
+        display: block;
+        padding: 12px 24px;
+        text-decoration: none;
+        color: #A4ABAC;
+    }
+    .menu__item:hover {
+        background-color: #CFD8DC;
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+    }
+    #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+    #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+    #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        right: 170px;
+        padding-top: 19px;
+    }
+
+    .menu__box__basket{
+        display: flex;
+        margin-left: 29px;
+        align-items: center;
+    }
+
+    .menu__box li{
+        margin-left: 7px;
+    }
+
+    .menu__box li:nth-child(6){
+        margin-bottom: -10px;
+        margin-top: -2px;
+    }
+
+    .menu__box li:nth-child(7){
+        margin-bottom: -6px;
+    }
+
+    .menu__box li:nth-child(8), .menu__box li:nth-child(9){
+        margin-bottom: -9px;
+    }
+
+    .menu__box li:nth-child(10){
+        width: 100px;
+        margin-bottom: 66px;
+    }
+
+
+    .menu__box__basket p{
+        font-family: Roboto;
+        font-weight: initial;
+        font-size: 16px;
+        line-height: 20px;
+        color: #A4ABAC;
+        margin-top: 13px;
+        margin-left: 3px;
     }
 }
