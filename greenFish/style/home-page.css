@@ -1858,4 +1858,61 @@
         right: -3px;
         padding: 0;
     }
+
+    h2.advantages-title{
+        font-size: 24px;
+        line-height: 30px;
+        margin-right: 78px;
+        padding-top: 10px;
+        margin-bottom: 17px;
+    }
+
+    .description-text.advantages-description {
+        width: auto;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 45px;
+        padding-right: initial;
+        padding-left: initial;
+        position: relative;
+        right: 38px;
+    }
+
+    .advantages{
+        margin-bottom: 35px;
+    }
+
+    .advantages__details__item h3{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .advantages__details__item p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .advantages__details__item:first-child{
+        width: 209px;
+        margin-left: -56px;
+    }
+
+    .advantages__details__item:nth-child(2) {
+        width: 205px;
+        padding-left: 39px;
+    }
+
+    .advantages__details__item:last-child{
+        width: 270px;
+        margin-right: 25px;
+        margin-top: 13px;
+    }
+
+    .advantages__details__item:nth-child(2) img{
+        margin-left: 36px;
+    }
+
+    .advantages__details__item:nth-child(2) h3{
+        margin-left: 27px;
+    }
 }
