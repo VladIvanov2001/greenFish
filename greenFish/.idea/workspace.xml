@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="259e7cc6-8fbf-48f2-8f78-0c56a041af11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/home-page/logo-for-phone.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scriptForMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scriptForMain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/slider_home-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slider_home-page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/home-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/home-page.css" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,28 +65,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\home-page" />
+      <recent name="C:\GH\greenFish\greenFish\images\home-page" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GH\greenFish\greenFish\images\home-page" />
       <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\home-page" />
       <recent name="C:\Users\User\Desktop\greenFish\images\home-page" />
       <recent name="C:\Users\User\Desktop\greenFish" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\home-page" />
-      <recent name="C:\GH\greenFish\greenFish\images\home-page" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/greenFish/index.html" useBuiltInWebServerPort="true">
@@ -96,7 +86,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -119,37 +109,37 @@
       <workItem from="1605506570783" duration="20844000" />
       <workItem from="1605597450899" duration="24954000" />
       <workItem from="1605705600049" duration="24110000" />
+      <workItem from="1605765527421" duration="24042000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="757" y="309" key="#Web_Browsers" timestamp="1604567998961">
+    <state x="757" y="309" key="#Web_Browsers" timestamp="1605776722301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="757" y="309" key="#Web_Browsers/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604567998961" />
+    <state x="757" y="309" key="#Web_Browsers/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605776722301" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604911708148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604911708148" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604911969285">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605778568413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604911969285" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605778568413" />
   </component>
 </project>

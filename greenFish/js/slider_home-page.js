@@ -12,15 +12,19 @@ function init() {
     const mySwiper = new Swiper('.swiper-container', {
         direction: 'horizontal',
         loop: true,
-        initialSlide:1,
+        initialSlide: 1,
         pagination: {
             el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true
         },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
     });
+
+
     const swiperMenuItems = document.querySelectorAll('.slider__content__info');
     const prevImage = document.querySelector('.slide__prev .slider__content__image img')
     swiperMenuItems.forEach(swiperMenuItem => {
@@ -30,7 +34,7 @@ function init() {
 
 
     const prevButton = document.querySelector('.swiper-button-prev');
-    prevButton.addEventListener('mouseover', ()=>{
+    prevButton.addEventListener('mouseover', () => {
         let prevImage = document.querySelector('.slide__prev .slider__content__image img')
         prevButton.appendChild(prevImage)
     });
