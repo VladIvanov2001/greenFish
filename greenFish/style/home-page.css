@@ -344,7 +344,7 @@
     margin-right: 23px;
 }
 
-.popular-models__info__show-more{
+.popular-models__info__show-more {
     display: none;
 }
 
@@ -2329,13 +2329,16 @@
         margin-left: -4px;
     }
 
+    .production__info__index {
+        margin-right: 0;
+    }
+
     .production__info__index-color {
         width: 143px;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: -10px;
-        margin-right: 11px;
     }
 
     .production__info__index-product, .production__info__index-color p {
@@ -2368,13 +2371,13 @@
     }
 
     .popular-models {
-        margin-top: -58px;
-        margin-left: -34px;
+        margin: -58px 0 22px -34px;
         padding-top: 92px;
     }
 
     .popular-models__info {
         flex-direction: column;
+        margin-bottom: 3px;
     }
 
     .popular-models__info__item:first-child {
@@ -2417,7 +2420,7 @@
         margin-left: 7px;
     }
 
-    .popular-models__info__show-more{
+    .popular-models__info__show-more {
         width: 298px;
         height: 54px;
         border: 2px solid #000000;
@@ -2431,16 +2434,162 @@
         font-size: 14px;
         line-height: 20px;
         text-transform: uppercase;
-        margin-left: 36px;
-        margin-top: -16px;
+        margin: -16px 0 45px 61px;
         letter-spacing: 0.14em;
     }
 
-    .more{
+    .more {
         display: none;
     }
 
-    .popular-models__check{
+    .popular-models__check {
         display: none;
     }
+
+    .popular-models__info__item:nth-child(5) {
+        margin: -37px -5px 46px 1px;
+    }
+
+    .popular-models__info__item:nth-child(5) img {
+        width: 328px;
+        margin-bottom: 7px;
+    }
+
+    .popular-models__info__item:nth-child(5) p {
+        margin-left: -9px;
+    }
+
+    .popular-models__info__item:nth-child(6) {
+        position: static;
+        margin-bottom: 18px;
+    }
+
+
+    .popular-models__info__item:nth-child(7) {
+        margin: 0 -16px 23px 7px;
+    }
+
+    .popular-models__info__item:nth-child(8) img {
+        margin: -2px 0 -15px 20px;
+    }
+
+    .popular-models__info__item:nth-child(8) {
+        margin-bottom: 24px;
+    }
+
+    .popular-models__info__item:last-child img {
+        margin-bottom: 11px;
+    }
+
+    h2.advantages-title {
+        font-size: 18px;
+        line-height: 24px;
+        margin-right: 0;
+        padding-top: 14px;
+    }
+
+    .description-text.advantages-description {
+        font-size: 14px;
+        line-height: 19px;
+        position: static;
+        margin-left: 18px;
+        text-align: left;
+        margin-bottom: 17px;
+    }
+
+    .advantages {
+        padding-left: 0;
+        margin-bottom: 47px;
+    }
+
+    .advantages__details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages__details__item {
+        margin-left: 0;
+    }
+
+    .advantages__details__item:first-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .advantages__details__item h3 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 6px;
+    }
+
+    .advantages__details__item p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .advantages__details__item:first-child, .advantages__details__item:nth-child(2) {
+        width: auto;
+        margin-bottom: 25px;
+    }
+
+    .advantages__details__item:nth-child(2) img, .advantages__details__item:nth-child(2) h3 {
+        margin-right: 11px;
+    }
+
+    .advantages__details__item:last-child {
+        width: auto;
+        margin-right: 0;
+    }
+
+    .advantages__details__item:nth-child(3) img, .advantages__details__item:nth-child(3) h3 {
+        margin-right: 0;
+    }
+
+    .advantages__details__item:nth-child(3) p {
+        margin-left: 0;
+    }
+
+    .news h2 {
+        width: 265px;
+        font-size: 18px;
+        line-height: 24px;
+        border-bottom: 1px solid #373F41;
+    }
+
+    .news__right-side__item {
+        margin-bottom: 28px;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 260px;
+        height: 435px;
+    }
+
+    .news__right-side__item-info h3{
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .news__right-side__item-info p:nth-child(2){
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .swiper-slide {
+        height: 445px !important;
+        width: 298px !important;
+        margin-left: 45px;
+        margin-right: 0 !important;
+    }
+
+    .news__right-side__item-info{
+        width: auto;
+    }
+
+    .news__right-side__item:first-child .news__right-side__item-image{
+        width: 212px;
+        height: 212px;
+        margin: 0 auto;
+    }
 }
+
