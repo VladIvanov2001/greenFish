@@ -32,13 +32,6 @@ function init() {
     })
     swiperMenuItems[(mySwiper.activeIndex)].classList.add('transit');
 
-
-    const prevButton = document.querySelector('.swiper-button-prev');
-    prevButton.addEventListener('mouseover', () => {
-        let prevImage = document.querySelector('.slide__prev .slider__content__image img')
-        prevButton.appendChild(prevImage)
-    });
-    const nextButton = document.querySelector('.swiper-button-next');
     swipeEventOnSlider(mySwiper);
 }
 

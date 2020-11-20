@@ -101,7 +101,7 @@
     background: #D9DEDE;
     width: 48px !important;
     height: 81px !important;
-    border: 2px solid #373F41;
+    border: none;
     transform: matrix(1, 0, 0, -1, 0, 0);
     opacity: 0.7;
     left: 0 !important;
@@ -112,11 +112,15 @@
     background: #D9DEDE;
     width: 48px !important;
     height: 81px !important;
-    border: 2px solid #373F41;
+    border: none;
     transform: matrix(1, 0, 0, -1, 0, 0);
     opacity: 0.7;
     right: 0 !important;
     top: 192px !important;
+}
+
+:root {
+    --swiper-theme-color: #000!important;
 }
 
 
@@ -181,6 +185,10 @@
     height: 56px;
     justify-content: center;
     padding-top: 4px;
+}
+
+.slider__content__info-btn:hover {
+    background: #A4ABAC;
 }
 
 .slider__content__info-description {
@@ -344,6 +352,10 @@
     margin-right: 23px;
 }
 
+.popular-models__info__item:hover p {
+    color: #3CB156;
+}
+
 .popular-models__info__show-more {
     display: none;
 }
@@ -482,6 +494,10 @@
     box-sizing: border-box;
     text-decoration: none;
     color: #333333;
+}
+
+.popular-models__check:hover {
+    background: #D9DEDE;
 }
 
 .advantages {
@@ -623,6 +639,10 @@
     margin-bottom: 6px;
 }
 
+.news__right-side__item:hover .news__right-side__item-info h3, .news-content__left-side:hover .news-content__left-side__info h3 {
+    color: #3CB156;
+}
+
 .news__right-side__item:first-child .news__right-side__item-image {
     background: url("../images/home-page/news-picture1.png");
     width: 315px;
@@ -757,23 +777,23 @@
 
 .instagram > .container {
     display: flex;
+    position: relative;
 }
 
 .instagram__text {
-    padding-top: 53px;
-    padding-left: 283px;
-    width: 299px;
-    margin-right: 134px;
+    margin-right: 126px;
+    padding-top: 54px;
+    padding-left: 30px;
 }
 
 .instagram__pictures {
     padding-top: 8px;
-    max-width: 1205px;
-    white-space: nowrap;
+    display: flex;
 }
 
 .instagram__text h3 {
-    margin-bottom: 67px;
+    width: 303px;
+    margin-bottom: 66px;
 }
 
 .instagram__text a {
@@ -789,7 +809,8 @@
 
 .footer {
     background-color: #373F41;
-    padding: 52px 0 58px 60px;
+    padding: 57px 0 58px 60px;
+    margin-top: -5px;
 }
 
 .footer > .container {
@@ -800,6 +821,10 @@
 .footer a {
     text-decoration: none;
     display: block;
+}
+
+.footer__catalog a:not(:last-child):hover, .footer__about-company a:hover, .footer__clients a:hover, .footer__social-networks a:hover {
+    color: #3CB156;
 }
 
 .footer__catalog__phone-number {
@@ -816,6 +841,10 @@
     border: 2px solid #FFFFFF;
     width: 202px;
     box-sizing: border-box;
+}
+
+.footer__catalog__props:hover {
+    background: #A4ABAC;
 }
 
 .footer__catalog {
@@ -1630,6 +1659,11 @@
         opacity: 1 !important;
     }
 
+    .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+        bottom: 63px!important;
+        left: -211px!important;
+    }
+
     .swiper-pagination-bullet-active {
         background-color: #3CB156 !important;
     }
@@ -1863,6 +1897,7 @@
         top: 8px;
         right: -3px;
         padding: 0;
+        width: 439px;
     }
 
     h2.advantages-title {
@@ -1996,6 +2031,10 @@
         flex-direction: row;
     }
 
+    .partners-content__contacts__refs-number {
+        pointer-events: auto;
+    }
+
     .partners-content__info {
         width: 665px;
     }
@@ -2052,8 +2091,14 @@
     .instagram__text h3 {
         font-size: 24px;
         line-height: 30px;
-        padding-left: 90px;
+        padding: 0;
         margin-bottom: 78px;
+    }
+
+    .instagram__text{
+        padding: 40px 0 0 0;
+        width: 241px;
+        margin-right: 0;
     }
 
     .instagram__pictures img {
@@ -2075,7 +2120,8 @@
     }
 
     .instagram__text .title-small {
-        padding-left: 76px;
+        padding-left: 0;
+        margin-left: 0;
     }
 
     .footer {
@@ -2088,7 +2134,7 @@
     }
 
     .footer__catalog {
-        margin-right: -1px;
+        margin-right: -3px;
     }
 
     a.footer__catalog__props {
@@ -2110,15 +2156,21 @@
         margin-bottom: 22px;
     }
 
+    .footer__catalog p:nth-child(4) {
+        margin-bottom: 13px;
+    }
+
     .footer__social-networks p:last-child {
         position: relative;
-        right: 243px;
+        right: 240px;
     }
 
     .footer__info p:first-child {
         font-size: 14px;
         line-height: 20px;
-        margin-bottom: 24px;
+        margin-bottom: 22px;
+        margin-top: 6px;
+
     }
 
     .footer__info p:last-child {
@@ -2251,8 +2303,9 @@
     }
 
     .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-        bottom: 0 !important;
-        left: -24px !important;
+        bottom: 7px !important;
+        left: -37px !important;
+
     }
 
     .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
@@ -2661,6 +2714,7 @@
         line-height: 28px;
         margin-right: 0;
         margin-top: 53px;
+        pointer-events: auto;
     }
 
     .partners-content__phone__refs-icons {
@@ -2689,6 +2743,10 @@
         height: 447px !important;
     }
 
+    .instagram > .container{
+        flex-direction: column;
+    }
+
     .instagram {
         flex-direction: column;
     }
@@ -2698,7 +2756,7 @@
     }
 
     .instagram__text .title-small {
-        padding-left: 4px;
+        padding-left: 16px;
         display: block;
         margin-bottom: 21px;
     }
@@ -2718,12 +2776,16 @@
 
     .footer {
         position: relative;
+        padding: 29px 0 21px 9px;
     }
 
     .footer__catalog {
-        margin-right: 0;
-        margin-bottom: 74px;
-        width: 224px;
+        margin: 0 0 74px 7px;
+        width: 218px;
+    }
+
+    .footer__catalog p:nth-child(4) {
+        margin-bottom: 10px;
     }
 
     .footer__social-networks {
@@ -2732,19 +2794,21 @@
     }
 
     .footer__catalog__phone-number {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 20px;
+        color: #FFFFFF;
+        opacity: 0.8;
     }
 
     a.footer__catalog__props {
-        padding: 10px 0 10px 28px;
-        width: 165px;
+        padding: 7px 0 7px 28px;
+        width: 156px;
         font-size: 14px;
         line-height: 16px;
     }
 
     .footer a {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 22px;
     }
 
@@ -2753,10 +2817,10 @@
     }
 
     .footer__social-networks p:last-child {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 18px;
-        margin-top: 31px;
-        margin-left: 17px;
+        margin-top: 33px;
+        margin-left: 21px;
     }
 
     .footer__info {
@@ -2780,7 +2844,17 @@
         line-height: 18px;
         position: absolute;
         left: 221px;
-        top: 74px;
+        top: 79px;
         width: 118px;
     }
+}
+
+.props{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    /* z-index: 111; */
+    top: 0px;
+    background: #fff;
+    overflow: hidden;
 }
