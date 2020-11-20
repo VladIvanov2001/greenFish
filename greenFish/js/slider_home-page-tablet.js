@@ -1,5 +1,5 @@
 const swiper = new Swiper('.swiper-container-for-tablet', {
-    slidesPerView:2,
+    slidesPerView:1,
     spaceBetween: 30,
     pagination: {
         el: '.swiper-pagination',
