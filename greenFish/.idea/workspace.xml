@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="259e7cc6-8fbf-48f2-8f78-0c56a041af11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/propsPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/propsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/propsPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/home-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/home-page.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

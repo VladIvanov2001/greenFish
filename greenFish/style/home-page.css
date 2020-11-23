@@ -843,8 +843,10 @@
     box-sizing: border-box;
 }
 
+
 .footer__catalog__props:hover {
     background: #A4ABAC;
+    cursor: pointer;
 }
 
 .footer__catalog {
@@ -916,6 +918,87 @@
 
 .footer__info p:last-child {
     margin-bottom: 22px;
+}
+
+
+.props {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: #fff;
+    overflow: hidden;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.props__container__copy {
+    width: 241px;
+    height: 64px;
+    background: #3CB156;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 11px;
+}
+
+.props__closed-btn {
+    position: absolute;
+    margin: 30px;
+    top: 0;
+    right: 0;
+}
+
+.props__container__copy:hover {
+    background: #2EA087;
+    cursor: pointer;
+}
+
+.props__container__info {
+    margin-bottom: 33px;
+}
+
+.props__container__info h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.props__container__info p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.props__closed-btn svg:hover {
+    cursor: pointer;
+}
+
+
+.props__container {
+    width: 442px;
+}
+
+
+.props__container-for-btn {
+    display: flex;
+    align-items: center;
+}
+
+.props__container-for-btn p {
+    width: 191px;
 }
 
 @media (max-width: 1409.98px) {
@@ -2847,55 +2930,35 @@
         top: 79px;
         width: 118px;
     }
+
+    .props {
+        display: flex;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .props__container {
+        margin: 0 auto;
+    }
+
+    .props__container__info h3{
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .props__container__info p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .props__container-for-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .props__closed-btn{
+        right: 44px;
+    }
+
 }
 
-.props {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    background: #fff;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.props__container__copy{
-    width: 241px;
-    height: 64px;
-    background: #3CB156;
-    font-size: 14px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.props__closed-btn {
-    position: absolute;
-    margin: 30px;
-    top: 0;
-    right: 0;
-}
-
-.props__container__copy:hover{
-    background: #2EA087;
-    cursor: pointer;
-}
-
-.props__container__info h3{
-    font-size: 30px;
-    line-height: 30px;
-    color: #373F41;
-}
-
-.props__container__info p{
-    font-family: Roboto;
-    font-size: 20px;
-    line-height: 26px;
-}
