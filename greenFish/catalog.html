@@ -78,54 +78,66 @@
         <h1 class="main-info-title">Силиконовые приманки</h1>
         <div class="main-info">
             <aside class="main-info__aside">
-                <div>
+                <div class="main-info__aside__colors">
                     <h3 class="title-h3">Расцветка</h3>
-                    <label>
-                        <input type="checkbox"/>
-                        <span class="description-text">Одноцветные</span>
+                    <label class="main-info__aside__colors-checkbox description-text">
+                        Одноцветные
+                        <input type="checkbox" checked="checked">
+                        <span class="checkbox-mark description-text"></span>
                     </label>
-                    <label>
-                        <input type="checkbox"/>
-                        <span class="description-text">Двухцветные</span>
+                    <label class="main-info__aside__colors-checkbox description-text">
+                        Двухцветные
+                        <input type="checkbox">
+                        <span class="checkbox-mark"></span>
                     </label>
                 </div>
-                <div>
+                <div class="main-info__aside__palette">
                     <h3 class="title-h3">Палитра</h3>
-                    <div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                    <div class="main-info__aside__palette-content">
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
+                        <div class="main-info__aside__palette-content-item"></div>
                     </div>
                 </div>
-                <div>
+                <div class="main-info__aside__size">
                     <h3 class="title-h3">Размер</h3>
-                    <div>
-                        <div>1''</div>
-                        <div>1,5''</div>
-                        <div>2''</div>
+                    <div class="main-info__aside__size-content">
+                        <div class="main-info__aside__size-content-item">1''</div>
+                        <div class="main-info__aside__size-content-item">1,5''</div>
+                        <div class="main-info__aside__size-content-item">2''</div>
                     </div>
                 </div>
             </aside>
-            <article>
-                <div></div>
-                <div>
+
+            <article class="main-info__catalog">
+                <div class="main-info__catalog__filters">
+                    <div class="subtitle-text main-info__catalog__filters-latest">Новинки</div>
+                    <div class="subtitle-text main-info__catalog__filters-top">Хиты продаж</div>
+                    <div class="subtitle-text main-info__catalog__filters-sales">Акции</div>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="main-info__catalog__products">
                     <a>
                         <img/>
                         <div>
@@ -239,6 +251,25 @@
             </article>
         </div>
     </section>
+    <div class="props">
+        <div class="props__closed-btn">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M42.5522 5.22029C43.5936 4.17891 43.5937 2.49047 42.5523 1.44905C41.5109 0.407634 39.8225 0.407605 38.781 1.44898L22 18.2295L5.21888 1.44898C4.17746 0.407605 2.48902 0.407634 1.44764 1.44905C0.406262 2.49047 0.406291 4.17891 1.44771 5.22029L18.2287 22.0007L1.44771 38.781C0.406291 39.8224 0.406262 41.5108 1.44764 42.5522C2.48902 43.5937 4.17746 43.5937 5.21888 42.5523L22 25.7718L38.781 42.5523C39.8225 43.5937 41.5109 43.5937 42.5523 42.5522C43.5937 41.5108 43.5936 39.8224 42.5522 38.781L25.7713 22.0007L42.5522 5.22029Z"
+                      fill="#C4C4C4"/>
+            </svg>
+        </div>
+        <div class="props__container">
+            <div class="props__container__info">
+                <h3>Реквизиты</h3>
+                <p class="props__container__info-text">ИП Лимановский Алексей& Анатольевич,<br/>УНП& 391537283 р/с
+                    BY21BELB3013000010226000<br/> в ОАО &laquo;Банк БелВЭБ&raquo; БИК: BELNNY2X
+                </p>
+            </div>
+            <div class="props__container-for-btn">
+                <a class="props__container__copy">Скопировать</a>
+            </div>
+        </div>
+    </div>
 </main>
 <footer class="footer">
     <div class="container">
@@ -275,5 +306,7 @@
         </div>
     </div>
 </footer>
+<script src="js/home-page/propsPage.js"></script>
+<script src="js/catalog/catalog.js"></script>
 </body>
 </html>
