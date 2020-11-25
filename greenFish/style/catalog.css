@@ -220,6 +220,8 @@ input[type=checkbox] {
 
 .main-info__catalog__filters{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -233,7 +235,129 @@ input[type=checkbox] {
     color: #373F41;
     font-style: normal;
     font-weight: bold;
-    border: 0.5px solid #D9DEDE;
+    border: 1px solid #D9DEDE;
     padding: 12px 48px 12px 48px;
     margin-right: 10px;
+}
+
+.custom-select-wrapper {
+    position: relative;
+    user-select: none;
+    width: 257px;
+}
+
+.custom-select {
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-select__trigger {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.custom-options {
+    position: absolute;
+    display: block;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border-top: 0;
+    background: #fff;
+    transition: all 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.custom-select.open .custom-options {
+    margin-top: 10px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    border: 1px solid #D9DEDE;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 257px;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-option {
+    position: relative;
+    display: block;
+    padding: 0 22px 0 22px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin: 12px;
+}
+
+.custom-option:hover {
+    cursor: pointer;
+    color: #3CB156;
+}
+
+.custom-option.selected {
+    color: #3CB156;
+}
+
+.arrow {
+    position: relative;
+    height: 15px;
+    width: 15px;
+}
+
+.arrow::before,
+.arrow::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 0.15rem;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.arrow::before {
+    left: -5px;
+    transform: rotate(45deg);
+    background-color: #000;
+}
+
+.arrow::after {
+    left: 5px;
+    transform: rotate(-45deg);
+    background-color: #000;
+}
+
+.open .arrow::before {
+    left: -5px;
+    transform: rotate(-45deg);
+}
+
+.open .arrow::after {
+    left: 5px;
+    transform: rotate(45deg);
 }
