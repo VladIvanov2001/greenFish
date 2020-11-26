@@ -646,6 +646,7 @@ input[type=checkbox] {
 
 .request-contact-info{
     display: flex;
+    margin-bottom: 40px;
 }
 
 .request-contact-info label{
@@ -665,3 +666,59 @@ input[type=checkbox] {
 .request-contact-info-name{
     margin-right: 16px;
 }
+
+.request-agreement{
+    display: flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #373F41;
+    padding-left: 3px;
+    margin-bottom: 12px;
+}
+
+.request-agreement a{
+    text-decoration: none;
+    color: #3CB156;
+}
+
+.request-agreement svg{
+    margin-right: 8px;
+}
+
+.request-agreement p{
+    margin-top: -3px;
+}
+
+.request-send-btn{
+    width: 332px;
+    height: 64px;
+    background: #3CB156;
+    border: 2px solid #3CB156;
+    box-sizing: border-box;
+    margin-bottom: 168px;
+}
+
+.request-suggestion{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #373F41;
+    margin-bottom: 26px;
+    padding-left: 5px;
+}
+
+.request-email{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 116px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    color: #373F41!important;
+}
+

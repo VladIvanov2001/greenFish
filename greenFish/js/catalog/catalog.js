@@ -43,3 +43,17 @@ sizes.forEach((size) => {
     })
 });
 
+const phoneInput = document.querySelector('.request-contact-info-name-input');
+const maskOptions = {
+    mask: '+{375}(00)000-00-00'
+};
+phoneInput.addEventListener('click', () => {
+    const mask = IMask(phoneInput, maskOptions);
+    console.log(phoneInput.value.length);
+    if (phoneInput.value.length === 0) {
+        phoneInput.value = '+375('
+    }
+})
+
+const mask = IMask(element, maskOptions);
+
