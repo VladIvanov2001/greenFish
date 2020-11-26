@@ -3,6 +3,11 @@
     src: url("../fonts/Roboto-Regular.ttf");
 }
 
+@font-face {
+    font-family: "SF Pro Text";
+    src: url("../fonts/SFProDisplay-Regular.ttf");
+}
+
 .title-small{
     font-family: "Roboto";
     font-style: normal;

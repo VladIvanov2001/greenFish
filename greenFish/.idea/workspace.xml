@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="259e7cc6-8fbf-48f2-8f78-0c56a041af11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/catalog/item-card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/catalog/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/catalog/catalog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/catalog.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/catalog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/general.css" afterDir="false" />
     </list>
@@ -60,7 +59,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/catalog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -73,6 +72,7 @@
       <recent name="C:\Users\User\Desktop\greenFish" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\fonts" />
       <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\catalog" />
       <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\home-page" />
       <recent name="C:\GH\greenFish\greenFish\images\home-page" />
@@ -121,7 +121,7 @@
       <workItem from="1606202053670" duration="27017000" />
       <workItem from="1606297562880" duration="2576000" />
       <workItem from="1606314039084" duration="14430000" />
-      <workItem from="1606370667010" duration="9643000" />
+      <workItem from="1606370667010" duration="11970000" />
     </task>
     <servers />
   </component>
@@ -145,10 +145,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="309" key="#Web_Browsers/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605776722301" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604911708148">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606381546841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604911708148" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606381546841" />
     <state x="2452" y="260" width="672" height="677" key="run.anything.popup" timestamp="1605860432090">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
