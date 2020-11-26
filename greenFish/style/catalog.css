@@ -67,6 +67,9 @@
     color: #3CB156;
 }
 
+.catalog{
+    margin-bottom: 48px!important;
+}
 .main-info {
     display: flex;
 }
@@ -516,7 +519,7 @@ input[type=checkbox] {
 .pagination {
     display: flex;
     justify-content: center;
-    margin-left: 59px;
+    margin-left: 25px;
 }
 
 .pagination a {
@@ -593,4 +596,72 @@ input[type=checkbox] {
     top: 10px;
     transform: rotate(90deg);
     height: 9px;
+}
+
+.request{
+    background-image: url("../images/catalog/catalog-background.png");
+}
+
+.request h2{
+    margin-bottom: 10px;
+}
+
+.request-conditionals{
+    width: 48%;
+    margin-bottom: 27px;
+}
+
+.request label{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+
+    color: #373F41;
+
+}
+
+.request-contact-info label{
+    flex-direction: row;
+}
+
+.request-name{
+    margin-bottom: 21px;
+}
+
+.request-name input{
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width:452px;
+    height: 42px;
+}
+
+
+.request-contact-info{
+    display: flex;
+}
+
+.request-contact-info label{
+    display: flex;
+    flex-direction: column;
+}
+
+.request-contact-info input{
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 218px;
+    height: 42px;
+}
+
+.request-contact-info-name{
+    margin-right: 16px;
 }

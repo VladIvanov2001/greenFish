@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="259e7cc6-8fbf-48f2-8f78-0c56a041af11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/SFProDisplay-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/catalog/catalog-background.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/catalog.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/catalog.css" afterDir="false" />
@@ -59,7 +59,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/catalog" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -72,8 +72,8 @@
       <recent name="C:\Users\User\Desktop\greenFish" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\fonts" />
       <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\catalog" />
+      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\fonts" />
       <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\home-page" />
       <recent name="C:\GH\greenFish\greenFish\images\home-page" />
     </key>
@@ -121,7 +121,7 @@
       <workItem from="1606202053670" duration="27017000" />
       <workItem from="1606297562880" duration="2576000" />
       <workItem from="1606314039084" duration="14430000" />
-      <workItem from="1606370667010" duration="11970000" />
+      <workItem from="1606370667010" duration="17481000" />
     </task>
     <servers />
   </component>
