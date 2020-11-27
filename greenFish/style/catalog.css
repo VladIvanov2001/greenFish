@@ -10,7 +10,7 @@
 }
 
 .nav__logo {
-    margin-left: 38px;
+    margin-left: 31px;
     margin-top: 18px;
 }
 
@@ -706,7 +706,7 @@ input[type=checkbox] {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 22px;
     color: #373F41;
     margin-bottom: 26px;
     padding-left: 5px;
@@ -716,9 +716,20 @@ input[type=checkbox] {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 116px;
+    font-size: 110px;
     line-height: 52px;
-    letter-spacing: 0.2px;
-    color: #373F41!important;
+    letter-spacing: 1.5px;
+    padding-bottom: 18px;
+    color: #373F41;
+}
+
+.footer{
+    padding: 57px 0 58px 0;
+}
+
+@media (max-width: 1409.98px) {
+    .container {
+        max-width: 1110px;
+    }
 }
 
