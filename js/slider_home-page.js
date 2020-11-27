@@ -1,37 +1,42 @@
-function swipeEventOnSlider(mySwiper) {
-    const swiperMenuItems = document.querySelectorAll('.slider__content__info');
-    mySwiper.on('slideChangeTransitionStart', () => {
-        swiperMenuItems.forEach(swiperMenuItem => {
-            swiperMenuItem.classList.remove('transit');
+function sliderTabs(mySwiper) {
+    const swiperMenuItems = document.querySelectorAll('.item');
+    swiperMenuItems.forEach((swiperMenuItem, idx) => {
+        swiperMenuItem.addEventListener('click', () => {
+            swiperMenuItems.forEach(swiperMenuItem => {
+                swiperMenuItem.classList.remove('active');
+            })
+            swiperMenuItem.classList.add('active');
+            mySwiper.slideTo(idx + 1);
         })
-        swiperMenuItems[(mySwiper.activeIndex)].classList.add('transit');
     })
 }
+
+function swipeEventOnSlider(mySwiper) {
+    const swiperMenuItems = document.querySelectorAll('.item');
+    mySwiper.on('slideChange', () => {
+        swiperMenuItems.forEach(swiperMenuItem => {
+            swiperMenuItem.classList.remove('active');
+        })
+        swiperMenuItems[mySwiper.realIndex].classList.add('active');
+    })
+}
+
 
 function init() {
     const mySwiper = new Swiper('.swiper-container', {
         direction: 'horizontal',
         loop: true,
-        initialSlide: 1,
         pagination: {
             el: '.swiper-pagination',
-            type: 'bullets',
-            clickable: true
         },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
     });
-
-
-    const swiperMenuItems = document.querySelectorAll('.slider__content__info');
-    const prevImage = document.querySelector('.slide__prev .slider__content__image img')
-    swiperMenuItems.forEach(swiperMenuItem => {
-        swiperMenuItem.classList.remove('transit');
-    })
-    swiperMenuItems[(mySwiper.activeIndex)].classList.add('transit');
-
+    const prevButton = document.querySelector('.swiper-button-prev');
+    const nextButton = document.querySelector('.swiper-button-next');
+    sliderTabs(mySwiper);
     swipeEventOnSlider(mySwiper);
 }
 
