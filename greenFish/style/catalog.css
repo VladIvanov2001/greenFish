@@ -45,7 +45,7 @@
     margin-right: 19px;
 }
 
-.navigation-info{
+.navigation-info {
     max-width: 330px;
     position: relative;
     right: 119px;
@@ -398,6 +398,10 @@ input[type=checkbox] {
 
 .main-info__catalog__products-item img {
     margin-bottom: 20px;
+}
+
+.main-info__catalog__products-item-info .main-info__catalog__products-item-type {
+    margin-bottom: 44px;
 }
 
 .main-info__catalog__products-item-info {
@@ -762,12 +766,12 @@ input[type=checkbox] {
         margin-right: 12px;
     }
 
-    .active{
+    .active {
         position: relative;
         right: 14px;
     }
 
-    .navigation-list{
+    .navigation-list {
         display: flex;
         justify-content: center;
         list-style-type: none;
@@ -782,8 +786,70 @@ input[type=checkbox] {
         line-height: 14px;
     }
 
-    .navigation-info{
+    .navigation-info {
         position: relative;
+    }
+
+    .navigation-list {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        position: absolute;
+        margin-left: 8px;
+        top: 0;
+        left: 37%;
+    }
+
+    .catalog {
+        padding-left: 34px;
+    }
+
+    .main-info__aside {
+        width: 24%;
+        margin-right: 22px;
+    }
+
+    .main-info__catalog__products-item-title {
+        margin-bottom: 7px;
+    }
+
+    .main-info__catalog__products-item img {
+        width: 255px;
+        margin-bottom: 29px;
+    }
+
+    .main-info__catalog__products-item-info {
+        padding-left: 19px;
+    }
+
+    .main-info__catalog__products-item-info {
+        padding-left: 0px;
+    }
+
+    .main-info__catalog__products-item-title {
+        margin-bottom: 7px;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .main-info__catalog__products-item-info .main-info__catalog__products-item-type {
+        margin-bottom: 21px;
+        width: 215px;
+        padding-left: 20px;
+    }
+
+    .main-info__catalog__products-item-count {
+        margin-bottom: 41px;
+        width: 220px;
+        padding-left: 20px;
+    }
+
+    .item-new {
+        margin-right: -10px;
+    }
+
+    .main-info__catalog__products-item-count {
+        margin-bottom: 29px;
     }
 }
 
