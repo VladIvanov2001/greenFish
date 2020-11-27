@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="259e7cc6-8fbf-48f2-8f78-0c56a041af11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/catalog.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/catalog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/header.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +77,7 @@
       <recent name="C:\GH\greenFish\greenFish\images\home-page" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.catalog.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="catalog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/greenFish/catalog.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -84,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.catalog.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.catalog.html" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +121,7 @@
       <workItem from="1606297562880" duration="2576000" />
       <workItem from="1606314039084" duration="14430000" />
       <workItem from="1606370667010" duration="22964000" />
-      <workItem from="1606461329482" duration="1836000" />
+      <workItem from="1606461329482" duration="8885000" />
     </task>
     <servers />
   </component>

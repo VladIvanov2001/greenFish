@@ -72,16 +72,31 @@
 @media (max-width: 1409.98px) {
     .nav {
         max-width: 1215px;
-        padding-left: 77px;
+        padding-left: 0;
+    }
+
+    .nav__logo {
+        margin-right: 0 !important;
+        position: relative;
+        left: 38px;
     }
 
     .nav__basket {
-        margin-right: 44px;
-        margin-bottom: 7px;
+        margin-right: 43px;
     }
 
     .nav__menu {
-        margin: 28px 36px 13px -26px;
+        margin: 27px 45px 13px 0;
+    }
+
+    .nav__menu li:not(:first-child) {
+        margin-top: 6px;
+        margin-right: 12px;
+    }
+
+    .active{
+        position: relative;
+        right: 14px;
     }
 
     .nav__menu__item {
@@ -120,13 +135,13 @@
 
     .nav__logo {
         margin-left: 1px;
-        margin-top: 9px;
+        margin-top: -12px;
+        left: 0;
     }
 
     .nav__menu {
-        margin-left: 26px;
-        margin-top: 15px;
-        padding-left: 17px;
+        margin: -2px 18px 0 16px;
+        padding-left: 67px;
     }
 
     .nav__menu__item {
@@ -135,11 +150,11 @@
     }
 
     .nav__menu__item:first-child {
-        margin: 0 26px 0 32px;
+        margin: 0 12px 0 3px;
     }
 
     .nav__logo-picture {
-        background: url("../images/home-page/logo-for-tablet.png");
+        background: url("../../images/home-page/logo-for-tablet.png");
         width: 124px;
         height: 58px;
     }
@@ -158,7 +173,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: -10px;
+        margin-top: -23px;
     }
 
     #menu__toggle {
