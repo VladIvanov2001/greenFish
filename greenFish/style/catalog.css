@@ -544,9 +544,10 @@ input[type=checkbox] {
     text-align: center;
     vertical-align: center;
     padding-top: 5px;
+    color: #373F41;
 }
 
-.pagination a.active {
+.pagination a.active-pagination {
     border: 1px solid #4CAF50;
     font-family: SF Pro Text;
     font-size: 14px;
@@ -555,7 +556,7 @@ input[type=checkbox] {
     color: #3CB156;
 }
 
-.pagination a:hover:not(.active) {
+.pagination a:hover:not(.active-pagination) {
     border: 1px solid #4CAF50;
     font-family: SF Pro Text;
     font-size: 14px;
@@ -851,5 +852,49 @@ input[type=checkbox] {
     .main-info__catalog__products-item-count {
         margin-bottom: 29px;
     }
-}
 
+    .cost-new-price {
+        margin-right: 0;
+    }
+
+    .main-info__catalog__products-item {
+        margin-right: -6px;
+        margin-bottom: 43px;
+    }
+
+    .main-info__catalog__filters .main-info__catalog__filters-latest,
+    .main-info__catalog__filters .main-info__catalog__filters-top, .main-info__catalog__filters .main-info__catalog__filters-sales {
+        margin-right: 9px;
+    }
+
+    .custom-select-wrapper {
+        margin-left: 113px;
+    }
+
+    .request > .container {
+        padding-left: 35px;
+    }
+
+    .request-send-btn {
+        margin-bottom: 63px;
+    }
+
+    .request-email {
+        font-size: 90px;
+        line-height: 52px;
+    }
+
+    .request-suggestion {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .footer {
+        padding: 61px 0 58px 37px;
+        margin-top: -13px;
+    }
+
+    .footer__catalog__props{
+        font-size: 14px;
+    }
+}
