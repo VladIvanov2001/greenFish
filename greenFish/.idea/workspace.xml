@@ -76,7 +76,7 @@
       <recent name="C:\GH\greenFish\greenFish\images\home-page" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.catalog.html">
     <configuration name="catalog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/greenFish/catalog.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -85,8 +85,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.catalog.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -121,6 +121,7 @@
       <workItem from="1606314039084" duration="14430000" />
       <workItem from="1606370667010" duration="22964000" />
       <workItem from="1606461329482" duration="8885000" />
+      <workItem from="1606720469963" duration="2164000" />
     </task>
     <servers />
   </component>
