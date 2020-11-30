@@ -1,7 +1,7 @@
 const copyBtn = document.querySelector('.props__container__copy');
 const text = document.querySelector('.props__container__info-text');
 const blockWithProps = document.querySelector('.props');
-const closedBtn = document.querySelector('.props__closed-btn svg');
+const closedBtn = document.querySelector('.closedBtn');
 const propsBtn = document.querySelector('.footer__catalog__props');
 const successfulMessage = document.createElement('p');
 let counter = 0;
