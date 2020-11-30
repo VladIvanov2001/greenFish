@@ -94,7 +94,7 @@
         margin-right: 12px;
     }
 
-    .active{
+    .active {
         position: relative;
         right: 14px;
     }
@@ -382,4 +382,6 @@
         content: '';
         top: 4px;
     }
+
+
 }

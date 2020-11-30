@@ -1,3 +1,8 @@
+const paletteColors = document.querySelectorAll('.main-info__aside__palette-content-item');
+const sizes = document.querySelectorAll('.main-info__aside__size-content-item');
+const phoneInput = document.querySelector('.request-contact-info-name-input');
+const btnForSortingInTablet = document.querySelector('.main-info__catalog__options-sorting');
+
 for (const dropdown of document.querySelectorAll(".custom-select-wrapper")) {
     dropdown.addEventListener('click', function () {
         this.querySelector('.custom-select').classList.toggle('open');
@@ -22,9 +27,6 @@ window.addEventListener('click', function (e) {
     }
 });
 
-const paletteColors = document.querySelectorAll('.main-info__aside__palette-content-item');
-const sizes = document.querySelectorAll('.main-info__aside__size-content-item');
-
 paletteColors.forEach((color) => {
     color.addEventListener('click', () => {
         paletteColors.forEach((color) => {
@@ -43,7 +45,6 @@ sizes.forEach((size) => {
     })
 });
 
-const phoneInput = document.querySelector('.request-contact-info-name-input');
 const maskOptions = {
     mask: '+{375}(00)000-00-00'
 };
@@ -54,6 +55,8 @@ phoneInput.addEventListener('click', () => {
         phoneInput.value = '+375('
     }
 })
+
+btnForSortingInTablet.addEventListener('', )
 
 const mask = IMask(element, maskOptions);
 
