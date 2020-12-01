@@ -207,6 +207,7 @@ input[type=checkbox] {
 }
 
 .main-info__aside__size-content-item {
+    font-family: Roboto;
     font-size: 20px;
     line-height: 26px;
     display: flex;
@@ -243,6 +244,10 @@ input[type=checkbox] {
 .main-info__catalog__products {
     display: flex;
     flex-wrap: wrap;
+}
+
+.main-info__catalog__options-filter, .main-info__catalog__options-sorting {
+    display: none;
 }
 
 .main-info__catalog__filters .main-info__catalog__filters-latest, .main-info__catalog__filters .main-info__catalog__filters-top, .main-info__catalog__filters .main-info__catalog__filters-sales {
@@ -1093,10 +1098,6 @@ input[type=checkbox] {
         display: none;
     }
 
-    .main-info__open-menu__filter {
-        display: block;
-    }
-
     :root {
         --color: #3CB156;
     }
@@ -1184,18 +1185,156 @@ input[type=checkbox] {
         padding-left: 36px;
     }
 
-    .main-info__open-menu__filter-content{
+    .main-info__open-menu__filter-content {
         padding-top: 42px;
+        overflow-y: scroll;
     }
 
-    .main-info__open-menu__filter-content > p{
+    .main-info__open-menu__filter-content > p {
         padding-left: 35px;
         margin-bottom: 14px;
     }
 
-    .main-info__aside__colors h3{
+    .main-info__aside__colors {
+        padding-left: 34px;
+        padding-top: 4px;
+    }
+
+    .main-info__aside__colors h3, .main-info__aside__palette h3, .main-info__aside__size h3 {
         font-weight: bold;
         font-size: 18px;
         line-height: 24px;
+        margin-bottom: 19px;
+    }
+
+    .main-info__aside__colors-checkbox {
+        font-size: 16px !important;
+        line-height: 20px !important;
+        padding-left: 30px;
+    }
+
+    .checkbox-mark {
+        top: -2px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .main-info__aside__colors-checkbox .checkbox-mark:after {
+        left: 6px;
+        bottom: 5px;
+    }
+
+    .main-info__aside__colors-checkbox:last-child {
+        margin-bottom: 28px;
+    }
+
+    .main-info__aside__palette h3 {
+        padding-left: 33px;
+    }
+
+    .main-info__aside__palette {
+        margin-bottom: 19px;
+    }
+
+    .main-info__aside__size {
+        padding-left: 31px;
+    }
+
+    .main-info__aside__size-content-item {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0;
+        width: 39px;
+        height: 44px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        height: 62px;
+        margin-bottom: 0;
+    }
+
+    .nav__logo-picture {
+        margin-left: 12px;
+        margin-top: -4px;
+    }
+
+    .navigation{
+        padding-bottom: 12px;
+        margin-bottom: 16px;
+    }
+
+    .navigation-info{
+        right: 30px;
+    }
+
+    .navigation-list{
+        top: -5px;
+        left: 13%;
+    }
+
+    .main-info-title{
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        margin-bottom: 19px;
+    }
+
+    .main-info__catalog__options-filter{
+        margin-right: 21px;
+    }
+
+    .main-info__catalog__products-item img {
+        width: 154px;
+    }
+
+    .main-info__catalog__options{
+        margin-bottom: 32px;
+    }
+
+    .main-info__catalog__products-item-title .cost-for-card{
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+    }
+
+    .main-info__catalog__products-item-count, .main-info__catalog__products-item-info .main-info__catalog__products-item-type {
+        width: 134px;
+        padding-left: 8px;
+    }
+
+    .main-info__catalog__products-item-info .main-info__catalog__products-item-type{
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .main-info__catalog__products-item-title, .main-info__catalog__products-item-info .main-info__catalog__products-item-type {
+        padding-left: 7px;
+    }
+
+    .main-info__catalog__products-item-info .main-info__catalog__products-item-type{
+        margin-bottom: 7px;
+    }
+
+    .main-info__catalog__products-item img {
+        margin-bottom: 4px;
+    }
+
+    .main-info__catalog__products-item-count{
+        font-size: 7px;
+        line-height: 16px;
+    }
+
+    .main-info__catalog__products-item-info {
+        padding-bottom: 10px;
     }
 }

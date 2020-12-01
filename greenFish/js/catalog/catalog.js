@@ -2,8 +2,11 @@ const paletteColors = document.querySelectorAll('.main-info__aside__palette-cont
 const sizes = document.querySelectorAll('.main-info__aside__size-content-item');
 const phoneInput = document.querySelector('.request-contact-info-name-input');
 const btnForSortingInTablet = document.querySelector('.main-info__catalog__options-sorting');
+const btnForFilterInTablet = document.querySelector('.main-info__catalog__options-filter');
 const blockForSortingInTablet = document.querySelector('.main-info__open-menu__sorting');
+const blockForFilterInTablet = document.querySelector('.main-info__open-menu__filter');
 const closedBtnInSortingTablet = document.querySelector('.main-info__open-menu__sorting-content svg');
+const closedBtnInFilterTablet = document.querySelector('.main-info__open-menu__filter-content svg');
 
 
 for (const dropdown of document.querySelectorAll(".custom-select-wrapper")) {
@@ -55,6 +58,16 @@ btnForSortingInTablet.addEventListener('click', () =>{
 
 closedBtnInSortingTablet.addEventListener('click', ()=>{
     blockForSortingInTablet.style.display = 'none';
+    document.body.style.overflow = 'initial';
+});
+
+btnForFilterInTablet.addEventListener('click', () =>{
+    blockForFilterInTablet.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+});
+
+closedBtnInFilterTablet.addEventListener('click', ()=>{
+    blockForFilterInTablet.style.display = 'none';
     document.body.style.overflow = 'initial';
 });
 
