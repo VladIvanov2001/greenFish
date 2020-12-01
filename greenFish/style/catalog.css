@@ -1268,28 +1268,28 @@ input[type=checkbox] {
         margin-top: -4px;
     }
 
-    .navigation{
+    .navigation {
         padding-bottom: 12px;
         margin-bottom: 16px;
     }
 
-    .navigation-info{
+    .navigation-info {
         right: 30px;
     }
 
-    .navigation-list{
+    .navigation-list {
         top: -5px;
         left: 13%;
     }
 
-    .main-info-title{
+    .main-info-title {
         font-size: 22px;
         line-height: 28px;
         letter-spacing: 0.2px;
         margin-bottom: 19px;
     }
 
-    .main-info__catalog__options-filter{
+    .main-info__catalog__options-filter {
         margin-right: 21px;
     }
 
@@ -1297,11 +1297,11 @@ input[type=checkbox] {
         width: 154px;
     }
 
-    .main-info__catalog__options{
+    .main-info__catalog__options {
         margin-bottom: 32px;
     }
 
-    .main-info__catalog__products-item-title .cost-for-card{
+    .main-info__catalog__products-item-title .cost-for-card {
         font-size: 18px;
         line-height: 28px;
         letter-spacing: 0.2px;
@@ -1312,7 +1312,7 @@ input[type=checkbox] {
         padding-left: 8px;
     }
 
-    .main-info__catalog__products-item-info .main-info__catalog__products-item-type{
+    .main-info__catalog__products-item-info .main-info__catalog__products-item-type {
         font-size: 14px;
         line-height: 17px;
     }
@@ -1321,7 +1321,7 @@ input[type=checkbox] {
         padding-left: 7px;
     }
 
-    .main-info__catalog__products-item-info .main-info__catalog__products-item-type{
+    .main-info__catalog__products-item-info .main-info__catalog__products-item-type {
         margin-bottom: 7px;
     }
 
@@ -1329,12 +1329,148 @@ input[type=checkbox] {
         margin-bottom: 4px;
     }
 
-    .main-info__catalog__products-item-count{
+    .main-info__catalog__products-item-count {
         font-size: 7px;
         line-height: 16px;
     }
 
     .main-info__catalog__products-item-info {
         padding-bottom: 10px;
+    }
+
+    .main-info__catalog__products-item:not(:nth-child(2n)) {
+        margin-right: 15px;
+    }
+
+    .main-info__catalog__products-item:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .item-new {
+        font-size: 9px;
+        line-height: 12px;
+        margin-right: -10px;
+        bottom: 35px;
+        width: 71px;
+        height: 20px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cost-new-price {
+        margin-right: 0;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        padding-right: 13px;
+
+    }
+
+    .main-info__catalog__products-item {
+        margin-bottom: 15px !important;
+    }
+
+    .cost-old-price {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 6px;
+        margin-left: 3px;
+    }
+
+    .catalog {
+        margin-bottom: 87px !important;
+    }
+
+    .item-hit {
+        margin-right: -10px;
+        position: relative;
+        bottom: 35px;
+        font-size: 11px;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        width: 34px;
+        height: 20px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .request h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .request > .container {
+        padding-left: 15px;
+    }
+
+    p.request-conditionals {
+        line-height: 19px;
+        margin-bottom: 8px;
+    }
+
+    .request-conditionals-span-optional-string {
+        display: none;
+    }
+
+    .request-contact-info {
+        flex-direction: column;
+    }
+
+    .request-contact-info-name {
+        margin-bottom: 18px;
+
+    }
+
+    .request-name input, .request-contact-info input, .request-contact-info input {
+        width: 330px;
+        height: 42px;
+    }
+
+    .request-contact-info {
+        margin-bottom: 27px;
+    }
+
+    .request-agreement {
+        margin-bottom: 3px;
+    }
+
+    .request-agreement svg {
+        margin-right: 13px;
+    }
+
+    .request-send-btn {
+        margin-bottom: 49px;
+    }
+
+    .request-email {
+        font-size: 26px;
+        line-height: 52px;
+        letter-spacing: 0.2px;
+    }
+
+    .request-suggestion {
+        margin-bottom: -15px;
+    }
+
+    .footer {
+        padding: 24px 0 21px 9px;
+        margin-top: -22px;
+    }
+
+    .footer > .container {
+        padding: 0;
+    }
+
+    .footer__catalog p:nth-child(4) {
+        margin-bottom: 10px;
+        letter-spacing: 0.6px;
+    }
+
+    .main-info__open-menu__sorting-content, .main-info__open-menu__filter-content {
+        width: 100%;
     }
 }
