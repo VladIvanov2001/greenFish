@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="259e7cc6-8fbf-48f2-8f78-0c56a041af11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/itemscard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/components/card-item-client-choice.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/components/navigation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/components/request.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/items-card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/items-card/greenFish1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/items-card/gallerySliderItemsCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itemscard.html" beforeDir="false" afterPath="$PROJECT_DIR$/itemscard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/items-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/items-card.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -61,23 +59,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/catalog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/items-card" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\items-card" />
+      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\catalog" />
+      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\fonts" />
+      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\home-page" />
+      <recent name="C:\GH\greenFish\greenFish\images\home-page" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\js\home-page" />
       <recent name="C:\GH\greenFish\greenFish\images\home-page" />
       <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\home-page" />
       <recent name="C:\Users\User\Desktop\greenFish\images\home-page" />
       <recent name="C:\Users\User\Desktop\greenFish" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\catalog" />
-      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\fonts" />
-      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\home-page" />
-      <recent name="C:\GH\greenFish\greenFish\images\home-page" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.catalog.html">
@@ -131,7 +130,7 @@
       <workItem from="1606461329482" duration="8885000" />
       <workItem from="1606720469963" duration="19554000" />
       <workItem from="1606807392841" duration="12150000" />
-      <workItem from="1606975469249" duration="4461000" />
+      <workItem from="1606975469249" duration="13536000" />
     </task>
     <servers />
   </component>

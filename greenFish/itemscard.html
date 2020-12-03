@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="style/components/navigation.css">
     <link rel="stylesheet" href="style/items-card.css">
     <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
 <header class="header">
@@ -74,11 +76,69 @@
             <ul class="navigation-list ">
                 <li><a class="active-link" href="">Главная</a></li>
                 <li><a class="active-link" href="">Каталог</a></li>
-                <li>Силиконовые приманки</li>
+                <li><a class="active-link" href="">Силиконовые приманки</a></li>
+                <li>Приманка GF Bugsy 3"</li>
             </ul>
         </div>
     </div>
+    <section class="item-card container">
+        <div class="item-card__slider">
+            <div class="swiper-container gallery-top">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(./images/items-card/greenFish1.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/items-card/greenFish1.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/items-card/greenFish1.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/items-card/greenFish1.jpg)"></div>
+                </div>
+            </div>
+            <div class="swiper-container gallery-thumbs">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(./images/items-card/greenFish1.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/items-card/greenFish1.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/items-card/greenFish1.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/items-card/greenFish1.jpg)"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </div>
+        <article class="item-card__info">
+            <h1>Приманка GF Swing Impact 3”</h1>
+            <p>Каждую модель и расцветку мы тестируем в реальных условиях, поэтому в продажу попадают только самые
+                уловистые экземпляры. Эффективность приманок подтверждают отзывы и обзоры рыболовов, которые уже
+                опробовали Green Fish.</p>
+            <div class=item-card__palette>
+                <p>Палитра: <span>#03</span></p>
+                <div class="item-card__palette__colors"></div>
+            </div>
+            <div class="item-card__size">
+                <p>Размер:</p>
+                <div class="item-card__size__params"></div>
+            </div>
+            <div>
+                <div>
+                    <p>Количество в упаковке: <span>10 шт</span></p>
+                    <p>При заказе до 5 упаковок доступен только самовывоз из <span>магазина-партнёра</span>. 5 и более –
+                        могут отправить почтой наложенным платежом.</p>
+                </div>
+                <div>
+                    <div>
+                        <div></div>
+                        <span>2</span>
+                        <div></div>
+                        <span>x</span>
+                        <span>4,0 руб</span>
+                    </div>
+                    <div>Добавить в корзину</div>
+                </div>
+            </div>
+        </article>
+    </section>
 </main>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/items-card/gallerySliderItemsCard.js"></script>
 <script src="js/home-page/propsPage.js"></script>
 </body>
 </html>
