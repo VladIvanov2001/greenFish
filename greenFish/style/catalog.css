@@ -748,6 +748,10 @@ input[type=checkbox] {
         max-width: 1110px;
     }
 
+    .nav__menu{
+        margin: 27px 45px 13px 0;
+    }
+
     .navigation-list {
         display: flex;
         justify-content: center;
