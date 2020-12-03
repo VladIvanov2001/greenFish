@@ -137,7 +137,7 @@
     color: #373F41;
 }
 
-.title-h2{
+.title-h2, .main-title-of-item{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;

@@ -5,7 +5,7 @@
     border: 0;
 }
 
-.container{
+.container {
     max-width: 1350px;
     margin: 0 auto;
 }
@@ -23,18 +23,19 @@
     margin: 20px 140px 13px 0;
 }
 
-.navigation{
+.navigation {
     padding-bottom: 11px;
     margin-bottom: 53px;
 }
 
-.navigation-info{
+.navigation-info {
     right: 51px;
     top: -4px;
 }
 
-.item-card{
+.item-card {
     display: flex;
+    position: relative;
 }
 
 .item-card__slider {
@@ -42,7 +43,7 @@
     height: 667px;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
     width: 51%;
 }
 
@@ -67,30 +68,58 @@
 .gallery-thumbs {
     height: 20%;
     box-sizing: border-box;
-    padding: 10px 120px!important;
-    width: 457px!important;
+    padding: 0 !important;
+    width: 457px !important;
 }
 
 .gallery-thumbs .swiper-slide {
-    height: 96px!important;
-    width: 96px!important;
+    height: 96px !important;
+    width: 96px !important;
     opacity: 0.4;
+    margin-left: 21px !important;
 }
 
 .gallery-thumbs .swiper-slide-thumb-active {
     opacity: 1;
 }
 
-:root{
-    --swiper-theme-color: #D9DEDE!important;
+:root {
+    --swiper-theme-color: #D9DEDE !important;
 }
 
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
-    left: 3px!important;
+    left: 3px !important;
     right: auto;
-    top: 36%!important;
+    top: 36% !important;
 }
 
-.swiper-button-prev::after, .swiper-container-rtl .swiper-button-next::after{
-    font-size: 31px!important;
+.swiper-button-prev::after, .swiper-container-rtl .swiper-button-next::after, .swiper-button-next::after, .swiper-container-rtl .swiper-button-prev::after {
+    font-size: 31px !important;
+}
+
+.swiper-button-prev::after, .swiper-container-rtl .swiper-button-next::after {
+    position: relative !important;
+    top: 380px !important;
+}
+
+.swiper-button-next::after, .swiper-container-rtl .swiper-button-prev::after {
+    position: relative;
+    top: 285px;
+    right: 797px;
+}
+
+.item-card__slider {
+    margin-right: 62px;
+}
+
+.item-card__info {
+    margin-top: 39px;
+}
+
+.item-card__info h1{
+    margin-bottom: 9px;
+}
+
+.item-card__info-description{
+    padding-right: 18px;
 }
