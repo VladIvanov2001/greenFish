@@ -463,6 +463,10 @@ input[type=checkbox] {
     margin-bottom: 43px;
 }
 
+.main-info__catalog__products-item:nth-child(3n){
+    margin-bottom: 43px;
+}
+
 .main-info__catalog__products-item-info:hover .main-info__catalog__products-item-name, .main-info__catalog__products-item-info:hover .main-info__catalog__products-item-type {
     color: #3CB156;
 }
