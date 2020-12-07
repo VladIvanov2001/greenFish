@@ -36,6 +36,7 @@
 .item-card {
     display: flex;
     position: relative;
+    margin-bottom: 105px;
 }
 
 
@@ -283,15 +284,58 @@
 
 }
 
-.item-card__count-info>span{
+.item-card__count-info > span {
     margin-left: 18px;
 }
 
-.item-card__count-info-quantity{
+.item-card__count-info-quantity {
     margin-bottom: 26px;
 }
 
-.item-card__count-info-delivery-partners{
+.item-card__count-info-delivery-partners {
     cursor: pointer;
     color: #3CB156;
+}
+
+.partnership {
+    background-image: url("../images/items-card/partnership-img.png");
+    background-size: cover;
+    height: 184px;
+    padding-top: 31px;
+    margin-bottom: 92px;
+}
+
+.partnership__info {
+    margin-left: 66px;
+    width: 356px;
+}
+
+.partnership__info h2 {
+    margin-bottom: 23px;
+}
+
+.customer-choice {
+    background: linear-gradient(1.97deg, #F8F8F8 -0.02%, rgba(232, 232, 232, 0) 93.37%);
+}
+
+.customer-choice-title {
+    margin-bottom: 62px;
+}
+
+.customer-choice__items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-info__catalog__products-item {
+    margin-right: 30px;
+    margin-bottom: 43px;
+}
+
+.main-info__catalog__products-item:nth-child(3) {
+    margin-right: 34px;
+}
+
+.main-info__catalog__products-item:last-child {
+    margin-right: 0;
 }
