@@ -65,10 +65,10 @@ plusBtn.addEventListener('click', () =>{
 
 const reviewThumbs = new Swiper('.review-thumbs', {
     spaceBetween: 5,
-    slidesPerView: 5,
+    slidesPerView: 4,
     loop: true,
     freeMode: true,
-    loopedSlides: 5,
+    loopedSlides: 4,
     watchSlidesVisibility: true,
     watchSlidesProgress: true,
 
@@ -76,7 +76,7 @@ const reviewThumbs = new Swiper('.review-thumbs', {
 const reviewTop = new Swiper('.review-top', {
     spaceBetween: 10,
     loop: true,
-    loopedSlides: 5,
+    loopedSlides: 4,
     thumbs: {
         swiper: reviewThumbs,
     },

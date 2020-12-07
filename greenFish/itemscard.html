@@ -253,7 +253,8 @@
             <div class="review__text">
                 <h2 class="big-title">Отзывы, проверенные клёвом</h2>
                 <div class="review__text__item">
-                    <p class="description-text-black review__text__item-info">Первая осенняя рыбалка. Выбор пал на р. Щара, решил проведать места где ловил весной. Доехать
+                    <p class="description-text-black review__text__item-info">Первая осенняя рыбалка. Выбор пал на р.
+                        Щара, решил проведать места где ловил весной. Доехать
                         было тяжеловато, а ещё тяжелей было продвигаться по берегу, заросло все мама не горюй... За три
                         часа ловли реализовал одну поклевку. Сезон открыт, всем НХНЧ!
                         <br/>
@@ -267,7 +268,8 @@
                     <p class="review__text__item-date">Отчет с рыбалки от нашего друга Александра, 10 сентября 2020</p>
                 </div>
                 <div class="review__text_item">
-                    <p class="description-text-black review__text__item-info">Всем привет. Был на неделе один свободный денёк,вырвались с другом на рыбалку. Местное озеро, в
+                    <p class="description-text-black review__text__item-info">Всем привет. Был на неделе один свободный
+                        денёк,вырвались с другом на рыбалку. Местное озеро, в
                         районе г.Глубокое. Ловили в районе 4-5 часов,щука в этот день была мягко говоря неактивна. Но
                         одной поклёвки всё-таки удалось дождаться...
                         Поклёвка была из разряда «отдай спиннинг»,на Swing Impact 4” от Green Fish в 19 расцветке
@@ -286,30 +288,72 @@
                 <div class="slider-for-reviews">
                     <div class="swiper-container review-top">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image:url(./images/items-card/forSlider.png)"></div>
-                            <div class="swiper-slide" style="background-image:url(./images/items-card/forSlider.png)"></div>
-                            <div class="swiper-slide" style="background-image:url(./images/items-card/forSlider.png)"></div>
-                            <div class="swiper-slide" style="background-image:url(./images/items-card/forSlider.png)"></div>
-                            <div class="swiper-slide" style="background-image:url(./images/items-card/forSlider.png)"></div>
+                            <div class="swiper-slide">
+                                <img alt="" src="images/items-card/review-picture.png"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img alt="" src="images/items-card/review-picture.png"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img alt="" src="images/items-card/review-picture.png"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img alt="" src="images/items-card/review-picture.png"/>
+                            </div>
                         </div>
                         <div class="swiper-button-next swiper-button-white"></div>
                         <div class="swiper-button-prev swiper-button-white"></div>
                     </div>
                     <div class="swiper-container review-thumbs">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image:url(./images/items-card/forSlider.png)"></div>
-                            <div class="swiper-slide" style="background-image:url(./images/items-card/forSlider.png)"></div>
-                            <div class="swiper-slide" style="background-image:url(./images/items-card/forSlider.png)"></div>
-                            <div class="swiper-slide" style="background-image:url(./images/items-card/forSlider.png)"></div>
-                            <div class="swiper-slide" style="background-image:url(./images/items-card/forSlider.png)"></div>
+                            <div class="swiper-slide">
+                                <img alt="" src="images/items-card/review-picture.png"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img alt="" src="images/items-card/review-picture.png"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img alt="" src="images/items-card/review-picture.png"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img alt="" src="images/items-card/review-picture.png"/>
+                            </div>
                         </div>
                     </div>
+                </div>
             </div>
             <div class="review__add-review">
-                <span>Добавить отзыв</span>
-                <div>
-                    <p>Ваш отзыв или совет поможет другим покупателям принять правильное решение о покупке товара.</p>
-                    <div>Написать</div>
+                <p class="review__add-review-title">Добавить отзыв</p>
+                <div class="review__add-review-container">
+                    <p class="description-text-black review__add-review-note">Ваш отзыв или совет поможет другим покупателям принять правильное решение о покупке
+                        товара.</p>
+                    <div class="full-table-for-review">
+                        <label>
+                            Имя
+                            <input type="text"/>
+                        </label>
+                        <label>
+                            E-mail
+                            <input type="text"/>
+                        </label>
+                        <label>
+                            Фото или видео
+                            <input type="file" name="files[]" title="" accept=".jpg, .jpeg, .png, .gif">
+                        </label>
+                        <label>
+                            Текст или ссылка на видеоотзыв
+                            <textarea></textarea>
+                        </label>
+                        <div class="request-agreement">
+                            <svg class="closedBtn" width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.845 5.85503C1.57163 5.58166 1.12842 5.58166 0.85505 5.85503C0.581683 6.12839 0.581683 6.57161 0.85505 6.84497L5.05505 11.045C5.32842 11.3183 5.77163 11.3183 6.045 11.045L15.145 1.94497C15.4184 1.67161 15.4184 1.22839 15.145 0.955025C14.8716 0.681658 14.4284 0.681658 14.155 0.955025L5.55002 9.56005L1.845 5.85503Z"
+                                      fill="#3CB156"/>
+                            </svg>
+                            <p>принимаю условия <a href="">пользовательского соглашения</a></p>
+                        </div>
+                    </div>
+                    <div class="review__add-review-write-btn">Написать</div>
                 </div>
             </div>
         </div>
