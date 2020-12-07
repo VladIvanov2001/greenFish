@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="259e7cc6-8fbf-48f2-8f78-0c56a041af11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/items-card/forSlider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/items-card/review-picture.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itemscard.html" beforeDir="false" afterPath="$PROJECT_DIR$/itemscard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/items-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/items-card.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +64,6 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\items-card" />
-      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\catalog" />
-      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\fonts" />
-      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\home-page" />
-      <recent name="C:\GH\greenFish\greenFish\images\home-page" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\js\home-page" />
       <recent name="C:\GH\greenFish\greenFish\images\home-page" />
@@ -74,8 +71,15 @@
       <recent name="C:\Users\User\Desktop\greenFish\images\home-page" />
       <recent name="C:\Users\User\Desktop\greenFish" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\items-card" />
+      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\catalog" />
+      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\fonts" />
+      <recent name="C:\Users\User\Documents\GitHub\greenFish\greenFish\images\home-page" />
+      <recent name="C:\GH\greenFish\greenFish\images\home-page" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.catalog.html">
+  <component name="RunManager" selected="JavaScript Debug.itemscard.html">
     <configuration name="catalog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/greenFish/catalog.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -87,8 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.catalog.html" />
         <item itemvalue="JavaScript Debug.itemscard.html" />
+        <item itemvalue="JavaScript Debug.catalog.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>

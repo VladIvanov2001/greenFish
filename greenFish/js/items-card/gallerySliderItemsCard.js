@@ -61,3 +61,27 @@ plusBtn.addEventListener('click', () =>{
     let counter = itemsCounter.textContent;
     itemsCounter.textContent = `${++counter}`;
 })
+
+
+const reviewThumbs = new Swiper('.review-thumbs', {
+    spaceBetween: 5,
+    slidesPerView: 5,
+    loop: true,
+    freeMode: true,
+    loopedSlides: 5,
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+
+});
+const reviewTop = new Swiper('.review-top', {
+    spaceBetween: 10,
+    loop: true,
+    loopedSlides: 5,
+    thumbs: {
+        swiper: reviewThumbs,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
