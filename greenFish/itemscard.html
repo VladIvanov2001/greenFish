@@ -325,22 +325,31 @@
             <div class="review__add-review">
                 <p class="review__add-review-title">Добавить отзыв</p>
                 <div class="review__add-review-container">
-                    <p class="description-text-black review__add-review-note">Ваш отзыв или совет поможет другим покупателям принять правильное решение о покупке
+                    <p class="description-text-black review__add-review-note">Ваш отзыв или совет поможет другим
+                        покупателям принять правильное решение о покупке
                         товара.</p>
                     <div class="full-table-for-review">
                         <label>
                             Имя
                             <input type="text"/>
                         </label>
-                        <label>
+                        <label class="full-table-for-review__email">
                             E-mail
                             <input type="text"/>
                         </label>
-                        <label>
-                            Фото или видео
-                            <input type="file" name="files[]" title="" accept=".jpg, .jpeg, .png, .gif">
+                        <label class="choose-file">
+                            <span class="choose-file-title">Фотографии</span>
+                            <input type="file" name="files[]" id="btn-loader" title="" accept=".jpg, .jpeg, .png, .gif"
+                                   multiple>
+                            <span class="choose-file-loader">Загрузить</span>
                         </label>
-                        <label>
+                        <div class="new-review__donwloaded-files">
+                            <p class="choose-file-description">
+                                GIF, JPEG или PNG, размером до 20 Мб
+                            </p>
+                            <output id="list"></output>
+                        </div>
+                        <label class="video-review">
                             Текст или ссылка на видеоотзыв
                             <textarea></textarea>
                         </label>
@@ -357,6 +366,17 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section class="delivery">
+        <div class="delivery__info">
+            <div class="container">
+                <h2>Магазины-партнёры</h2>
+                <p class="description-text white">Адреса точек продаж с которыми мы уже сотрудничаем. Здесь можно купить
+                    приманки Green Fish без
+                    предварительного заказа.</p>
+            </div>
+        </div>
+        <div id="map" style="width:100%;height:861px"></div>
     </section>
 </main>
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>

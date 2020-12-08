@@ -42,22 +42,22 @@ paletteItems.forEach((paletteItem) => {
 
 sizeItems.forEach(size => {
     size.addEventListener('click', () => {
-        sizeItems.forEach(size=>{
+        sizeItems.forEach(size => {
             size.classList.remove('active-palette');
         });
         size.classList.add('active-palette');
     })
 })
 
-minusBtn.addEventListener('click', () =>{
+minusBtn.addEventListener('click', () => {
     let counter = itemsCounter.textContent;
-    if (+counter > 1){
+    if (+counter > 1) {
         itemsCounter.textContent = `${--counter}`;
     }
 })
 
 
-plusBtn.addEventListener('click', () =>{
+plusBtn.addEventListener('click', () => {
     let counter = itemsCounter.textContent;
     itemsCounter.textContent = `${++counter}`;
 })
@@ -85,3 +85,29 @@ const reviewTop = new Swiper('.review-top', {
         prevEl: '.swiper-button-prev',
     },
 });
+
+const selectedFile = document.getElementById('btn-loader');
+const downloadedFiles = document.getElementById('list');
+const writeBtn = document.querySelector('.review__add-review-write-btn');
+const filesForSend = [];
+let counterOfPhotos = 0;
+
+writeBtn.addEventListener('click', () => {
+    document.querySelector('.full-table-for-review').style.display = 'flex';
+    writeBtn.textContent = 'отправить'
+});
+
+selectedFile.addEventListener('change', (event) => {
+    const fileList = event.target.files;
+    filesForSend.push(fileList);
+    const file = document.createElement('p');
+    file.textContent = fileList[0].name;
+    file.classList.add('loaded-files');
+    downloadedFiles.appendChild(file);
+    file.addEventListener('click', () => {
+        file.parentNode.removeChild(file);
+        filesForSend.splice(counter, 1);
+        counter--;
+    })
+    counter++;
+}, false)
