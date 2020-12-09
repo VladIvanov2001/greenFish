@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< Updated upstream
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -29,6 +30,11 @@
       <change beforePath="$PROJECT_DIR$/greenFish/js/items-card/gallerySliderItemsCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/greenFish/js/items-card/gallerySliderItemsCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/greenFish/style/items-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/greenFish/style/items-card.css" afterDir="false" />
     </list>
+=======
+  <component name="ChangeListManager">
+    <list default="true" id="590119a1-8899-44d8-b091-83781973b2d3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< Updated upstream
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -60,20 +67,53 @@
   </component>
   <component name="RunManager">
     <configuration name="itemscard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/greenFish/greenFish/itemscard.html" useBuiltInWebServerPort="true">
+=======
+  <component name="ProjectId" id="1lRCPCfoDnR3BNknukAB4tHhRAL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="catalog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/greenFish/catalog.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/greenFish/index.html" useBuiltInWebServerPort="true">
+>>>>>>> Stashed changes
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Updated upstream
         <item itemvalue="JavaScript Debug.itemscard.html" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+=======
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.catalog.html" />
+      </list>
+    </recent_temporary>
+  </component>
+>>>>>>> Stashed changes
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< Updated upstream
       <changelist id="1ccce30f-53ad-4088-8ea7-5eca3c019973" name="Default Changelist" comment="" />
       <created>1606297470434</created>
       <option name="number" value="Default" />
@@ -81,11 +121,23 @@
       <updated>1606297470434</updated>
       <workItem from="1606297474247" duration="64000" />
       <workItem from="1607063046814" duration="18761000" />
+=======
+      <changelist id="590119a1-8899-44d8-b091-83781973b2d3" name="Default Changelist" comment="" />
+      <created>1607550490695</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607550490695</updated>
+      <workItem from="1607550491917" duration="3665000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
+<<<<<<< Updated upstream
     <option name="version" value="3" />
+=======
+    <option name="version" value="1" />
+>>>>>>> Stashed changes
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -97,6 +149,7 @@
         </entry>
       </map>
     </option>
+<<<<<<< Updated upstream
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -104,5 +157,7 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="173" width="670" height="676" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607088292027" />
+=======
+>>>>>>> Stashed changes
   </component>
 </project>
