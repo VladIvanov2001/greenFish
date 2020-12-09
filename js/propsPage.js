@@ -1,7 +1,7 @@
 const copyBtn = document.querySelector('.props__container__copy');
 const text = document.querySelector('.props__container__info-text');
 const blockWithProps = document.querySelector('.props');
-const closedBtn = document.querySelector('.props__closed-btn svg');
+const closedBtn = document.querySelector('.props__closed-btn');
 const propsBtn = document.querySelector('.footer__catalog__props');
 const successfulMessage = document.createElement('p');
 let counter = 0;
@@ -9,6 +9,13 @@ let counter = 0;
 propsBtn.addEventListener('click', () =>{
     blockWithProps.style.display = 'flex';
     document.body.style.overflow = 'hidden'
+});
+
+closedBtn.addEventListener('click', () =>{
+    document.body.style.overflow = 'visible';
+    blockWithProps.style.display = 'none';
+    successfulMessage.remove();
+    counter = 0;
 });
 
 copyBtn.addEventListener('click', function copyText() {
@@ -23,11 +30,8 @@ copyBtn.addEventListener('click', function copyText() {
         document.querySelector('.props__container-for-btn').appendChild(successfulMessage);
     }
     counter++;
+    console.log(closedBtn);
 });
 
-closedBtn.addEventListener('click', () =>{
-    document.body.style.overflow = 'visible';
-    blockWithProps.style.display = 'none';
-    successfulMessage.remove();
-    counter = 0;
-});
+
+
