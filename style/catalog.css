@@ -463,8 +463,8 @@ input[type=checkbox] {
     margin-bottom: 43px;
 }
 
-.main-info__catalog__products-item:nth-child(3n){
-    margin-bottom: 43px;
+.main-info__catalog__products-item:nth-child(3n) {
+    margin-bottom: 41px;
 }
 
 .main-info__catalog__products-item-info:hover .main-info__catalog__products-item-name, .main-info__catalog__products-item-info:hover .main-info__catalog__products-item-type {
@@ -752,7 +752,7 @@ input[type=checkbox] {
         max-width: 1110px;
     }
 
-    .nav__menu{
+    .nav__menu {
         margin: 27px 45px 13px 0;
     }
 
