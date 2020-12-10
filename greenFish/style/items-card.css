@@ -342,6 +342,10 @@
     margin-right: 0;
 }
 
+.review {
+    margin-bottom: 63px;
+}
+
 .review-content {
     display: flex;
 }
@@ -368,7 +372,7 @@
     font-size: 18px;
     line-height: 22px;
     color: #373F41;
-    padding-bottom: 44px;
+    padding-bottom: 39px;
 }
 
 .review__text__item-info {
@@ -398,7 +402,7 @@
 
 .review__text__item-pictures {
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 11px;
     align-items: flex-end;
 }
 
@@ -643,4 +647,111 @@
     line-height: 24px;
     color: #A7A8A8;
     mix-blend-mode: normal;
+}
+
+.review__text__read-all {
+    position: relative;
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #3CB156;
+}
+
+.review__text__read-all:after {
+    content: '';
+    position: absolute;
+    background-image: url("../images/items-card/arrow.svg");
+    height: 7px;
+    width: 10px;
+    right: -16px;
+    top: 6px;
+}
+
+.request h2 {
+    margin-top: 79px;
+}
+
+.footer {
+    padding: 57px 0 58px 0;
+}
+
+@media (max-width: 1409.98px) {
+    .container {
+        max-width: 1110px;
+    }
+
+    .nav__menu {
+        margin: 27px 45px 13px 0;
+    }
+
+    .navigation {
+        padding-bottom: 23px;
+        margin-bottom: 54px;
+    }
+
+    .navigation-list li {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .navigation-info {
+        position: relative;
+    }
+
+    .navigation-list {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        position: absolute;
+        margin-left: 14px;
+        top: 0;
+        left: 37%;
+    }
+
+    .navigation-info {
+        right: 119px;
+    }
+
+    .swiper-slide img {
+        height: 440px;
+        width: 435px;
+    }
+
+    .item-card__slider {
+        width: 463px;
+    }
+
+    .main-title-of-item{
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 44px;
+        letter-spacing: 0.7px;
+        color: #373F41;
+    }
+
+    .item-card__info-description{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 25px;
+
+    }
+
+    .item-card__info h1 {
+        margin-bottom: 12px;
+    }
+
+    .item-card__count__choice {
+        margin-right: 23px;
+        margin-top: -55px;
+    }
+
+    .item-card__count-info-quantity {
+        padding-right: 39px;
+    }
+
 }
