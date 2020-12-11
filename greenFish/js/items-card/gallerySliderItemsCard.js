@@ -3,7 +3,7 @@ const galleryThumbs = new Swiper('.gallery-thumbs', {
     slidesPerView: 5,
     loop: true,
     freeMode: true,
-    loopedSlides: 5,
+    loopedSlides: 8,
     watchSlidesVisibility: true,
     watchSlidesProgress: true,
     navigation: {
@@ -15,9 +15,13 @@ const galleryThumbs = new Swiper('.gallery-thumbs', {
 const galleryTop = new Swiper('.gallery-top', {
     spaceBetween: 10,
     loop: true,
-    loopedSlides: 5,
+    loopedSlides: 8,
     thumbs: {
         swiper: galleryThumbs,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
     },
 });
 
