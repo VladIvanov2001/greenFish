@@ -793,7 +793,7 @@
     }
 
     .item-card__count-info-quantity > span {
-        left: 7pc;
+        left: 7px;
     }
 
     .gallery-top {
@@ -969,7 +969,7 @@
 
     .swiper-pagination {
         display: flex;
-        top: 46%;
+        top: 45%;
         left: 43.5%;
     }
 
@@ -981,5 +981,165 @@
 
     .swiper-pagination-bullet-active {
         background: #3CB156;
+    }
+
+    .item-card__slider {
+        margin-bottom: 39px;
+    }
+
+    .item-card__info {
+        margin: 0 auto;
+        max-width: 691px;
+    }
+
+    .main-title-of-item {
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0.2px;
+    }
+
+    .item-card {
+        margin-bottom: 20px;
+    }
+
+    .item-card__info-description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .item-card__palette-name {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.14em;
+    }
+
+    .item-card__count-info-quantity > span {
+        left: 7px;
+    }
+
+    .item-card__count__choice {
+        margin-right: 2px;
+    }
+
+    .item-card__count-info-delivery {
+        width: 661px;
+    }
+
+    .partnership {
+        margin-bottom: 66px;
+        left: 0;
+    }
+
+    .partnership__info h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .partnership__info a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .customer-choice > .container {
+        padding-left: 0;
+    }
+
+    .customer-choice__items {
+        flex-wrap: initial;
+    }
+
+    .main-info__catalog__products-item:not(:nth-child(3n)) {
+        margin-right: 12px;
+    }
+
+    .review__text h2 {
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: 0.2px;
+    }
+
+    .customer-choice__items {
+        margin-bottom: 35px;
+    }
+
+    .review {
+        margin-bottom: 68px;
+    }
+
+    .review__text {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .review__text h2 {
+        margin-bottom: 14px;
+
+    }
+
+    .review-content {
+        flex-direction: column;
+    }
+
+    .review__text__item-info {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .review__text__item-pictures img {
+        width: 209px;
+        height: 209px;
+    }
+
+    .review__text__item {
+        border-bottom: none;
+    }
+
+    .review__text__item-date {
+        padding-bottom: 21px;
+    }
+
+    .review__text__item-date {
+        padding-bottom: 62px;
+    }
+
+
+    .review__add-review {
+        margin-top: 50px;
+    }
+
+    .review__add-review-note {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .delivery__info h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .delivery__info h2{
+        padding-top: 23px;
+    }
+
+    .review__add-review-container{
+        padding-top: 24px;
+    }
+
+    .review__add-review-write-btn{
+        width: 384px;
+        margin-left: 3px;
+        margin-bottom: 25px;
+    }
+
+    .request h2 {
+        margin-top: 54px;
+    }
+    .request-suggestion{
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .footer{
+        padding: 27px 0 12px 8px;
     }
 }
