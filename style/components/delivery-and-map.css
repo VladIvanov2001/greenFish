@@ -57,3 +57,30 @@
     }
 }
 
+@media (max-width: 1199.98px) {
+    .delivery__info > .container {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .delivery__info h2 {
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: 0.2px;
+        width: auto;
+        padding: 17px 0 0 0;
+        margin-bottom: 14px;
+    }
+
+    .delivery__info p {
+        font-size: 16px;
+        line-height: 22px;
+        width: auto;
+        margin-bottom: 19px;
+    }
+
+    #map {
+        height: 660px !important;
+    }
+
+}

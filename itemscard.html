@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Карточка товара</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="style/components/header.css">
     <link rel="stylesheet" href="style/components/footer.css">
     <link rel="stylesheet" href="style/components/card-item-client-choice.css">
     <link rel="stylesheet" href="style/components/request.css">
     <link rel="stylesheet" href="style/components/navigation.css">
     <link rel="stylesheet" href="style/components/delivery-and-map.css">
-    <link rel="stylesheet" href="style/items-card.css">
     <link rel="stylesheet" href="style/general.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style/items-card.css">
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=fb603679-5ca0-475f-9617-e25c8a33b360"
             type="text/javascript"></script>
 </head>
@@ -118,6 +118,7 @@
                     </div>
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
@@ -143,19 +144,10 @@
                 </div>
             </div>
             <div class="item-card__size">
-                <span class="title-small">Размер:</span>
                 <div class="item-card__size__params">
+                    <span class="title-small">Размер:</span>
                     <div class="item-card__size__params-item title-small active-palette">3”</div>
                     <div class="item-card__size__params-item title-small">4”</div>
-                </div>
-            </div>
-            <div class="item-card__count">
-                <div class="item-card__count-info">
-                    <p class="title-small item-card__count-info-quantity">Количество в упаковке: <span
-                            class="title-small">10 шт</span></p>
-                    <p class="item-card__count-info-delivery">При заказе до 5 упаковок доступен только самовывоз из
-                        <span class="item-card__count-info-delivery-partners">магазина-партнёра</span>. 5 и более –
-                        могут отправить почтой наложенным платежом.</p>
                 </div>
                 <div class="item-card__count__choice">
                     <div class="item-card__count__choice-amount">
@@ -168,11 +160,20 @@
                     <div class="item-card__count__choice-adding">Добавить в корзину</div>
                 </div>
             </div>
+            <div class="item-card__count">
+                <div class="item-card__count-info">
+                    <p class="title-small item-card__count-info-quantity">Количество в&nbsp;упаковке: <span
+                            class="title-small">10 шт</span></p>
+                    <p class="item-card__count-info-delivery">При заказе до 5 упаковок доступен только самовывоз из
+                        <span class="item-card__count-info-delivery-partners">магазина-партнёра</span>. 5 и более –
+                        могут отправить почтой наложенным платежом.</p>
+                </div>
+            </div>
         </article>
     </section>
     <section class="partnership container">
         <div class="partnership__info">
-            <h2 class="main-title-of-item white">Всегда открыты к сотрудничеству</h2>
+            <h2 class="main-title-of-item white">Всегда открыты к&nbsp;сотрудничеству</h2>
             <a href="#" class="title-small white">стать дилером бренда</a>
         </div>
     </section>
@@ -249,6 +250,92 @@
                     </div>
                 </a>
             </div>
+            <div class="swiper-container items-choice-customers">
+                <div class="swiper-wrapper items-choice-customers-wrapper">
+                    <div class="swiper-slide swiper-slide-item-choice">
+                        <a href="" class="main-info__catalog__products-item">
+                            <div class="main-info__catalog__products-image">
+                                <img alt="" src="images/catalog/item-card.png"/>
+                                <div class="main-info__catalog__products-image-fast-review">
+                                    Быстрый просмотр
+                                </div>
+                            </div>
+                            <div class="main-info__catalog__products-item-info">
+                                <div class="main-info__catalog__products-item-title">
+                                    <span class="main-info__catalog__products-item-cost cost-for-card">4,0 руб</span>
+                                    <span class="main-info__catalog__products-item-label item-hit">Хит</span>
+                                </div>
+                                <p class="main-info__catalog__products-item-type description-text-black">Приманка GF
+                                    Swing
+                                    Impact Fat 3,3”</p>
+                                <p class="main-info__catalog__products-item-count">Количество в упаковке: 6 шт</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-item-choice">
+                        <a href="" class="main-info__catalog__products-item">
+                            <div class="main-info__catalog__products-image">
+                                <img alt="" src="images/catalog/item-card.png"/>
+                                <div class="main-info__catalog__products-image-fast-review">
+                                    Быстрый просмотр
+                                </div>
+                            </div>
+                            <div class="main-info__catalog__products-item-info">
+                                <div class="main-info__catalog__products-item-title">
+                                    <span class="main-info__catalog__products-item-cost cost-for-card">4,0 руб</span>
+                                    <span class="main-info__catalog__products-item-label item-hit">Хит</span>
+                                </div>
+                                <p class="main-info__catalog__products-item-type description-text-black">Приманка GF
+                                    Swing
+                                    Impact Fat 3,3”</p>
+                                <p class="main-info__catalog__products-item-count">Количество в упаковке: 6 шт</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-item-choice">
+                        <a href="" class="main-info__catalog__products-item">
+                            <div class="main-info__catalog__products-image">
+                                <img alt="" src="images/catalog/item-card.png"/>
+                                <div class="main-info__catalog__products-image-fast-review">
+                                    Быстрый просмотр
+                                </div>
+                            </div>
+                            <div class="main-info__catalog__products-item-info">
+                                <div class="main-info__catalog__products-item-title">
+                                    <span class="main-info__catalog__products-item-cost cost-for-card">4,0 руб</span>
+                                    <span class="main-info__catalog__products-item-label item-hit">Хит</span>
+                                </div>
+                                <p class="main-info__catalog__products-item-type description-text-black">Приманка GF
+                                    Swing
+                                    Impact Fat 3,3”</p>
+                                <p class="main-info__catalog__products-item-count">Количество в упаковке: 6 шт</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-item-choice">
+                        <a href="" class="main-info__catalog__products-item">
+                            <div class="main-info__catalog__products-image">
+                                <img alt="" src="images/catalog/item-card.png"/>
+                                <div class="main-info__catalog__products-image-fast-review">
+                                    Быстрый просмотр
+                                </div>
+                            </div>
+                            <div class="main-info__catalog__products-item-info">
+                                <div class="main-info__catalog__products-item-title">
+                                    <span class="main-info__catalog__products-item-cost cost-for-card">4,0 руб</span>
+                                    <span class="main-info__catalog__products-item-label item-hit">Хит</span>
+                                </div>
+                                <p class="main-info__catalog__products-item-type description-text-black">Приманка GF
+                                    Swing
+                                    Impact Fat 3,3”</p>
+                                <p class="main-info__catalog__products-item-count">Количество в упаковке: 6 шт</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </section>
     <section class="review">
@@ -264,13 +351,30 @@
                         <br/>
                         Сработал Swing Impact 4” в 13 расцветке от Green Fish.
                     </p>
+                    <div class="swiper-container reviews-pictures">
+                        <div class="swiper-wrapper reviews-pictures-wrapper">
+                            <div class="swiper-slide reviews-pictures-content">
+                                <img alt="" src="./images/items-card/review-picture.png">
+                            </div>
+                            <div class="swiper-slide reviews-pictures-content">
+                                <img alt="" src="./images/items-card/review-picture.png">
+                            </div>
+                            <div class="swiper-slide reviews-pictures-content">
+                                <img alt="" src="./images/items-card/review-picture.png">
+                            </div>
+                            <div class="swiper-slide reviews-pictures-content">
+                                <img alt="" src="./images/items-card/review-picture.png">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                     <div class="review__text__item-pictures">
                         <img alt="" src="./images/items-card/review-picture.png">
                         <img alt="" src="./images/items-card/review-picture.png">
                     </div>
                     <p class="review__text__item-date">Отчет с рыбалки от нашего друга Александра, 10 сентября 2020</p>
                 </div>
-                <div class="review__text_item">
+                <div class="review__text__item">
                     <p class="description-text-black review__text__item-info">Всем привет. Был на неделе один свободный
                         денёк,вырвались с другом на рыбалку. Местное озеро, в
                         районе г.Глубокое. Ловили в районе 4-5 часов,щука в этот день была мягко говоря неактивна. Но
@@ -286,6 +390,8 @@
                         <img alt="" src="./images/items-card/review-picture.png">
                         <div class="review__text__item-pictures-show-more">+2</div>
                     </div>
+
+
                     <p class="review__text__item-date">Отчет с рыбалки от нашего друга Александра, 10 сентября 2020</p>
                 </div>
                 <div class="slider-for-reviews">
@@ -324,6 +430,7 @@
                         </div>
                     </div>
                 </div>
+                <p class="review__text__read-all">Читать все <span class="review__text__read-all">6</span></p>
             </div>
             <div class="review__add-review">
                 <p class="review__add-review-title">Добавить отзыв</p>
