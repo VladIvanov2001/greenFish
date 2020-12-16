@@ -115,3 +115,24 @@ selectedFile.addEventListener('change', (event) => {
     })
     counter++;
 }, false)
+
+const swiperForItem = new Swiper('.items-choice-customers', {
+    slidesPerView: 2,
+    spaceBetween: 10,
+    freeMode: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+});
+
+const swiperForReview = new Swiper('.reviews-pictures', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    freeMode: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+});
+

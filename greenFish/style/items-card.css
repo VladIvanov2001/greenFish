@@ -334,6 +334,10 @@
     color: #fff;
 }
 
+.swiper-slide-item-choice {
+    display: none;
+}
+
 .customer-choice {
     background: linear-gradient(1.97deg, #F8F8F8 -0.02%, rgba(232, 232, 232, 0) 93.37%);
 }
@@ -1337,5 +1341,200 @@
     .customer-choice-title {
         font-size: 18px;
         line-height: 24px;
+        margin-bottom: 0;
+    }
+
+    .items-choice-customers {
+        width: 100%;
+        height: 453px;
+    }
+
+    .swiper-slide-item-choice {
+        text-align: center;
+        font-size: 18px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        width: 190px !important;
+        margin-left: -13px;
+    }
+
+    .swiper-slide-item-choice img {
+        height: 146px;
+        width: 146px;
+    }
+
+    .customer-choice__items {
+        display: none;
+    }
+
+    .main-info__catalog__products-item {
+        margin-top: -138px;
+    }
+
+    .items-choice-customers-wrapper {
+        width: 100%;
+    }
+
+    .review {
+        margin-top: -148px;
+        padding-left: 13px;
+    }
+
+    .review__text h2 {
+        margin-bottom: 9px;
+    }
+
+    .review__text h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .review__text__item-info {
+    }
+
+    .review__text__item-date {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .review__text__item:nth-child(3) {
+        display: none;
+    }
+
+    .reviews-pictures {
+        display: flex;
+        flex-direction: column;
+        height: 367px;
+        position: relative;
+        bottom: 38px;
+    }
+
+    .reviews-pictures-content {
+        font-size: 18px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .review__text__item-pictures {
+        display: none;
+    }
+
+    .reviews-pictures-wrapper {
+        margin-left: 0 !important;
+    }
+
+    .reviews-pictures-content img {
+        width: 296px;
+        height: 296px;
+    }
+
+    .swiper-pagination {
+        left: 34% !important;
+        top: 94%;
+        width: 48% !important;
+    }
+
+    .review__text__item-date {
+        margin-top: -66px;
+        padding-bottom: 13px;
+    }
+
+    .review__text__read-all {
+        text-align: center;
+    }
+
+    .review__add-review {
+        margin-top: 16px;
+    }
+
+    .review__add-review-title {
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 9px;
+    }
+
+    .review__add-review-container {
+        width: 332px;
+    }
+
+    .review__add-review-write-btn {
+        width: 263px;
+        height: 53px;
+        margin-bottom: -13px;
+    }
+
+    .delivery__info {
+        padding-left: 17px;
+    }
+
+    .delivery__info h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .delivery__info p {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 43px;
+    }
+
+    .ymaps-2-1-77-map {
+        height: 447px !important;
+    }
+
+    #map {
+        height: 420px !important;
+    }
+
+    .request-agreement {
+        margin-bottom: 21px;
+    }
+
+    .request-agreement p{
+        font-size: 14px;
+        color: #373F41;
+        line-height: 17px;
+        margin-top: 2px;
+        margin-bottom: -14px;
+        padding-right: 10px;
+    }
+
+    .request-suggestion{
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .request-email{
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .footer{
+        margin-top: -27px;
+    }
+
+    .footer__info p:first-child{
+        color: #767C7D;
     }
 }
