@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Карточка товара</title>
+    <title>Корзина товара</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="style/components/header.css">
@@ -85,29 +85,47 @@
         </div>
     </div>
     <section class="container basket">
-        <h1 class="main-title-of-item">Корзина</h1>
+        <h1 class="main-title-of-item basket-title">Корзина</h1>
         <div class="basket-main">
             <div class="basket-main-left">
-                <div class="basket-main-left__items">
+                <div class="basket-main-left__item">
                     <img src="./images/basket/item-picture.png" alt=""/>
-                    <div>
-                        <a href="#">Приманка GF Swing Impact 3”, 10 шт.в упаковке</a>
-                        <span>Палитра: #01</span>
+                    <div class="basket-main-left__item-name">
+                        <a href="#" class="description-text-black">Приманка GF&nbsp;Swing Impact&nbsp;3&Prime;, 10&nbsp;шт. в упаковке</a>
+                        <span class="description-text-black">Палитра: #01</span>
                     </div>
-                    <p>4,0 руб.</p>
-                    <div>
-                        <div>-</div>
-                        <span>2</span>
-                        <div>+</div>
+                    <p class="description-text cost-for-item"><span class="description-text cost-for-one-item">4,0</span> руб.</p>
+                    <div class="basket-main-left__item-count">
+                        <div class="item-count-minus"></div>
+                        <span class="subtitle-text item-count">2</span>
+                        <div class="item-count-plus"></div>
                     </div>
-                    <div>
-                        <p>8,0 руб.</p>
+                    <div class="basket-main-left__item-final-sum">
+                        <p class="description-text"><span class="description-text final-cost">8,0</span> руб.</p>
                         <svg width="16" height="19" viewBox="0 0 16 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0016 19C14.1029 19 15 18.1047 15 17.0004V4C15.5558 3.99953 16 3.552 16 3C16 2.44386 15.5519 2 14.9991 2H10C10 0.89543 9.10458 0 8.00001 0C6.89544 0 6.00001 0.89543 6.00001 2H1.00088C0.444639 2 8.58307e-06 2.44772 8.58307e-06 3C8.58307e-06 3.55584 0.447643 3.99953 1.00001 4V17.0004C1.00001 18.1066 1.89473 19 2.99843 19H13.0016ZM13.0019 16.9997C13.0019 16.9997 3.00029 17.0011 3.00029 17.0001V3.99973H13.0003C13.0001 7.20272 12.9999 16.9997 13.0019 16.9997ZM9.00029 6.99754C9.00029 6.44662 9.44416 6 10.0003 6C10.5526 6 11.0003 6.44631 11.0003 6.99754V14.0025C11.0003 14.5534 10.5564 15 10.0003 15C9.44801 15 9.00029 14.5537 9.00029 14.0025V6.99754ZM6.00029 6C5.44415 6 5.00029 6.44662 5.00029 6.99754V14.0025C5.00029 14.5537 5.448 15 6.00029 15C6.55642 15 7.00029 14.5534 7.00029 14.0025V6.99754C7.00029 6.44631 6.55257 6 6.00029 6Z" fill="#A4ABAC"/>
                         </svg>
                     </div>
                 </div>
-                <div class="basket-main-left__items"></div>
+                <div class="basket-main-left__item">
+                    <img src="./images/basket/item-picture.png" alt=""/>
+                    <div class="basket-main-left__item-name">
+                        <a href="#" class="description-text-black">Приманка GF&nbsp;Swing Impact&nbsp;3&Prime;, 10&nbsp;шт. в упаковке</a>
+                        <span class="description-text-black">Палитра: #01</span>
+                    </div>
+                    <p class="description-text cost-for-item"><span class="description-text cost-for-one-item">4,0</span> руб.</p>
+                    <div class="basket-main-left__item-count">
+                        <div class="item-count-minus"></div>
+                        <span class="subtitle-text item-count">2</span>
+                        <div class="item-count-plus"></div>
+                    </div>
+                    <div class="basket-main-left__item-final-sum">
+                        <p class="description-text"><span class="description-text final-cost">8,0</span> руб.</p>
+                        <svg width="16" height="19" viewBox="0 0 16 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0016 19C14.1029 19 15 18.1047 15 17.0004V4C15.5558 3.99953 16 3.552 16 3C16 2.44386 15.5519 2 14.9991 2H10C10 0.89543 9.10458 0 8.00001 0C6.89544 0 6.00001 0.89543 6.00001 2H1.00088C0.444639 2 8.58307e-06 2.44772 8.58307e-06 3C8.58307e-06 3.55584 0.447643 3.99953 1.00001 4V17.0004C1.00001 18.1066 1.89473 19 2.99843 19H13.0016ZM13.0019 16.9997C13.0019 16.9997 3.00029 17.0011 3.00029 17.0001V3.99973H13.0003C13.0001 7.20272 12.9999 16.9997 13.0019 16.9997ZM9.00029 6.99754C9.00029 6.44662 9.44416 6 10.0003 6C10.5526 6 11.0003 6.44631 11.0003 6.99754V14.0025C11.0003 14.5534 10.5564 15 10.0003 15C9.44801 15 9.00029 14.5537 9.00029 14.0025V6.99754ZM6.00029 6C5.44415 6 5.00029 6.44662 5.00029 6.99754V14.0025C5.00029 14.5537 5.448 15 6.00029 15C6.55642 15 7.00029 14.5534 7.00029 14.0025V6.99754C7.00029 6.44631 6.55257 6 6.00029 6Z" fill="#A4ABAC"/>
+                        </svg>
+                    </div>
+                </div>
                 <div class="basket-main-left-note">
                     При заказе до&nbsp;5&nbsp;упаковок возможен только самовывоз из&nbsp;магазинов партнёров.От 5&nbsp;упаковок&nbsp;&mdash;
                     доставка почтой наложенным платежём или самовывоз.
@@ -194,5 +212,6 @@
         </div>
     </div>
 </footer>
+<script src="js/basket/basket.js"></script>
 </body>
 </html>
