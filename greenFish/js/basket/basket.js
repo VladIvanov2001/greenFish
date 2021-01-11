@@ -5,11 +5,13 @@ const costForOneItems = document.querySelectorAll('.cost-for-one-item');
 const finalCosts = document.querySelectorAll('.final-cost');
 
 minusBtns.forEach((minusBtn, idx) => {
-    itemCounter = itemsCounter[idx];
-    costForOneItem = costForOneItems[idx];
-    finalCost = finalCosts[idx];
+    let itemCounter = itemsCounter[idx];
+    let costForOneItem = costForOneItems[idx];
+    console.log(costForOneItem);
+    let finalCost = finalCosts[idx];
+    console.log(finalCost)
 
-    minusBtn.addEventListener('click', (idx) => {
+    minusBtn.addEventListener('click', () => {
         let counter = itemCounter.textContent;
         if (+counter > 1) {
             itemCounter.textContent = `${--counter}`;
@@ -25,10 +27,10 @@ minusBtns.forEach((minusBtn, idx) => {
     })
 })
 
-plusBtns.forEach((plusBtn,idx) => {
-    itemCounter = itemsCounter[idx];
-    costForOneItem = costForOneItems[idx];
-    finalCost = finalCosts[idx];
+plusBtns.forEach((plusBtn, idx) => {
+    let itemCounter = itemsCounter[idx];
+    let costForOneItem = costForOneItems[idx];
+    let finalCost = finalCosts[idx];
     plusBtn.addEventListener('click', () => {
         let counter = itemCounter.textContent;
         itemCounter.textContent = `${++counter}`;
