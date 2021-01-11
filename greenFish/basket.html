@@ -146,12 +146,12 @@
                     <p class="big-title">Оформление заказа</p>
                     <div class="basket-main-left-order-checkbox">
                         <label class="basket-main-left-order-container">
-                            <p>Самовывоз: <a class="link-to-shop description-text">Магазин-партнёр</a></p>
+                            <span>Самовывоз: <span class="link-to-shop description-text">Магазин-партнёр</span></span>
                             <input checked="checked" type="radio" name="radio" value="pickup"/>
                             <span class="checkmark"></span>
                         </label>
                         <label class="basket-main-left-order-container">
-                            <p>По почте от 5 упаковок</p>
+                            <span>По почте от 5 упаковок</span>
                             <input name="radio" type="radio" value="mail"/>
                             <span class="checkmark"></span>
                         </label>
@@ -172,41 +172,110 @@
                     </div>
                     <div class="basket-main-left-textarea">
                         <p class="description-text-black">Адрес доставки / Комментарий</p>
-                        <textarea></textarea>
+                        <textarea name="comment"></textarea>
                     </div>
                 </div>
             </div>
             <div class="basket-main-right">
-                <div>
-                    Количество упаковок
-                    <span>3 шт</span>
+                <div class="basket-main-right__count">
+                    <p class="title-small basket-main-right-params">Количество упаковок</p>
+                    <span class="final-count">3 шт</span>
                 </div>
-                <div>
-                    ИТОГО
-                    <span>11,5 руб</span>
+                <div class="basket-main-right__sum">
+                    <p class="title-small basket-main-right-params">ИТОГО</p>
+                    <span class="final-sum">11,5 руб.</span>
                 </div>
-                <div>
-                    <p>Данные покупателя: </p>
-                    <p>Укажите Имя, номер телефона и эл.почту</p>
+                <div class="basket-main-right__pickedup">
+                    <span>Самовывоз: <span class="link-to-shop description-text">Магазин-партнёр</span></span>
                 </div>
-                <div>
-                    <div>
-                        <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2.00444 5.37056C1.76036 5.12648 1.36464 5.12648 1.12056 5.37056C0.876481 5.61464 0.876481 6.01036 1.12056 6.25444L4.87056 10.0044C5.11464 10.2485 5.51036 10.2485 5.75444 10.0044L13.8794 1.87944C14.1235 1.63536 14.1235 1.23964 13.8794 0.995558C13.6354 0.751481 13.2396 0.751481 12.9956 0.995558L5.3125 8.67862L2.00444 5.37056Z"
-                                  fill="#3CB156"/>
-                        </svg>
-                        <p>принимаю условия пользовательского соглашения</p>
-                    </div>
-                    <div>Отправить заказ</div>
+                <div class="basket-main-right__personal-info">
+                    <p class="basket-main-right__personal-info-title">Данные покупателя: </p>
+                    <p class="description-text-black">Укажите Имя, номер телефона и эл.почту</p>
                 </div>
+                <div class="basket-main-right__agreement">
+                    <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.00444 5.37056C1.76036 5.12648 1.36464 5.12648 1.12056 5.37056C0.876481 5.61464 0.876481 6.01036 1.12056 6.25444L4.87056 10.0044C5.11464 10.2485 5.51036 10.2485 5.75444 10.0044L13.8794 1.87944C14.1235 1.63536 14.1235 1.23964 13.8794 0.995558C13.6354 0.751481 13.2396 0.751481 12.9956 0.995558L5.3125 8.67862L2.00444 5.37056Z"
+                              fill="#3CB156"/>
+                    </svg>
+                    <p class="basket-main-right__agreement-text">принимаю условия <a href="#">пользовательского
+                        соглашения</a></p>
+                </div>
+                <div class="basket-main-right__send-order">Отправить заказ</div>
             </div>
         </div>
-        <div class="viewed-items">
-
-        </div>
     </section>
-    <section class="checked">
-
+    <section class="container checked">
+        <h3 class="big-title">Вы просматривали</h3>
+        <div class="checked__items">
+            <a href="" class="main-info__catalog__products-item">
+                <div class="main-info__catalog__products-image">
+                    <img alt="" src="images/catalog/item-card.png"/>
+                    <div class="main-info__catalog__products-image-fast-review">
+                        Быстрый просмотр
+                    </div>
+                </div>
+                <div class="main-info__catalog__products-item-info">
+                    <div class="main-info__catalog__products-item-title">
+                        <span class="main-info__catalog__products-item-cost cost-old-price">4,0 руб</span>
+                        <span class="main-info__catalog__products-item-cost cost-new-price">3,5 руб</span>
+                    </div>
+                    <p class="main-info__catalog__products-item-type description-text-black">Приманка GF Swing
+                        Impact Fat 3,3”</p>
+                    <p class="main-info__catalog__products-item-count">Количество в упаковке: 6 шт</p>
+                </div>
+            </a>
+            <a href="" class="main-info__catalog__products-item">
+                <div class="main-info__catalog__products-image">
+                    <img alt="" src="images/catalog/item-card.png"/>
+                    <div class="main-info__catalog__products-image-fast-review">
+                        Быстрый просмотр
+                    </div>
+                </div>
+                <div class="main-info__catalog__products-item-info">
+                    <div class="main-info__catalog__products-item-title">
+                        <span class="main-info__catalog__products-item-cost cost-old-price">4,0 руб</span>
+                        <span class="main-info__catalog__products-item-cost cost-new-price">3,5 руб</span>
+                    </div>
+                    <p class="main-info__catalog__products-item-type description-text-black">Приманка GF Swing
+                        Impact Fat 3,3”</p>
+                    <p class="main-info__catalog__products-item-count">Количество в упаковке: 6 шт</p>
+                </div>
+            </a>
+            <a href="" class="main-info__catalog__products-item">
+                <div class="main-info__catalog__products-image">
+                    <img alt="" src="images/catalog/item-card.png"/>
+                    <div class="main-info__catalog__products-image-fast-review">
+                        Быстрый просмотр
+                    </div>
+                </div>
+                <div class="main-info__catalog__products-item-info">
+                    <div class="main-info__catalog__products-item-title">
+                        <span class="main-info__catalog__products-item-cost cost-old-price">4,0 руб</span>
+                        <span class="main-info__catalog__products-item-cost cost-new-price">3,5 руб</span>
+                    </div>
+                    <p class="main-info__catalog__products-item-type description-text-black">Приманка GF Swing
+                        Impact Fat 3,3”</p>
+                    <p class="main-info__catalog__products-item-count">Количество в упаковке: 6 шт</p>
+                </div>
+            </a>
+            <a href="" class="main-info__catalog__products-item">
+                <div class="main-info__catalog__products-image">
+                    <img alt="" src="images/catalog/item-card.png"/>
+                    <div class="main-info__catalog__products-image-fast-review">
+                        Быстрый просмотр
+                    </div>
+                </div>
+                <div class="main-info__catalog__products-item-info">
+                    <div class="main-info__catalog__products-item-title">
+                        <span class="main-info__catalog__products-item-cost cost-old-price">4,0 руб</span>
+                        <span class="main-info__catalog__products-item-cost cost-new-price">3,5 руб</span>
+                    </div>
+                    <p class="main-info__catalog__products-item-type description-text-black">Приманка GF Swing
+                        Impact Fat 3,3”</p>
+                    <p class="main-info__catalog__products-item-count">Количество в упаковке: 6 шт</p>
+                </div>
+            </a>
+        </div>
     </section>
 </main>
 <footer class="footer">
