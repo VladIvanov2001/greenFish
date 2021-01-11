@@ -372,7 +372,7 @@
 }
 
 .checked {
-    margin-bottom: 50px;
+    margin-bottom: 77px;
 }
 
 .checked__items {
@@ -394,4 +394,42 @@
 
 .footer {
     padding: 57px 0 31px 0;
+}
+
+@media (max-width: 1409.98px) {
+    .container {
+        max-width: 1110px;
+    }
+
+    .nav__menu {
+        margin: 27px 45px 13px 0;
+    }
+
+    .navigation {
+        padding-bottom: 23px;
+        margin-bottom: 54px;
+    }
+
+    .navigation-list li {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .navigation-info {
+        position: relative;
+    }
+
+    .navigation-list {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        position: absolute;
+        margin-left: 14px;
+        top: 0;
+        left: 37%;
+    }
+
+    .navigation-info {
+        right: 119px;
+    }
 }
