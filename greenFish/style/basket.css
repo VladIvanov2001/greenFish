@@ -871,4 +871,74 @@
         right: -7px;
     }
 
+    .final-order-tablet__sum-numbers {
+        margin-right: 2px;
+    }
+
+    .basket-main-left-note {
+        max-width: 309px;
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 10px;
+    }
+
+    .basket-main-left__item-name {
+        width: 240px;
+        margin-right: 0;
+    }
+
+    .basket-main-left-personal {
+        flex-direction: column;
+    }
+
+    .basket-main-left-order > .big-title {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .basket-main-left-order-checkbox {
+        margin-bottom: 26px;
+    }
+
+    .basket-main-left-personal {
+        margin-bottom: 0;
+    }
+
+    .basket-main-left-personal label {
+        margin-bottom: 20px;
+    }
+
+    .basket-main-left-personal label input {
+        width: 328px;
+    }
+
+    .basket-main-left-textarea textarea {
+        max-width: 328px;
+    }
+
+    .basket-main-left-textarea {
+        margin-bottom: 24px;
+    }
+
+    .basket-main__right__agreement-text {
+        margin-left: 0;
+    }
+
+    .basket-main__right__agreement{
+        margin-left: 3px;
+    }
+
+
+    .checked{
+        display: none;
+    }
+
+    .footer{
+        margin-top: -27px;
+    }
+
+    .footer__info p:first-child{
+        color: #767C7D;
+    }
 }
