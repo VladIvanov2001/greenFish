@@ -743,6 +743,10 @@ input[type=checkbox] {
     color: #373F41;
 }
 
+.swiper-container-checked{
+    display: none;
+}
+
 .footer {
     padding: 57px 0 58px 0;
 }
@@ -1256,6 +1260,29 @@ input[type=checkbox] {
         height: 44px;
         align-items: center;
         justify-content: center;
+    }
+
+    .swiper-container-checked {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide-checked {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
     }
 }
 
