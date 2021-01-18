@@ -162,6 +162,14 @@
     user-select: none;
 }
 
+.info-about-mail {
+    color: #D9DEDE;
+}
+
+.info-about-mail-active{
+    color: #373F41!important;
+}
+
 .basket-main-left-order-container input {
     position: absolute;
     opacity: 0;
@@ -409,6 +417,11 @@
 .swiper-container-checked {
     width: 100%;
     height: 100%;
+}
+
+.swiper-slide-checked .swiper-slide {
+    width: 217.667px;
+    margin-right: 0;
 }
 
 .swiper-slide-checked {
