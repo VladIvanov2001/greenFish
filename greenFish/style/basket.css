@@ -170,6 +170,16 @@
     color: #373F41!important;
 }
 
+.error-input{
+    border: 2px solid #ff0000!important;
+}
+
+.send-btn-active{
+    color: #FFFFFF;
+    border: 2px solid #3CB156;
+    background: #3CB156;
+}
+
 .basket-main-left-order-container input {
     position: absolute;
     opacity: 0;
