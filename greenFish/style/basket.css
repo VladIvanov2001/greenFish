@@ -174,10 +174,19 @@
     border: 2px solid #ff0000!important;
 }
 
+.buyer-info{
+    color: #373F41;
+}
+
 .send-btn-active{
-    color: #FFFFFF;
+    color: #FFFFFF!important;
     border: 2px solid #3CB156;
-    background: #3CB156;
+    background: #3CB156!important;
+    cursor: pointer;
+}
+
+.basket-main__right__send-order-mobile{
+    display: none;
 }
 
 .basket-main-left-order-container input {
