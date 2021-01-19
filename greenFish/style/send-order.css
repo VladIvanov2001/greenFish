@@ -1,0 +1,7 @@
+.successful-order{
+    background-image: url("../images/send-order/send-order-background.png");
+}
+
+.successful-order__info h1{
+    color: #fff;
+}

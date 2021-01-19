@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <title>Заказ отправлен</title>
     <link rel="stylesheet" href="style/components/header.css">
+    <link rel="stylesheet" href="style/components/footer.css">
     <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/send-order.css">
+
 </head>
 <body>
 <header class="header">
@@ -63,5 +66,70 @@
         </div>
     </nav>
 </header>
+<main>
+    <section class="successful-order">
+        <div class="successful-order__info">
+            <h1 class="big-title">Ваш заказ отправлен</h1>
+            <p>Мы направили заявку в выбранный вами магазин: <span>г. Минск, ул. Никифорова, 51, минирынок Уручье-3</span></p>
+            <p>Менеджер по продажам свяжется с вами в течение рабочего дня.</p>
+            <p>#НХНЧ</p>
+        </div>
+    </section>
+    <div class="props">
+        <div class="props__closed-btn">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M42.5522 5.22029C43.5936 4.17891 43.5937 2.49047 42.5523 1.44905C41.5109 0.407634 39.8225 0.407605 38.781 1.44898L22 18.2295L5.21888 1.44898C4.17746 0.407605 2.48902 0.407634 1.44764 1.44905C0.406262 2.49047 0.406291 4.17891 1.44771 5.22029L18.2287 22.0007L1.44771 38.781C0.406291 39.8224 0.406262 41.5108 1.44764 42.5522C2.48902 43.5937 4.17746 43.5937 5.21888 42.5523L22 25.7718L38.781 42.5523C39.8225 43.5937 41.5109 43.5937 42.5523 42.5522C43.5937 41.5108 43.5936 39.8224 42.5522 38.781L25.7713 22.0007L42.5522 5.22029Z"
+                      fill="#C4C4C4"/>
+            </svg>
+        </div>
+        <div class="props__container">
+            <div class="props__container__info">
+                <h3>Реквизиты</h3>
+                <p class="props__container__info-text">ИП Лимановский Алексей& Анатольевич,<br/>УНП& 391537283 р/с
+                    BY21BELB3013000010226000<br/> в ОАО &laquo;Банк БелВЭБ&raquo; БИК: BELNNY2X
+                </p>
+            </div>
+            <div class="props__container-for-btn">
+                <a class="props__container__copy">Скопировать</a>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__catalog">
+            <h3 class="title-small">Каталог приманок</h3>
+            <a class="description-text-white" href="">Одноцветные</a>
+            <a class="description-text-white" href="">Двухцветные</a>
+            <p class="footer__catalog__phone-number">+375 (29) 899-83-68</p>
+            <a class="footer__catalog__props white">Реквизиты</a>
+        </div>
+        <div class="footer__about-company">
+            <h3 class="title-small">О&nbsp;компании</h3>
+            <a class="description-text-white" href="">Производство</a>
+            <a class="description-text-white" href="">Партнёрам</a>
+            <a class="description-text-white" href="">Контакты</a>
+        </div>
+        <div class="footer__clients">
+            <h3 class="title-small">Покупателям</h3>
+            <a class="description-text-white" href="">Доставка и оплата</a>
+            <a class="description-text-white" href="">Магазины-партнёры</a>
+            <a class="description-text-white" href="">Отзывы</a>
+            <a class="description-text-white" href="">Блог</a>
+            <a class="description-text-white" href="">Пользовательское соглашение</a>
+        </div>
+        <div class="footer__social-networks">
+            <h3 class="title-small">Наши соцсети</h3>
+            <a class="description-text-white" href="">Вконтакте</a>
+            <a class="description-text-white" href="">Инстаграм</a>
+            <p class="description-text-white">greenfishbaits@gmail.com</p>
+        </div>
+        <div class="footer__info">
+            <p class="description-text-white">Сайт разработал &laquo;Чеширский Кот&raquo; на&nbsp;1С-Битрикс</p>
+            <p class="description-text-white">&copy; Green Fish 2020</p>
+        </div>
+    </div>
+</footer>
+<script src="js/home-page/propsPage.js"></script>
 </body>
 </html>
