@@ -101,7 +101,7 @@
     margin-bottom: 24px;
 }
 
-.certificate-main__content__item p{
+.certificate-main__content__item p {
     max-width: 248px;
 }
 
@@ -110,10 +110,98 @@
     margin-bottom: 35px;
 }
 
-.instagram__text{
+.instagram__text {
     padding-left: 0;
 }
 
 .footer {
     padding: 57px 0 31px 0;
+}
+
+@media (max-width: 1409.98px) {
+    .container {
+        max-width: 1110px;
+    }
+
+    .navigation-list {
+        left: -60px;
+    }
+
+    .buyers {
+        margin-bottom: 51px;
+    }
+
+    .buyers-main__info {
+        margin-left: 13px;
+    }
+
+    .buyers-main__info h1 {
+        font-size: 38px;
+        line-height: 44px;
+        margin-bottom: 7px;
+    }
+
+    .buyers-main__info .buyers-main__info-suggestion {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .buyers-main__pictures img {
+        max-width: 367px;
+        max-height: 367px;
+    }
+
+    .buyers-main__info__shops{
+        padding-right: 101px;
+    }
+
+    .buyers-main__info__shops .buyers-main__info__shops-text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .buyers-main__info-suggestion{
+        margin-bottom: 161px;
+    }
+
+    .buyers-main__pictures{
+        margin-right: -17px;
+    }
+
+    .description-text.advantages-description{
+        padding-left: 17px;
+    }
+
+    .advantages{
+        margin-bottom: 112px;
+    }
+
+    .certificate {
+        margin-bottom: 72px;
+    }
+
+    .certificate-main h2{
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .certificate-main{
+        padding-left: 28px;
+    }
+
+    .certificate-main h2 {
+        margin-bottom: 13px;
+    }
+
+    .certificate-main__content__item img{
+        max-width: 255px;
+        max-height: 349px;
+        margin-bottom: 16px;
+    }
+
+    .certificate-main .certificate-main-description{
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 738px;
+    }
 }
