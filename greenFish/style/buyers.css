@@ -1,0 +1,119 @@
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.navigation {
+    padding-bottom: 13px;
+    margin-bottom: 52px;
+}
+
+.navigation-list {
+    position: relative;
+    top: 0;
+    left: -76px;
+}
+
+.buyers {
+    margin-bottom: 115px;
+}
+
+.buyers-main__info__shops-count {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+}
+
+.buyers-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buyers-main__pictures {
+    display: flex;
+}
+
+.buyers-main__info h1 {
+    margin-bottom: 20px;
+}
+
+.buyers-main__info-suggestion {
+    max-width: 385px;
+    margin-bottom: 150px;
+}
+
+.buyers-main__info__shops {
+    display: flex;
+    border-bottom: 1px solid #767C7D;
+    padding-right: 140px;
+    padding-bottom: 7px;
+}
+
+.buyers-main__info__shops-text {
+    max-width: 210px;
+    margin-left: 10px;
+}
+
+.advantages {
+    background: linear-gradient(354.86deg, #F8F8F8 -119.37%, rgba(232, 232, 232, 0) 81.77%);
+    margin-bottom: 132px;
+}
+
+.advantages h2 {
+    margin-right: 0;
+}
+
+.advantages-description {
+    width: 908px;
+    margin: 0 auto 55px auto;
+    padding-right: 33px;
+}
+
+.certificate {
+    margin-bottom: 90px;
+}
+
+.certificate-main h2 {
+    margin-bottom: 28px;
+}
+
+.certificate-main__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.certificate-main__content__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.certificate-main__content__item img {
+    margin-bottom: 24px;
+}
+
+.certificate-main__content__item p{
+    max-width: 248px;
+}
+
+.certificate-main-description {
+    max-width: 768px;
+    margin-bottom: 35px;
+}
+
+.instagram__text{
+    padding-left: 0;
+}
+
+.footer {
+    padding: 57px 0 31px 0;
+}
