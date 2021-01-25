@@ -373,6 +373,83 @@
 
     .instagram__text{
         position: static;
-        margin-right: 0px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .header {
+        height: 62px;
+        margin-bottom: 0;
+    }
+
+    .nav__basket {
+        margin-left: 58px;
+    }
+
+    .menu__btn {
+        margin-left: -33px;
+    }
+
+    .nav__logo-picture {
+        margin-left: 12px;
+        margin-top: -4px;
+    }
+
+    .navigation {
+        padding-bottom: 12px;
+        margin-bottom: 2px;
+    }
+
+    .navigation-info {
+        right: 124px;
+    }
+
+    .navigation-list {
+        top: -5px;
+        left: 13%;
+    }
+
+    .buyers-main{
+        justify-content: initial;
+        flex-direction: column;
+    }
+
+    .buyers-main__info h1{
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .buyers-main__info .buyers-main__info-suggestion{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .buyers-main__info{
+        margin-right: 0;
+    }
+
+    .buyers-main__info .buyers-main__info-suggestion{
+        margin-bottom: 15px;
+    }
+
+    .buyers-main__info__shops-count{
+        font-size: 50px;
+    }
+
+    .buyers-main__info__shops .buyers-main__info__shops-text{
+        font-size: 14px;
+        line-height: 19px;
+
     }
 }
