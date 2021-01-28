@@ -99,6 +99,7 @@
 .conditions {
     background: linear-gradient(354.86deg, #F8F8F8 -119.37%, rgba(232, 232, 232, 0) 81.77%);
     transform: rotate(180deg);
+    margin-bottom: 98px;
 }
 
 .conditions-main {
@@ -181,7 +182,162 @@
     background-color: #D9DEDE;
 }
 
-.conditions-main a{
+.conditions-main a {
     text-decoration: none;
     color: #373F41;
+}
+
+.delivery {
+    margin-bottom: 88px;
+}
+
+.delivery__info > .container {
+    padding-left: 8px;
+}
+
+.delivery__info p {
+    max-width: 679px;
+}
+
+.delivery__info h2 {
+    margin-right: 59px;
+}
+
+.footer {
+    padding: 57px 0 31px 0;
+}
+
+@media (max-width: 1409.98px) {
+    .container {
+        max-width: 1110px;
+    }
+
+    .navigation-list {
+        left: -60px;
+    }
+
+    .partners-content__info h2 {
+        font-size: 38px;
+        line-height: 44px;
+        margin-bottom: 0;
+    }
+
+    .partners-content__info {
+        padding-left: 17px;
+        max-width: 514px;
+    }
+
+    .partners-content__contacts__refs {
+        margin-top: 41px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .partners-content__contacts__refs-description {
+        padding-left: 19px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 105px;
+    }
+
+    .partners-content__contacts__refs-number {
+        margin-right: 13px;
+        padding-left: 25px;
+    }
+
+    .partners-content__phone__refs-icons {
+        display: flex;
+    }
+
+    .partners-content__contacts__email {
+        padding-left: 27px;
+    }
+
+    .partners-content__contacts__email-address {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .partners-content__contacts__email p:last-child {
+        max-width: 390px;
+    }
+
+    .conditions {
+        margin-bottom: 66px;
+    }
+
+    .conditions-main {
+        padding-top: 34px;
+    }
+
+    .conditions-main h2 {
+        font-size: 34px;
+        line-height: 40px;
+        margin-left: 21px;
+        margin-bottom: 54px;
+    }
+
+    .conditions-main__content__item h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+
+    .conditions-main__content__item p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .conditions-main__content__item:first-child p {
+        max-width: 300px;
+    }
+
+    .conditions-main__content__item:nth-child(3) {
+        margin-top: 7px;
+        margin-left: 13px;
+    }
+
+    .conditions-main__content__item:last-child {
+        margin-top: 7px;
+    }
+
+    .conditions-main__content__item:last-child p {
+        width: 257px;
+    }
+
+    .conditions-main__content__item:last-child svg {
+        margin-left: 25px;
+    }
+
+    .conditions-main__content__item h3 {
+        padding-left: 30px;
+    }
+
+    .conditions-main__content {
+        margin-bottom: 40px;
+    }
+
+    .conditions-main__catalog-link {
+        position: relative;
+        left: 21px;
+    }
+
+    .delivery__info > .container {
+        padding-left: 38px;
+    }
+
+    .request-conditionals{
+        width: initial;
+        max-width: 629px;
+        font-size: 18px;
+    }
+
+    .footer {
+        padding: 61px 0 34px 37px;
+        margin-top: -13px;
+    }
+
+    .footer__catalog__props {
+        font-size: 14px;
+    }
 }
