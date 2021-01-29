@@ -678,4 +678,12 @@
     .delivery__info > .container {
         padding-left: 17px;
     }
+
+    .footer__info p:first-child {
+        color: #767C7D;
+    }
+
+    .footer > .container {
+        padding-left: 0;
+    }
 }
