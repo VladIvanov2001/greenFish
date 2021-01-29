@@ -1,0 +1,120 @@
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.navigation {
+    padding-bottom: 13px;
+    margin-bottom: 52px;
+}
+
+.navigation-list {
+    position: relative;
+    top: 0;
+    left: -76px;
+}
+
+.location-main {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.location-main a {
+    text-decoration: none;
+    color: #373F41;
+}
+
+.location-main__catalog-link {
+    border: 2px solid #000000;
+    padding: 23px 62px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.14em;
+    margin-bottom: -5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.location-main__catalog-link:hover {
+    background-color: #D9DEDE;
+}
+
+.location-main__info {
+    max-width: 704px;
+}
+
+.location-main__info h1 {
+    margin-bottom: 18px;
+}
+
+.location {
+    margin-bottom: 78px;
+}
+
+.shops-location {
+    display: flex;
+}
+
+#map {
+    height: 772px;
+    width: 890px;
+    margin-right: 27px;
+}
+
+.shops-location__list {
+    margin-top: -10px;
+}
+
+.shops-location__list h2 {
+    margin-bottom: 15px;
+}
+
+.shops-location__list-options{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 13px;
+}
+
+.shops-location__list-options span{
+    margin-bottom: 9px;
+}
+
+.shops-location__list-options select{
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 316px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 18px;
+}
+
+.shops-location__list__item{
+    border: 1px solid #E8E8E8;
+    padding: 29px 55px 0 18px;
+}
+
+.shops-location__list__item-top{
+    color: #A7A8A8;
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.shops-location__list__item-top svg{
+    margin-right: 8px;
+}
+
+.shops-location__list__item-address{
+    display: flex;
+}
+
+
