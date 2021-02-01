@@ -148,3 +148,31 @@
     letter-spacing: 0.2px;
 }
 
+@media(max-width: 1409.98px){
+    .title-h2, .main-title-of-item{
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .description-text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media(max-width: 1199.98px){
+    .title-h2, .main-title-of-item{
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+@media(max-width: 767.98px){
+    .title-h2, .main-title-of-item{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .description-text{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
