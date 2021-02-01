@@ -159,6 +159,16 @@
     padding: 57px 0 31px 0;
 }
 
+.shops-location-title-mobile {
+    display: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #373F41;
+}
+
 @media (max-width: 1409.98px) {
     .container {
         max-width: 1110px;
@@ -245,5 +255,142 @@
 
     .footer__catalog__props {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .container {
+        max-width: 690px;
+    }
+
+    .nav {
+        max-width: 691px;
+        padding-left: initial;
+    }
+
+    .header {
+        height: 76px;
+    }
+
+    .nav__logo {
+        margin-left: 1px;
+        margin-top: -12px;
+        left: 0;
+    }
+
+    .nav__menu {
+        margin: -2px 18px 0 16px;
+        padding-left: 67px;
+    }
+
+    .navigation {
+        margin-bottom: 26px;
+        padding-top: 12px;
+    }
+
+    .navigation-list {
+        margin-left: 10px;
+        top: 1px;
+        left: -153px;
+    }
+
+    .navigation-list li {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .location {
+        margin-bottom: 39px;
+    }
+
+    .location-main {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .location-main__info h1 {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 2px;
+    }
+
+    .location-main__info {
+        padding-left: 0;
+        max-width: 676px;
+    }
+
+    .location-main__info p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 34px;
+    }
+
+    .shops-location {
+        flex-direction: column;
+    }
+
+    .shops-location__list {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .shops-location-title-mobile {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    .ymaps-2-1-78-map {
+        width: 728px !important;
+        height: 380px !important;
+    }
+
+    #map{
+        width: 728px;
+        height: 380px;
+        margin-bottom: 41px;
+    }
+
+    .shops-location__list h2 {
+        display: none;
+    }
+
+    .shops-location__list__item {
+        padding: 17px 55px 10px 21px;
+    }
+
+    .shops-location__list__item-top{
+        font-size: 13px;
+        line-height: 24px;
+        margin-top: -4px;
+        margin-bottom: 9px;
+    }
+
+    .shops-location__list__item-address p:first-child{
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .footer {
+        padding: 30px 0 9px 9px;
+    }
+
+    .instagram__text {
+        position: static;
+        margin-right: 0;
+    }
+
+    .shops-location__list__item-top svg {
+        height: 16px;
+        width: 18px;
+        margin-top: 3px;
+        margin-right: 7px;
+    }
+
+    .shops-location__list__item-address{
+        margin-bottom: 5px;
+    }
+
+    .shops-location__list-shop {
+        height: 364px;
     }
 }
