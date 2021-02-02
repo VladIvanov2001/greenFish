@@ -26,7 +26,6 @@ copyBtn.addEventListener('click', function copyText() {
 });
 
 closedBtn.addEventListener('click', () =>{
-    console.log('qqqq');
     document.body.style.overflow = 'visible';
     blockWithProps.style.display = 'none';
     successfulMessage.remove();
