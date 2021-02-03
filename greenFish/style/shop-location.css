@@ -356,6 +356,7 @@
 
     .shops-location__list__item-address {
         margin-bottom: 5px;
+        justify-content: space-between;
     }
 
     .shops-location__list-shop {
@@ -397,6 +398,33 @@
         display: none;
     }
 
+
+    .shop-location-checkbox {
+        display: none;
+    }
+
+    .shop-location-checkbox + label {
+        display: block;
+        width: 24px;
+        height: 24px;
+        border-radius: 2px;
+        background: #fff;
+        border: 1px solid #fff;
+        text-align: center;
+    }
+
+    .shop-location-checkbox:checked + label {
+        border: 1px solid #6979F8;
+        background: #6979F8;
+    }
+
+    .shop-location-checkbox + label:before {
+        content: '\2713';
+        font-size: 17px;
+        color: #fff;
+    }
+
+
     .footer {
         padding: 30px 0 9px 9px;
     }
@@ -404,6 +432,129 @@
     .instagram__text {
         position: static;
         margin-right: 0;
+    }
+
+}
+
+
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 100%;
+        padding-left: 16px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .header {
+        height: 62px;
+        margin-bottom: 0;
+    }
+
+    .nav__basket {
+        margin-left: 58px;
+    }
+
+    .menu__btn {
+        margin-left: -33px;
+    }
+
+    .nav__logo-picture {
+        margin-left: 12px;
+        margin-top: -4px;
+    }
+
+    .navigation {
+        padding-bottom: 12px;
+        margin-bottom: 2px;
+    }
+
+    .navigation-info {
+        right: 124px;
+    }
+
+    .navigation-list {
+        top: -5px;
+        left: 13%;
+    }
+
+    .location {
+        margin-bottom: 24px;
+    }
+
+    .location-main__info{
+        margin-bottom: 18px;
+    }
+
+    .location-main__info h1{
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .location-main__info p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .location-main__catalog-link{
+        padding: 15px 12px;
+    }
+
+    .shops-location-title-mobile{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #map{
+        width: 100%!important;
+        height: 240px!important;
+        margin-bottom: 17px;
+    }
+
+    .ymaps-2-1-78-map{
+        width: 100%!important;
+        height: 240px!important;
+    }
+
+    .shops-location__list-options span{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .shops {
+        margin-bottom: 45px;
+    }
+
+
+    .shops-location__list__item {
+        padding: 8px 43px 10px 6px;
+    }
+
+    .instagram > .container {
+        padding-left: 0;
+    }
+
+    .instagram__text {
+        padding-top: 15px;
+    }
+
+    .instagram__text h3 {
+        margin-top: 0;
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+
+    .footer {
+        margin-top: -27px;
+    }
+
+    .footer__info p:first-child {
+        color: #767C7D;
+    }
+
+    .footer > .container {
+        padding-left: 0;
     }
 
 }
