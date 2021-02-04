@@ -1,0 +1,298 @@
+* {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.navigation {
+  padding-bottom: 13px;
+  margin-bottom: 0px;
+}
+
+.navigation-list {
+  position: relative;
+  top: 0;
+  left: -76px;
+}
+
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.instagram__text {
+  padding-left: 0;
+}
+
+.instagram__pictures {
+  padding-top: 0;
+}
+
+.footer {
+  padding: 57px 0 31px 0;
+}
+
+@media (max-width: 1409.98px) {
+  .container {
+    max-width: 1110px;
+  }
+
+  .navigation{
+    margin-bottom: 47px;
+  }
+
+  .navigation-list {
+    left: -64px;
+  }
+
+  .instagram__text {
+    padding-top: 33px;
+    padding-left: 0;
+    margin-right: 18px;
+    position: relative;
+    right: 57px;
+  }
+
+  .footer {
+    padding: 61px 0 34px 37px;
+    margin-top: -13px;
+  }
+
+  .footer__catalog__props {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 690px;
+  }
+
+  .header {
+    height: 76px;
+  }
+
+  .navigation {
+    margin-bottom: 23px;
+    padding-top: 12px;
+  }
+
+  .navigation-list {
+    margin-left: 10px;
+    top: 1px;
+    left: -150px;
+  }
+
+  .navigation-list li {
+    font-size: 11px;
+    line-height: 14px;
+  }
+
+  .footer {
+    padding: 30px 0 9px 9px;
+  }
+
+  .instagram__text {
+    position: static;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    max-width: 100%;
+    padding-left: 16px;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .header {
+    height: 62px;
+    margin-bottom: 0;
+  }
+
+  .nav__basket {
+    margin-left: 58px;
+  }
+
+  .menu__btn {
+    margin-left: -33px;
+  }
+
+  .nav__logo-picture {
+    margin-left: 12px;
+    margin-top: -4px;
+  }
+
+  .navigation {
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+  }
+
+  .navigation-info {
+    right: 124px;
+  }
+
+  .navigation-list {
+    top: -5px;
+    left: 0;
+  }
+
+  .instagram > .container {
+    padding-left: 0;
+  }
+
+  .instagram__text {
+    padding-top: 15px;
+  }
+
+  .instagram__text h3 {
+    margin-top: 0;
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+
+  .footer {
+    margin-top: -27px;
+  }
+
+  .footer__info p:first-child {
+    color: #767C7D;
+  }
+
+  .footer > .container {
+    padding-left: 0;
+  }
+}
+
+/* About */
+
+.about-company{
+  height: 641px;
+  padding-top: 75px;
+  background: url(../images/about/about-bg.jpg);
+  color: white;
+}
+
+.about-company__desc{
+  max-width: 613px;
+}
+
+.description-text {
+  margin-top: 15px;
+}
+
+.about-company__desc h1{
+  margin-bottom: 3px;
+}
+
+.about-prod{
+  background: linear-gradient(180deg, #F1F3F4 0%, rgba(241, 243, 244, 0) 100%);
+  padding-top: 64px;
+  padding-bottom: 109px;
+}
+
+.about-prod__wrap{
+  display: flex;
+}
+
+.about-prod-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 27px;
+}
+
+.about-prod-main__desc h2{
+  margin-bottom: 21px;
+}
+
+.about-prod-main__facts{
+  display: flex;
+}
+
+.about-prod-main__facts p{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 165px;
+  padding-right: 64px;
+}
+
+.about-prod-main__facts p:last-child {
+  max-width: 100px;
+}
+
+.about-prod-main__facts img {
+  margin-bottom: 14px;
+}
+
+.about-events {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.about-events-main{
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-events-main-desc__text{
+  margin-top: 24px;
+  margin-bottom: 72px;
+}
+
+.about-events-main-snippets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-events-main-snippets__item {
+  width: 200px;
+  height: 200px;
+  margin-top: 23px;
+}
+
+.about-events-gallery {
+  width: 775px;
+}
+
+.about-events-gallery__img{
+  width: 775px;
+  height: auto;
+  vertical-align: top;
+}
+
+.about-events-gallery__text {
+  background: linear-gradient(90deg, #7DCD64 0%, #3DB177 100%);
+  padding: 10px 18px;
+}
+
+.about-events-main-desc__button {
+  width: fit-content;
+  padding: 22px 60px;
+  border: 2px solid #000000;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  cursor: pointer;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+.about-events-main-desc__button:hover {
+  background: #D9DEDE;
+}
