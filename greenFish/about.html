@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="style/components/footer.css">
   <link rel="stylesheet" href="style/components/navigation.css">
   <link rel="stylesheet" href="style/components/instagram.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
   <link rel="stylesheet" href="style/about.css">
 </head>
 <body>
@@ -82,8 +84,8 @@
       <div class="container">
         <div class="about-company__desc">
           <h1 class="main-title-of-item">О компании</h1>
-          <p class="description-text">История создания бренда начинается с идеи сделать рыбалку ещё интересней и эффективней. Мы начали производить съедобные силиконовые приманки для рыбной ловли в 2019 году и планируем удивлять нашу аудиторию.</p>
-          <p class="description-text"> В будущем мы собираемся увеличивать ассортимент видов   и цветов изделий, чтобы предоставить нашему покупателю лучший выбор.</p>
+          <p class="about-description_text-white">История создания бренда начинается с идеи сделать рыбалку ещё интересней и эффективней. Мы начали производить съедобные силиконовые приманки для рыбной ловли в 2019 году и планируем удивлять нашу аудиторию.</p>
+          <p class="about-description_text-white"> В будущем мы собираемся увеличивать ассортимент видов   и цветов изделий, чтобы предоставить нашему покупателю лучший выбор.</p>
         </div>
       </div>
     </section>
@@ -93,8 +95,8 @@
         <div class="about-prod-main">
           <div class="about-prod-main__desc">
             <h2 class="big-title">О производстве</h2>
-            <p class="description-text">Создаём приманки с эффективной формулой резины и максимальной уловистостью на самых сложных участках белорусских водоёмов.</p>
-            <p class="description-text">Достойных результатов достигаем благодаря сотрудничеству наших технологов с экспертами и профессиональными рыбаками-спортсменами.</p>
+            <p class="about-description_text">Создаём приманки с эффективной формулой резины и&nbsp;максимальной уловистостью на самых сложных участках белорусских водоёмов.</p>
+            <p class="about-description_text">Достойных результатов достигаем благодаря сотрудничеству наших технологов с экспертами и профессиональными рыбаками-спортсменами.</p>
           </div>
           <div class="about-prod-main__facts">
             <p class="subtitle-text">
@@ -109,26 +111,49 @@
         </div>
       </div>
     </section>
-    <section class="about-events container">
-      <div class="about-events-main">
-        <div class="about-events-main-desc">
-          <h2 class="big-title">Об участии бренда в мероприятиях</h2>
-          <p class="about-events-main-desc__text description-text-black">
-            <!-- ЗАМЕНИТЬ ТЕКСТ НА АКТУАЛЬНЫЙ ПРИ ПОЯВЛЕНИИ -->
-            Нужен общий текст - мы просизводим, а наши друзья спортсмены занимают с нашими приманками места ... 
-          </p>
-          <a class="about-events-main-desc__button" href="">читать блог</a>
+    <section class="about-events">
+      <div class="container">
+        <div class="about-events-main">
+          <div class="about-events-main-desc">
+            <h2 class="big-title">Об участии бренда в мероприятиях</h2>
+            <p class="about-events-main-desc__text about-description_text">
+              <!-- ЗАМЕНИТЬ ТЕКСТ НА АКТУАЛЬНЫЙ ПРИ ПОЯВЛЕНИИ -->
+              Нужен общий текст - мы просизводим, а наши друзья спортсмены занимают с нашими приманками места ... 
+            </p>
+            <a class="about-events-main-desc__button" href="#">читать блог</a>
+          </div>
+          <div class="about-events-main-snippets">
+            <img class="about-events-main-snippets__item active_snippet" src="images/about/about-gallery/about-gallery-1.jpg" alt="XVI чемпионат мира по ловле рыбы на мормышку со льда. Команда заняла второе место.">
+            <img class="about-events-main-snippets__item" src="images/about/about-gallery/about-gallery-2.jpg" alt="XVI чемпионат мира по ловле рыбы.">
+            <img class="about-events-main-snippets__item" src="images/about/about-gallery/about-gallery-3.jpg" alt="XVI чемпионат мира по ловле рыбы на мормышку со льда. Команда заняла второе место.">
+            <img class="about-events-main-snippets__item" src="images/about/about-gallery/about-gallery-4.jpg" alt="XVI чемпионат мира по ловле рыбы на мормышку со льда. Команда заняла второе место.">
+          </div>
         </div>
-        <div class="about-events-main-snippets">
-          <img class="about-events-main-snippets__item" src="images/about/about-gallery/about-gallery-1.jpg" alt="">
-          <img class="about-events-main-snippets__item" src="images/about/about-gallery/about-gallery-2.jpg" alt="">
-          <img class="about-events-main-snippets__item" src="images/about/about-gallery/about-gallery-3.jpg" alt="">
-          <img class="about-events-main-snippets__item" src="images/about/about-gallery/about-gallery-4.jpg" alt="">
+        <div class="about-events-gallery">
+          <img class="about-events-gallery__img" src="images/about/about-gallery/about-gallery-1.jpg" alt="">
+          <p class="about-events-gallery__text description-text-white"></p>
         </div>
       </div>
-      <div class="about-events-gallery">
-        <img class="about-events-gallery__img" src="images/about/about-gallery/about-gallery-1.jpg" alt="">
-        <p class="about-events-gallery__text description-text-white">XVI чемпионат мира по ловле рыбы на мормышку со льда. Команда заняла второе место.</p>
+      
+      <div class="about-events-slider swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="about-events-slider__img" src="images/about/about-gallery/about-gallery-1.jpg" alt="">
+            <p class="about-events-slider__desc">XVI чемпионат мира по ловле рыбы на мормышку со льда. Команда заняла второе место.</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="about-events-slider__img" src="images/about/about-gallery/about-gallery-2.jpg" alt="">
+            <p class="about-events-slider__desc">XVI чемпионат мира по ловле рыбы.</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="about-events-slider__img" src="images/about/about-gallery/about-gallery-3.jpg" alt="">
+            <p class="about-events-slider__desc">XVI чемпионат мира по ловле рыбы на мормышку со льда. Команда заняла второе место.</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="about-events-slider__img" src="images/about/about-gallery/about-gallery-4.jpg" alt="">
+            <p class="about-events-slider__desc">XVI чемпионат мира по ловле рыбы на мормышку со льда. Команда заняла второе место.</p>
+          </div>
+        </div>
       </div>
     </section>
     <section class="instagram">
@@ -147,6 +172,9 @@
         </div>
       </div>
     </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/about/about.js"></script>
   </main>
   <footer class="footer">
     <div class="container">
