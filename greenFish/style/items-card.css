@@ -510,6 +510,10 @@
     padding: 57px 0 58px 0;
 }
 
+.swiper-container{
+    display: none;
+}
+
 @media (max-width: 1409.98px) {
     .container {
         max-width: 1110px;
@@ -1241,6 +1245,10 @@
         left: 34% !important;
         top: 94%;
         width: 48% !important;
+    }
+
+    .swiper-container{
+        display: block;
     }
 
     .review__text__item-date {
