@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="style/components/instagram.css">
     <link rel="stylesheet" href="style/components/partners-card.css">
     <link rel="stylesheet" href="style/contacts.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=fb603679-5ca0-475f-9617-e25c8a33b360"
+            type="text/javascript"></script>
 </head>
 <body>
 <header class="header">
@@ -77,6 +79,50 @@
             </ul>
         </div>
     </div>
+    <section class="contacts">
+        <div class="container">
+            <h1 class="main-title-of-item">Контакты</h1>
+            <div class="contacts-main">
+                <div class="contacts-info">
+                    <p class="description-text">Проконсультируем и&nbsp;подберём оптимальные модели приманок или обсудим
+                        сотрудничество с&nbsp;10&nbsp;до&nbsp;20,
+                        в&nbsp;воскресенье&nbsp;&mdash; до&nbsp;18.</p>
+                    <div class="partners-content__contacts__refs">
+                        <a href="tel:+375 (29) 899-83-68" class="partners-content__contacts__refs-number">+375 (29)
+                            899-83-68</a>
+                        <div class="partners-content__phone__refs-icons">
+                            <a href="">
+                                <img src="images/home-page/viber.svg" alt="viber"/>
+                            </a>
+                            <a href="">
+                                <img src="images/home-page/telegram.svg" alt="telegram"/>
+                            </a>
+                            <a href="">
+                                <img src="images/home-page/whatsup.svg" alt="whatsup"/>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="partners-content__contacts__email-address">greenfishbaits@gmail.com</p>
+                </div>
+                <div class="contacts-props">
+                    <div class="props__container__info">
+                        <h3>Реквизиты</h3>
+                        <p class="props__container__info-text">ИП Лимановский Алексей Анатольевич,<br/>УНП
+                            391537283<br/>р/с
+                            BY21BELB3013000010226000<br/> в ОАО &laquo;Банк БелВЭБ&raquo; БИК: BELNNY2X
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="address">
+        <div class="container">
+            <h2 class="big-title">Адрес производства</h2>
+            <p class="description-text">г. Минск, ул. Платонова, д. 10</p>
+            <div id="map"></div>
+        </div>
+    </section>
     <section class="instagram">
         <div class="container">
             <div class="instagram__text">
@@ -93,31 +139,7 @@
             </div>
         </div>
     </section>
-    <section>
-        <h1 class="main-title-of-item">Контакты</h1>
-        <div>
-            <div>
-                <p class="description-text">Проконсультируем и&nbsp;подберём оптимальные модели приманок или обсудим сотрудничество с&nbsp;10&nbsp;до&nbsp;20,
-                    в&nbsp;воскресенье&nbsp;&mdash; до&nbsp;18.</p>
-                <div class="partners-content__contacts__refs">
-                    <a href="tel:+375 (29) 899-83-68" class="partners-content__contacts__refs-number">+375 (29)
-                        899-83-68</a>
-                    <div class="partners-content__phone__refs-icons">
-                        <a href="">
-                            <img src="images/home-page/viber.svg" alt="viber"/>
-                        </a>
-                        <a href="">
-                            <img src="images/home-page/telegram.svg" alt="telegram"/>
-                        </a>
-                        <a href="">
-                            <img src="images/home-page/whatsup.svg" alt="whatsup"/>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div></div>
-        </div>
-    </section>
+
     <div class="props">
         <div class="props__closed-btn">
             <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -173,5 +195,8 @@
         </div>
     </div>
 </footer>
+<script src="js/home-page/scriptForMain.js"></script>
+<script src="js/home-page/propsPage.js"></script>
+<script src="js/contacts/locationFactoryMap.js"></script>
 </body>
 </html>

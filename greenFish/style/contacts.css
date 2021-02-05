@@ -20,3 +20,92 @@
     top: 0;
     left: -76px;
 }
+
+.contacts-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts h1 {
+    margin-bottom: 17px;
+}
+
+.partners-content__contacts__email-address {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #3CB156;
+}
+
+.partners-content__contacts__refs {
+    margin-top: 20px;
+}
+
+.contacts {
+    margin-bottom: 39px;
+}
+
+.contacts-info {
+    max-width: 563px;
+    margin-top: 4px;
+}
+
+.contacts-info p:first-child {
+    padding-right: 60px;
+}
+
+.contacts-props {
+    margin-right: 166px;
+    margin-top: 4px;
+}
+
+.props__container__info h3 {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.props__container__info p {
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 402px;
+}
+
+.props__container__info h3 {
+    margin-bottom: 7px;
+}
+
+#map {
+    width: 1415px !important;
+    height: 926px !important;
+}
+
+.address {
+    margin-bottom: 84px;
+}
+
+.address h2 {
+    margin-bottom: 23px;
+}
+
+.address p {
+    margin-bottom: 23px;
+}
+
+.ymaps-2-1-78-map {
+    width: 1382px!important;
+    height: 909px!important;
+}
+
+.instagram__text {
+    padding-left: 0;
+}
+
+.instagram__pictures {
+    padding-top: 0;
+}
+
+.footer {
+    padding: 57px 0 31px 0;
+}
