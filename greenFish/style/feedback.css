@@ -7,13 +7,13 @@
 
 .navigation {
   padding-bottom: 13px;
-  margin-bottom: 52px;
+  margin-bottom: 0px;
 }
 
 .navigation-list {
   position: relative;
   top: 0;
-  left: -22px;
+  left: -87px;
 }
 
 .container {
@@ -33,84 +33,13 @@
   padding: 57px 0 31px 0;
 }
 
-.terms-desc__text{
-  margin-top: 12px;
-  margin-bottom: 21px;
-}
-
-.terms-desc__link{
-  text-decoration: none;
-  color: #3CB156;
-}
-
-.terms{
-  margin-bottom: 183px;
-}
-
-.terms-list{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-  color: #373F41;
-}
-
-.terms-list li{
-  margin: 10px 0;
-}
-
-.terms-list__acc{
-  display: none;
-  justify-content: space-between;
-  width: 100%;
-  padding-bottom: 7px;
-  padding-left: 17px;
-  border-bottom: 1px solid #D9DEDE;
-  background: none;
-  font-family: Typonine Sans Cy;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: start;
-}
-
-.terms-list__acc img{
-  transition: 0.3s;
-  margin-top: 8px;
-  margin-right: 21px;
-}
-
-.ordered{
-  list-style: none;
-  counter-reset: li;
-}
-
-.ordered li::before{
-  counter-increment: li;
-  content: counters(li, ".") ". ";
-}
-
-.unordered{
-  list-style: none;
-}
-
-.unordered li::before{
-  content: "— ";
-  position: relative;
-}
-
-
 @media (max-width: 1409.98px) {
   .container {
     max-width: 1110px;
   }
 
-  .navigation{
-    margin-bottom: 47px;
-  }
-
   .navigation-list {
-    left: -15px;
+    left: -74px;
   }
 
   .instagram__text {
@@ -123,20 +52,11 @@
 
   .footer {
     padding: 61px 0 34px 37px;
-    margin-top: -13px;
+    margin-top: 0;
   }
 
   .footer__catalog__props {
     font-size: 14px;
-  }
-
-
-  .terms{
-    margin-bottom: 76px;
-  }
-  .terms-list{
-    font-size: 15px;
-    line-height: 20px;
   }
 }
 
@@ -150,14 +70,13 @@
   }
 
   .navigation {
-    margin-bottom: 23px;
     padding-top: 12px;
   }
 
   .navigation-list {
     margin-left: 10px;
     top: 1px;
-    left: -106px;
+    left: -163px;
   }
 
   .navigation-list li {
@@ -173,42 +92,13 @@
     position: static;
     margin-right: 0;
   }
-
-
-
-  .terms{
-    margin-bottom: 55px;
-  }
-  .terms-list{
-    font-size: 14px;
-  }
-  .terms-list__title span{
-    display: none;
-  }
-  .terms-list__acc{
-    display: flex;
-  }
-  .terms-list__title::before{
-    position: absolute;
-    font-size: 16px;
-  }
-
-  .acc-content{
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-
-  .acc-active img{
-    transition: 0.3s;
-    transform: rotate(180deg);
-  }
 }
 
 @media (max-width: 767.98px) {
   .container {
     max-width: 100%;
     padding-left: 16px;
+    padding-right: 16px;
   }
 
   .container {
@@ -235,7 +125,6 @@
 
   .navigation {
     padding-bottom: 0;
-    margin-bottom: 16px;
   }
 
   .navigation-info {
@@ -244,7 +133,7 @@
 
   .navigation-list {
     top: -5px;
-    left: 46px;
+    left: -9px;
   }
 
   .instagram > .container {
@@ -261,10 +150,6 @@
     margin-bottom: 18px;
   }
 
-  .footer {
-    margin-top: -27px;
-  }
-
   .footer__info p:first-child {
     color: #767C7D;
   }
@@ -272,10 +157,72 @@
   .footer > .container {
     padding-left: 0;
   }
-  .terms-list{
-    line-height: 19px;
-  }
-  .terms-list__acc{
-    line-height: 19px;
-  }
+}
+
+/* FEEDBACK */
+
+.feedback.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback-main {
+  width: 775px;
+}
+
+.feedback-main .main-title-of-item {
+  margin-top: 48px;
+  margin-bottom: 16px;
+  line-height: 62px;
+}
+
+.feedback-main-list-item{
+  padding-bottom: 30px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.feedback-main-list-item__text p {
+  margin-bottom: 10px;
+}
+
+.feedback-main-list-item__gallery{
+  display: flex;
+  align-items: flex-end;
+  margin: 17px 0;
+}
+
+.feedback-main-list-item__gallery img {
+  margin-right: 30px;
+  vertical-align: bottom;
+}
+
+.feedback-main-list-item__more{
+  width: 86px;
+  height: 62px;
+  background-color: #EFF2F2;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #373F41;
+  border: 2px solid #373F41;
+  cursor: pointer;
+}
+
+.feedback-main-list-item__slider{
+  display: none;
+}
+
+.feedback-main-list-item__desc{
+  font-family: Typonine Sans Cy;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 22px;
+  color: #373F41;
 }

@@ -1,3 +1,5 @@
+/* COPY/PASTE */
+
 * {
   outline: 0;
   padding: 0;
@@ -282,8 +284,9 @@
 }
 
 .about-events-gallery__text {
-  background: linear-gradient(90deg, #7DCD64 0%, #3DB177 100%);
   padding: 10px 18px;
+  font-family: Typonine Sans Cy;
+  background: linear-gradient(90deg, #7DCD64 0%, #3DB177 100%);
 }
 
 .about-events-main-desc__button {
@@ -297,7 +300,7 @@
   color: black;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: 'Roboto';
+  font-family: Typonine Sans Cy;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 3px;
@@ -440,7 +443,7 @@
     width: fit-content;
   }
   .about-events-slider__desc{
-    font-family: 'Roboto';
+    font-family: Typonine Sans Cy;
     font-size: 14px;
     line-height: 18px;
   }

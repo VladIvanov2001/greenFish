@@ -64,13 +64,13 @@ main{
 }
 
 .not_found-info__text{
-  font-family: 'Roboto';
+  font-family: Typonine Sans Cy;
   font-size: 40px;
   line-height: 50px;
   text-align: center;
 }
 
-.not_found-info__text a:visited {
+.not_found-info__text a{
   color: black;
 }
 

@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>О компании</title>
+  <title>Отзывы</title>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" href="style/general.css">
@@ -11,7 +12,8 @@
   <link rel="stylesheet" href="style/components/footer.css">
   <link rel="stylesheet" href="style/components/navigation.css">
   <link rel="stylesheet" href="style/components/instagram.css">
-  <link rel="stylesheet" href="style/about.css">
+  <link rel="stylesheet" href="style/feedback.css">
+  <link rel="stylesheet" href="style/components/add-review.css">
 </head>
 <body>
   <header class="header">
@@ -75,87 +77,85 @@
       <div class="navigation-info container">
           <ul class="navigation-list ">
               <li><a class="active-link" href="">Главная</a></li>
-              <li>О компании</li>
+              <li>Отзывы</li>
           </ul>
       </div>
     </div>
+    <div class="feedback container">
+      <section class="feedback-main">
+        <h1 class="main-title-of-item">Отзывы о продукте и компании</h1>
+        <!-- Отзывы -->
+        <div class="feedback-main-list">
+          <div class="feedback-main-list-item">
+            <div class="feedback-main-list-item__text">
+              <p class="description-text-black">
+                Первая осенняя рыбалка. Выбор пал на р. Щара, решил проведать места где ловил весной. Доехать было тяжеловато, а ещё тяжелей было продвигаться по берегу, заросло все мама не горюй... За три часа ловли реализовал одну поклевку. Сезон открыт, всем НХНЧ!
+              </p>
+              <p class="description-text-black">
+                Сработал Swing Impact 4” в 13 расцветке от Green Fish.
+              </p>
+            </div>
+            <div class="feedback-main-list-item__gallery">
+              <img src="images/feedback/gallery-sample.jpg" alt="">
+              <img src="images/feedback/gallery-sample.jpg" alt="">
+              <img src="images/feedback/gallery-sample.jpg" alt="">
+              <a class="feedback-main-list-item__more">+2</a>
+            </div>
+            <div class="feedback-main-list-item__slider"></div>
+            <div class="feedback-main-list-item__desc">Отчет с рыбалки от нашего друга, 19 сентября 2020</div>
+          </div>
+        </div>
+        <!-- Конец отзывов -->
+        <div class="feedback-main-pagination">
 
-    <section class="about-company">
-      <div class="container">
-        <div class="about-company__desc">
-          <h1 class="main-title-of-item">О компании</h1>
-          <p class="about-description_text-white">История создания бренда начинается с идеи сделать рыбалку ещё интересней и эффективней. Мы начали производить съедобные силиконовые приманки для рыбной ловли в 2019 году и планируем удивлять нашу аудиторию.</p>
-          <p class="about-description_text-white"> В будущем мы собираемся увеличивать ассортимент видов   и цветов изделий, чтобы предоставить нашему покупателю лучший выбор.</p>
         </div>
-      </div>
-    </section>
-    <section class="about-prod">
-      <div class="container about-prod__wrap">
-        <img src="images/about/about-prod.jpg" alt="">
-        <div class="about-prod-main">
-          <div class="about-prod-main__desc">
-            <h2 class="big-title">О производстве</h2>
-            <p class="about-description_text">Создаём приманки с эффективной формулой резины и&nbsp;максимальной уловистостью на самых сложных участках белорусских водоёмов.</p>
-            <p class="about-description_text">Достойных результатов достигаем благодаря сотрудничеству наших технологов с экспертами и профессиональными рыбаками-спортсменами.</p>
+      </section>
+      <section class="feedback-add">
+          <div class="review__add-review">
+              <p class="review__add-review-title">Добавить отзыв</p>
+              <div class="review__add-review-container">
+                  <p class="description-text-black review__add-review-note">Ваш отзыв или совет поможет другим
+                      покупателям принять правильное решение о покупке
+                      товара.</p>
+                  <div class="full-table-for-review">
+                      <label>
+                          Имя
+                          <input type="text"/>
+                      </label>
+                      <label class="full-table-for-review__email">
+                          E-mail
+                          <input type="text"/>
+                      </label>
+                      <label class="choose-file">
+                          <span class="choose-file-title">Фотографии</span>
+                          <input type="file" name="files[]" id="btn-loader" title="" accept=".jpg, .jpeg, .png, .gif"
+                                  multiple>
+                          <span class="choose-file-loader">Загрузить</span>
+                      </label>
+                      <div class="new-review__donwloaded-files">
+                          <p class="choose-file-description">
+                              GIF, JPEG или PNG, размером до 20 Мб
+                          </p>
+                          <output id="list"></output>
+                      </div>
+                      <label class="video-review">
+                          Текст или ссылка на видеоотзыв
+                          <textarea></textarea>
+                      </label>
+                      <div class="request-agreement">
+                          <svg class="closedBtn" width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                              <path d="M1.845 5.85503C1.57163 5.58166 1.12842 5.58166 0.85505 5.85503C0.581683 6.12839 0.581683 6.57161 0.85505 6.84497L5.05505 11.045C5.32842 11.3183 5.77163 11.3183 6.045 11.045L15.145 1.94497C15.4184 1.67161 15.4184 1.22839 15.145 0.955025C14.8716 0.681658 14.4284 0.681658 14.155 0.955025L5.55002 9.56005L1.845 5.85503Z"
+                                    fill="#3CB156"/>
+                          </svg>
+                          <p>принимаю условия <a href="">пользовательского соглашения</a></p>
+                      </div>
+                  </div>
+                  <div class="review__add-review-write-btn">Написать</div>
+              </div>
           </div>
-          <div class="about-prod-main__facts">
-            <p class="subtitle-text">
-              <img src="images/about/fish.svg" alt="">
-              34 модели приманок различных форм в размерах от 1” до 4,5”
-            </p>
-            <p class="subtitle-text">
-              <img src="images/about/colour.svg" alt="">
-              20 вариантов цветовых исполнений          
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="about-events">
-      <div class="container">
-        <div class="about-events-main">
-          <div class="about-events-main-desc">
-            <h2 class="big-title">Об участии бренда в мероприятиях</h2>
-            <p class="about-events-main-desc__text about-description_text">
-              <!-- ЗАМЕНИТЬ ТЕКСТ НА АКТУАЛЬНЫЙ ПРИ ПОЯВЛЕНИИ -->
-              Нужен общий текст - мы просизводим, а наши друзья спортсмены занимают с нашими приманками места ... 
-            </p>
-            <a class="about-events-main-desc__button" href="#">читать блог</a>
-          </div>
-          <div class="about-events-main-snippets">
-            <img class="about-events-main-snippets__item active_snippet" src="images/about/about-gallery/about-gallery-1.jpg" alt="XVI чемпионат мира по ловле рыбы на мормышку со льда. Команда заняла второе место.">
-            <img class="about-events-main-snippets__item" src="images/about/about-gallery/about-gallery-2.jpg" alt="XVI чемпионат мира по ловле рыбы.">
-            <img class="about-events-main-snippets__item" src="images/about/about-gallery/about-gallery-3.jpg" alt="XVI чемпионат мира по ловле рыбы на мормышку со льда. Команда заняла второе место.">
-            <img class="about-events-main-snippets__item" src="images/about/about-gallery/about-gallery-4.jpg" alt="XVI чемпионат мира по ловле рыбы на мормышку со льда. Команда заняла второе место.">
-          </div>
-        </div>
-        <div class="about-events-gallery">
-          <img class="about-events-gallery__img" src="images/about/about-gallery/about-gallery-1.jpg" alt="">
-          <p class="about-events-gallery__text description-text-white"></p>
-        </div>
-      </div>
-      
-      <div class="about-events-slider swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img class="about-events-slider__img" src="images/about/about-gallery/about-gallery-1.jpg" alt="">
-            <p class="about-events-slider__desc">XVI чемпионат мира по ловле рыбы на мормышку со льда. Команда заняла второе место.</p>
-          </div>
-          <div class="swiper-slide">
-            <img class="about-events-slider__img" src="images/about/about-gallery/about-gallery-2.jpg" alt="">
-            <p class="about-events-slider__desc">XVI чемпионат мира по ловле рыбы.</p>
-          </div>
-          <div class="swiper-slide">
-            <img class="about-events-slider__img" src="images/about/about-gallery/about-gallery-3.jpg" alt="">
-            <p class="about-events-slider__desc">XVI чемпионат мира по ловле рыбы на мормышку со льда. Команда заняла второе место.</p>
-          </div>
-          <div class="swiper-slide">
-            <img class="about-events-slider__img" src="images/about/about-gallery/about-gallery-4.jpg" alt="">
-            <p class="about-events-slider__desc">XVI чемпионат мира по ловле рыбы на мормышку со льда. Команда заняла второе место.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <section class="instagram">
       <div class="container">
         <div class="instagram__text">
@@ -190,8 +190,7 @@
               <a class="props__container__copy">Скопировать</a>
           </div>
       </div>
-  </div>
-    
+    </div>
   </main>
   <footer class="footer">
     <div class="container">
@@ -230,7 +229,7 @@
   </footer>
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="js/about/about.js"></script>
   <script src="js/propsPage.js"></script>
+  <script src="js/addReview.js"></script>
 </body>
 </html>
