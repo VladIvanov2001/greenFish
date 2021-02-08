@@ -427,7 +427,7 @@
         left: 13%;
     }
 
-    .contacts > .container{
+    .contacts > .container {
         padding-left: 15px;
     }
 
@@ -445,22 +445,37 @@
         line-height: 20px;
     }
 
-    .partners-content__contacts__refs{
+    .partners-content__contacts__refs {
         flex-direction: row;
     }
 
-    .partners-content__contacts__email-address{
+    .partners-content__phone__refs-icons a > img {
+        width: 24px;
+    }
+
+    .partners-content__contacts__email-address {
         font-size: 18px;
         line-height: 24px;
+        margin-bottom: 44px;
     }
 
-    .partners-content__contacts__refs-number{
+    .partners-content__phone__refs-icons a:last-child {
+        margin-right: 0;
+    }
+
+    .partners-content__contacts__refs-number {
         margin-top: 0;
-    }
-
-    .partners-content__contacts__refs-number{
         font-size: 22px;
         line-height: 28px;
+        margin-right: 27px;
+    }
+
+    .contacts {
+        margin-bottom: 0;
+    }
+
+    .address h2{
+        
     }
 
     .instagram > .container {
