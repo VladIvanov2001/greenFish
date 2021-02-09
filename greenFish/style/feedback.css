@@ -57,9 +57,6 @@
 }
 
 @media (max-width: 1199.98px) {
-  .container {
-    max-width: 690px;
-  }
   .header {
     height: 76px;
   }
@@ -69,7 +66,7 @@
   .navigation-list {
     margin-left: 10px;
     top: 1px;
-    left: -163px;
+    left: -249px;
   }
   .navigation-list li {
     font-size: 11px;
@@ -173,8 +170,16 @@
 }
 
 .feedback-main-list-item__gallery img {
-  margin-right: 30px;
   vertical-align: bottom;
+}
+
+.feedback-main-list-item__wrapper{
+  display: flex;
+}
+
+.feedback-main-list-item__gallery .swiper-slide{
+  width: 200px !important;
+  margin-right: 30px;
 }
 
 .feedback-main-list-item__more {
@@ -315,17 +320,16 @@
   pointer-events: none;
 }
 
-
-
 @media (max-width: 1409.98px) {
   .feedback-main {
     width: 635px;
+    margin-bottom: 44px;
   }
   .feedback-main .main-title-of-item {
     margin-top: 40px;
     margin-bottom: 11px;
   }
-  .feedback-main-list-item{
+  .feedback-main-list-item {
     padding-bottom: 24px;
     margin-bottom: 24px;
   }
@@ -336,6 +340,9 @@
   .feedback-main-list-item__gallery {
     margin: 16px 0;
   }
+  .feedback-main-list-item__gallery .swiper-slide{
+    width: 160px !important;
+  }
   .feedback-main-list-item__gallery img {
     width: 160px;
     height: 160px;
@@ -344,12 +351,47 @@
     width: 66px;
     height: 62px;
   }
-  .feedback-main-list-item__desc{
+  .feedback-main-list-item__desc {
     font-size: 16px;
     line-height: 20px;
   }
 }
 
 @media (max-width: 1199.98px) {
-  
+  .container {
+    max-width: 100%;
+    margin-left: calc(50% - 345px);
+  }
+  .feedback {
+    flex-direction: column;
+  }
+  .feedback-main{
+    width: 100%;
+  }
+  .feedback-main-list-item__text, .feedback-main-list-item__desc{
+    width: 690px;
+  }
+  .feedback-main .main-title-of-item {
+    font-size: 34px;
+    line-height: 40px;
+    margin-top: 24px;
+    margin-bottom: 14px;
+  }
+  .feedback-main-list-item{
+    padding-bottom: 32px;
+  }
+  .feedback-main-list-item__text .description-text-black {
+    font-size: 14px;
+  }
+  .feedback-main-list-item__gallery {
+    margin-top: 17px;
+    margin-bottom: 14px;
+  }
+  .feedback-main-list-item__gallery .swiper-slide{
+    width: 210px !important;
+  }
+  .feedback-main-list-item__gallery img{
+    width: 210px;
+    height: 210px;
+  }
 }
