@@ -243,21 +243,21 @@
   margin-right: 30px;
 }
 
-.feedback-gallery, .feedback-gallery img{
+.feedback-gallery, .feedback-gallery img {
   width: 660px;
   height: 660px;
 }
 
-.feedback-gallery_thumbs{
+.feedback-gallery_thumbs {
   height: 660px;
   width: 86px;
 }
 
-.feedback-gallery_thumbs .swiper-slide{
+.feedback-gallery_thumbs .swiper-slide {
   cursor: pointer;
 }
 
-.feedback-gallery_thumbs .swiper-slide, .feedback-gallery_thumbs img{
+.feedback-gallery_thumbs .swiper-slide, .feedback-gallery_thumbs img {
   width: 86px;
   height: 93px !important;
 }
@@ -272,14 +272,14 @@
 
 /* Конец стилей для попапа галереи */
 
-.feedback-main-pagination{
+.feedback-main-pagination {
   width: 272px;
   display: flex;
   align-self: center;
   justify-content: space-between;
 }
 
-.feedback-main-pagination__elem{
+.feedback-main-pagination__elem {
   width: 32px;
   height: 32px;
   display: flex;
@@ -295,19 +295,61 @@
   cursor: pointer;
 }
 
-.feedback-main-pagination__elem.active_page{
+.feedback-main-pagination__elem.active_page {
+  font-family: 'SF Pro Text';
+  font-size: 14px;
+  line-height: 20px;
   color: #3CB156;
   border-color: #3CB156;
   pointer-events: none;
 }
 
-.feedback-main-pagination__elem.arrow{
+.feedback-main-pagination__elem.arrow {
   fill: #D9DEDE;
 }
 
-.feedback-main-pagination__elem.arrow.disabled{
+.feedback-main-pagination__elem.arrow.disabled {
   background: #767c7d;
   border-color: #767c7d;
   opacity: 0.5;
   pointer-events: none;
+}
+
+
+
+@media (max-width: 1409.98px) {
+  .feedback-main {
+    width: 635px;
+  }
+  .feedback-main .main-title-of-item {
+    margin-top: 40px;
+    margin-bottom: 11px;
+  }
+  .feedback-main-list-item{
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+  }
+  .feedback-main-list-item__text .description-text-black {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .feedback-main-list-item__gallery {
+    margin: 16px 0;
+  }
+  .feedback-main-list-item__gallery img {
+    width: 160px;
+    height: 160px;
+  }
+  .feedback-main-list-item__more {
+    width: 66px;
+    height: 62px;
+  }
+  .feedback-main-list-item__desc{
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  
 }
