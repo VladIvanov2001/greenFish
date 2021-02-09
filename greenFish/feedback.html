@@ -153,7 +153,21 @@
         </div>
         <!-- Конец отзывов -->
         <div class="feedback-main-pagination">
-
+          <div class="feedback-main-pagination__elem arrow prev disabled">
+            <svg width="9" height="12" viewBox="0 0 9 12" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.15997 1.41L3.57997 6L8.15997 10.59L6.74997 12L0.749973 6L6.74997 0L8.15997 1.41Z"/>
+            </svg>              
+          </div>
+          <div class="feedback-main-pagination__elem active_page">1</div>
+          <div class="feedback-main-pagination__elem">2</div>
+          <div class="feedback-main-pagination__elem dots">...</div>
+          <div class="feedback-main-pagination__elem">9</div>
+          <div class="feedback-main-pagination__elem">10</div>
+          <div class="feedback-main-pagination__elem arrow next">
+            <svg width="9" height="12" viewBox="0 0 9 12" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.839996 1.41L5.42 6L0.839996 10.59L2.25 12L8.25 6L2.25 0L0.839996 1.41Z"/>
+            </svg>              
+          </div>
         </div>
       </section>
       <section class="feedback-add">
@@ -204,18 +218,24 @@
     </div>
     <div class="feedback-gallery-popup">
       <img class="feedback-gallery-popup__close" src="images/feedback/close-gallery.svg" alt="">
+      <svg class="feedback-gallery-popup__prev" width="81" height="81" viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M56.3865 19.2615C57.7045 17.9435 57.7045 15.8065 56.3865 14.4885C55.0685 13.1705 52.9315 13.1705 51.6135 14.4885L27.9885 38.1135C26.6705 39.4315 26.6705 41.5685 27.9885 42.8865L51.6135 66.5115C52.9315 67.8295 55.0685 67.8295 56.3865 66.5115C57.7045 65.1935 57.7045 63.0565 56.3865 61.7385L35.148 40.5L56.3865 19.2615Z" fill="#C4C4C4"/>
+      </svg>
       <div class="feedback-gallery-popup__slider">
         <div class="feedback-gallery swiper-container">
           <div class="swiper-wrapper">
-           
+           <!-- Сюда ничего не выводится, взаимодействие прописано в js файле -->
           </div>
         </div>
         <div class="feedback-gallery_thumbs swiper-container">
           <div class="swiper-wrapper">
-
+            <!-- Сюда ничего не выводится, взаимодействие прописано в js файле -->
           </div>
         </div>
       </div>
+      <svg class="feedback-gallery-popup__next" width="81" height="81" viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M24.6136 19.2615C23.2956 17.9435 23.2956 15.8065 24.6136 14.4885C25.9317 13.1705 28.0686 13.1705 29.3866 14.4885L53.0116 38.1135C54.3296 39.4315 54.3296 41.5685 53.0116 42.8865L29.3866 66.5115C28.0686 67.8295 25.9317 67.8295 24.6136 66.5115C23.2956 65.1935 23.2956 63.0565 24.6136 61.7385L45.8522 40.5L24.6136 19.2615Z" fill="#C4C4C4"/>
+      </svg>
     </div>
     <section class="instagram">
       <div class="container">
@@ -293,7 +313,7 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="js/propsPage.js"></script>
   <script src="js/addReview.js"></script>
-  <script src="js/feedback/feedback.js"></script>
+  <script src="js/feedback/feedback-gallery.js"></script>
 </body>
 
 </html>

@@ -24,10 +24,14 @@ const gallerySliderThumbs = new Swiper('.feedback-gallery_thumbs', {
 })
 
 const gallerySlider = new Swiper('.feedback-gallery', {
+  navigation: {
+    nextEl: '.feedback-gallery-popup__next',
+    prevEl: '.feedback-gallery-popup__prev'
+  },
   spaceBetween: 10,
   thumbs: {
     swiper: gallerySliderThumbs
-  },
+  }
 })
 
 const galleryPopupOpen = document.querySelectorAll('.feedback-main-list-item__more')

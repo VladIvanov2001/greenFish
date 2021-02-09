@@ -145,6 +145,9 @@
 
 .feedback-main {
   width: 775px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 75px;
 }
 
 .feedback-main .main-title-of-item {
@@ -204,6 +207,8 @@
   color: #373F41;
 }
 
+/* Стили для попапа галереи */
+
 .feedback-gallery-popup {
   position: fixed;
   width: 100%;
@@ -214,8 +219,13 @@
   display: flex;
   visibility: hidden;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   z-index: 10;
+}
+
+.feedback-gallery-popup svg {
+  cursor: pointer;
+  margin: 82px;
 }
 
 .feedback-gallery-popup__close {
@@ -238,7 +248,6 @@
   height: 660px;
 }
 
-
 .feedback-gallery_thumbs{
   height: 660px;
   width: 86px;
@@ -259,4 +268,46 @@
 
 .feedback-gallery_thumbs .swiper-slide-thumb-active {
   opacity: 1;
+}
+
+/* Конец стилей для попапа галереи */
+
+.feedback-main-pagination{
+  width: 272px;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.feedback-main-pagination__elem{
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D9DEDE;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 22px;
+  color: #373F41;
+  cursor: pointer;
+}
+
+.feedback-main-pagination__elem.active_page{
+  color: #3CB156;
+  border-color: #3CB156;
+  pointer-events: none;
+}
+
+.feedback-main-pagination__elem.arrow{
+  fill: #D9DEDE;
+}
+
+.feedback-main-pagination__elem.arrow.disabled{
+  background: #767c7d;
+  border-color: #767c7d;
+  opacity: 0.5;
+  pointer-events: none;
 }
