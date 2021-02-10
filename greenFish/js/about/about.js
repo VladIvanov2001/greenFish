@@ -5,18 +5,19 @@ const bitImgText = document.querySelector('.about-events-gallery__text')
 bitImgText.innerHTML = activeSnippet.getAttribute('alt')
 
 snippets.forEach((snippet) => {
-  snippet.addEventListener('click', function(){
-    if(this !== activeSnippet){
+  snippet.addEventListener('click', (e) => {
+    const clickedSnippet = e.currentTarget
+    if (clickedSnippet !== activeSnippet) {
       activeSnippet.classList.remove('active_snippet')
-      activeSnippet = this
+      activeSnippet = clickedSnippet
       activeSnippet.classList.add('active_snippet')
-      bigImg.setAttribute('src',this.getAttribute('src'))
-      bitImgText.innerHTML = this.getAttribute('alt')
+      bigImg.setAttribute('src', clickedSnippet.getAttribute('src'))
+      bitImgText.innerHTML = clickedSnippet.getAttribute('alt') // описание из alt сниппета переносится в блок под большой картинкой
     }
   })
 })
 
-var aboutSwiper = new Swiper('.about-events-slider',{
+const aboutSwiper = new Swiper('.about-events-slider', {
   slidesPerView: 'auto',
   spaceBetween: 8,
   loop: true
