@@ -1,15 +1,15 @@
 const tabletWidth = 1200
-const isDesktopApp = document.documentElement.clientWidth > tabletWidth
+const mobileWidth = 768
 const gallery = document.querySelectorAll('.feedback-main-list-item__gallery')
 
-if (isDesktopApp) {
+if (document.documentElement.clientWidth >= tabletWidth) {
   const galleryPopup = document.querySelector('.feedback-gallery-popup')
   const showMore = document.createElement('a')
   showMore.classList.add('feedback-main-list-item__more')
 
   gallery.forEach(element => {
     const galleryImages = element.children[0].children
-    if (galleryImages.length > 3) { // 3 - количество отображаемых картинок в desktop версии
+    if (galleryImages.length > 3) {  // 3 - количество отображаемых картинок в desktop версии
       for (let i = 3; i < galleryImages.length; i++) {
         galleryImages[i].style.display = 'none'
       }
@@ -61,18 +61,27 @@ if (isDesktopApp) {
   })
 }
 else {
-  gallery.forEach(element => { element.classList.add('swiper-container') })
+  gallery.forEach(element => element.classList.add('swiper-container'))
   const mobileGallerySlider = new Swiper('.feedback-main-list-item__gallery', {
-    spaceBetween: 16,
     slidesPerView: 'auto',
     freeMode: true,
-  })
-  gallery.forEach(element => {
-    const galleryImages = element.children[0].children
-    if (galleryImages.length < 4) {
-      for (let i = 0; i < galleryImages.length; i++) {
-        galleryImages[i].style.marginRight = '30px'
+    breakpoints: {  // отступ между слайдами в зависимости от размеров экрана, от 0 до 768 для мобильных телефонов и от 768 и выше для планшетов
+      0: {
+        spaceBetween: 8
+      },
+      768: {
+        spaceBetween: 16
       }
     }
   })
+  if (document.documentElement.clientWidth >= mobileWidth) {
+    gallery.forEach(element => {
+      const galleryImages = element.children[0].children
+      if (galleryImages.length < 4) {
+        for (let i = 0; i < galleryImages.length; i++) {
+          galleryImages[i].style.marginRight = '30px'  // отступ между слайдами в планшетной версии при количестве слайдов 3 и меньше
+        }
+      }
+    })
+  }
 }
