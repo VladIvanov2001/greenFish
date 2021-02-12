@@ -59,14 +59,10 @@ function init() {
     myGeoObjects.forEach(element =>{
         element.events
             .add('click', function (e) {
-                // Ссылку на объект, вызвавший событие,
-                // можно получить из поля 'target'.
                 e.get('target').options.set({
                     iconImageHref: './images/home-page/active-label.svg',
                 });
             })
     });
-
     myMap.geoObjects.add(myClusterer);
-
 }

@@ -11,13 +11,6 @@ propsBtn.addEventListener('click', () =>{
     document.body.style.overflow = 'hidden'
 });
 
-closedBtn.addEventListener('click', () =>{
-    document.body.style.overflow = 'visible';
-    blockWithProps.style.display = 'none';
-    successfulMessage.remove();
-    counter = 0;
-});
-
 copyBtn.addEventListener('click', function copyText() {
     const el = document.createElement('textarea');
     el.value = text.innerHTML.replace(/(<([^>]+)>)/g,'');
@@ -30,8 +23,11 @@ copyBtn.addEventListener('click', function copyText() {
         document.querySelector('.props__container-for-btn').appendChild(successfulMessage);
     }
     counter++;
-    console.log(closedBtn);
 });
 
-
-
+closedBtn.addEventListener('click', () =>{
+    document.body.style.overflow = 'visible';
+    blockWithProps.style.display = 'none';
+    successfulMessage.remove();
+    counter = 0;
+});
