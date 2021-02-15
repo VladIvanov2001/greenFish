@@ -1,0 +1,56 @@
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.navigation {
+    padding-bottom: 13px;
+    margin-bottom: 39px;
+}
+
+.navigation-list {
+    position: relative;
+    top: 0;
+    left: -97px;
+}
+
+.news h1{
+    width: initial;
+    text-align: left;
+    border: none;
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 19px;
+}
+
+.news-content{
+    padding-left: 0;
+    margin-bottom: 65px;
+}
+
+.swiper-container-for-tablet{
+    display: none;
+}
+
+.feedback-main-pagination{
+    margin: 0 auto;
+}
+
+.instagram__text {
+    padding-left: 0;
+}
+
+.instagram__pictures {
+    padding-top: 0;
+}
+
+.footer {
+    padding: 57px 0 31px 0;
+}
