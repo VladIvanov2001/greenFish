@@ -1,4 +1,3 @@
-
 const selectedFile = document.getElementById('btn-loader');
 const downloadedFiles = document.getElementById('list');
 const writeBtn = document.querySelector('.review__add-review-write-btn');
