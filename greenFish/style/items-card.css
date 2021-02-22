@@ -354,6 +354,8 @@
 
 .review-content {
     display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
 }
 
 .review__text {
@@ -500,9 +502,17 @@ span.review__text__read-all:after {
     margin-right: 0;
 }
 
+.feedback-main .big-title {
+    margin-bottom: 26px;
+}
+
 @media (max-width: 1409.98px) {
     .container {
         max-width: 1110px;
+    }
+
+    .swiper-slide-item-choice {
+        width: 255px;
     }
 
     .nav__menu {
@@ -537,7 +547,7 @@ span.review__text__read-all:after {
         right: 119px;
     }
 
-    .swiper-slide img {
+    .gallery-top .swiper-slide img {
         height: 440px;
         width: 435px;
     }

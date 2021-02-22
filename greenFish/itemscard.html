@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="style/components/add-review.css">
     <link rel="stylesheet" href="style/general.css">
     <link rel="stylesheet" href="style/items-card.css">
+    <link rel="stylesheet" href="style/feedback.css">
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=fb603679-5ca0-475f-9617-e25c8a33b360"
             type="text/javascript"></script>
 </head>
@@ -277,98 +278,117 @@
     </section>
     <section class="review">
         <div class="container review-content">
-            <div class="review__text">
+            <section class="feedback-main">
                 <h2 class="big-title">Отзывы, проверенные клёвом</h2>
-                <div class="review__text__item">
-                    <p class="description-text-black review__text__item-info">Первая осенняя рыбалка. Выбор пал на р.
-                        Щара, решил проведать места где ловил весной. Доехать
-                        было тяжеловато, а ещё тяжелей было продвигаться по берегу, заросло все мама не горюй... За три
-                        часа ловли реализовал одну поклевку. Сезон открыт, всем НХНЧ!
-                        <br/>
-                        <br/>
+                <!-- Отзывы -->
+                <div class="feedback-main-list">
+                  <!-- Здесь выводятся отзывы -->
+                  <div class="feedback-main-list-item">
+                    <div class="feedback-main-list-item__text">
+                      <p class="description-text-black">
+                        Первая осенняя рыбалка. Выбор пал на р. Щара, решил проведать места где ловил весной. Доехать было
+                        тяжеловато, а ещё тяжелей было продвигаться по берегу, заросло все мама не горюй... За три часа ловли
+                        реализовал одну поклевку. Сезон открыт, всем НХНЧ!
+                      </p>
+                      <p class="description-text-black">
                         Сработал Swing Impact 4” в 13 расцветке от Green Fish.
-                    </p>
-                    <div class="swiper-container reviews-pictures">
-                        <div class="swiper-wrapper reviews-pictures-wrapper">
-                            <div class="swiper-slide reviews-pictures-content">
-                                <img alt="" src="./images/items-card/review-picture.png">
-                            </div>
-                            <div class="swiper-slide reviews-pictures-content">
-                                <img alt="" src="./images/items-card/review-picture.png">
-                            </div>
-                            <div class="swiper-slide reviews-pictures-content">
-                                <img alt="" src="./images/items-card/review-picture.png">
-                            </div>
-                            <div class="swiper-slide reviews-pictures-content">
-                                <img alt="" src="./images/items-card/review-picture.png">
-                            </div>
+                      </p>
+                    </div>
+                    <div class="feedback-main-list-item__gallery">
+                      <!-- Здесь выводятся все слайды относящиеся к текущему отзыву -->
+                      <div class="feedback-main-list-item__wrapper swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="images/feedback/gallery-sample.jpg" alt="">
                         </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                    <div class="review__text__item-pictures">
-                        <img alt="" src="./images/items-card/review-picture.png">
-                        <img alt="" src="./images/items-card/review-picture.png">
-                    </div>
-                    <p class="review__text__item-date">Отчет с рыбалки от нашего друга Александра, 10 сентября 2020</p>
-                </div>
-                <div class="review__text__item">
-                    <p class="description-text-black review__text__item-info">Всем привет. Был на неделе один свободный
-                        денёк,вырвались с другом на рыбалку. Местное озеро, в
-                        районе г.Глубокое. Ловили в районе 4-5 часов,щука в этот день была мягко говоря неактивна. Но
-                        одной поклёвки всё-таки удалось дождаться...
-                        Поклёвка была из разряда «отдай спиннинг»,на Swing Impact 4” от Green Fish в 19 расцветке
-                        ,спиннинг в дугу,но увы срез из-за своей глупости,или даже можно сказать лени...
-                        Из выбора струна или поводок ,выбрал не привязывать ничего. Вышло обидненько,а ведь зубастая
-                        была хорошей... Как обычно меня преследовали окуни,удалось поймать 3 штуки.
-                        По окуню так же сработали GF Swing Impact 4” в 05 и 19 расцветках. А так же GF T.T.Shad 3,2” в
-                        24 расцветке. Всем хороших выходных,и НХНЧ!!!🎣😉</p>
-                    <div class="review__text__item-pictures">
-                        <img alt="" src="./images/items-card/review-picture.png">
-                        <img alt="" src="./images/items-card/review-picture.png">
-                        <div class="review__text__item-pictures-show-more">+2</div>
-                    </div>
-
-
-                    <p class="review__text__item-date">Отчет с рыбалки от нашего друга Александра, 10 сентября 2020</p>
-                </div>
-                <div class="slider-for-reviews">
-                    <div class="swiper-container review-top">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img alt="" src="images/items-card/review-picture.png"/>
-                            </div>
-                            <div class="swiper-slide">
-                                <img alt="" src="images/items-card/review-picture.png"/>
-                            </div>
-                            <div class="swiper-slide">
-                                <img alt="" src="images/items-card/review-picture.png"/>
-                            </div>
-                            <div class="swiper-slide">
-                                <img alt="" src="images/items-card/review-picture.png"/>
-                            </div>
+                        <div class="swiper-slide">
+                          <img src="images/feedback/gallery-sample.jpg" alt="">
                         </div>
-                        <div class="swiper-button-next swiper-button-white"></div>
-                        <div class="swiper-button-prev swiper-button-white"></div>
-                    </div>
-                    <div class="swiper-container review-thumbs">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img alt="" src="images/items-card/review-picture.png"/>
-                            </div>
-                            <div class="swiper-slide">
-                                <img alt="" src="images/items-card/review-picture.png"/>
-                            </div>
-                            <div class="swiper-slide">
-                                <img alt="" src="images/items-card/review-picture.png"/>
-                            </div>
-                            <div class="swiper-slide">
-                                <img alt="" src="images/items-card/review-picture.png"/>
-                            </div>
+                        <div class="swiper-slide">
+                          <img src="images/feedback/gallery-sample.jpg" alt="">
                         </div>
+                        <div class="swiper-slide">
+                          <img src="images/feedback/gallery-sample.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/feedback/gallery-sample.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/feedback/gallery-sample.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/feedback/gallery-sample.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/feedback/gallery-sample.jpg" alt="">
+                        </div>
+                      </div>
                     </div>
+                    <div class="feedback-main-list-item__desc">
+                      Отчет с рыбалки от нашего друга, 19 сентября 2020
+                    </div>
+                  </div>
+                  <div class="feedback-main-list-item">
+                    <div class="feedback-main-list-item__text">
+                      <p class="description-text-black">
+                        Первая осенняя рыбалка. Выбор пал на р. Щара, решил проведать места где ловил весной. Доехать было
+                        тяжеловато, а ещё тяжелей было продвигаться по берегу, заросло все мама не горюй... За три часа ловли
+                        реализовал одну поклевку. Сезон открыт, всем НХНЧ!
+                      </p>
+                      <p class="description-text-black">
+                        Сработал Swing Impact 4” в 13 расцветке от Green Fish.
+                      </p>
+                    </div>
+                    <div class="feedback-main-list-item__gallery swiper-container">
+                      <!-- Здесь выводятся все слайды относящиеся к текущему отзыву -->
+                      <div class="feedback-main-list-item__wrapper swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="images/feedback/gallery-sample.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/feedback/gallery-sample.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/feedback/gallery-sample.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/feedback/gallery-sample.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="feedback-main-list-item__desc">
+                      Отчет с рыбалки от нашего друга, 19 сентября 2020
+                    </div>
+                  </div>
+                  <div class="feedback-main-list-item">
+                    <div class="feedback-main-list-item__text">
+                      <p class="description-text-black">
+                        Первая осенняя рыбалка. Выбор пал на р. Щара, решил проведать места где ловил весной. Доехать было
+                        тяжеловато, а ещё тяжелей было продвигаться по берегу, заросло все мама не горюй... За три часа ловли
+                        реализовал одну поклевку. Сезон открыт, всем НХНЧ!
+                      </p>
+                      <p class="description-text-black">
+                        Сработал Swing Impact 4” в 13 расцветке от Green Fish.
+                      </p>
+                    </div>
+                    <div class="feedback-main-list-item__gallery swiper-container">
+                      <!-- Здесь выводятся все слайды относящиеся к текущему отзыву -->
+                      <div class="feedback-main-list-item__wrapper swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="images/feedback/gallery-sample.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/feedback/gallery-sample.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="feedback-main-list-item__desc">
+                      Отчет с рыбалки от нашего друга, 19 сентября 2020
+                    </div>
+                  </div>
                 </div>
+                <!-- Конец отзывов -->
                 <p class="review__text__read-all">Читать все <span class="review__text__read-all">6</span></p>
-            </div>
+            </section>
             <div class="review__add-review">
                 <p class="review__add-review-title">Добавить отзыв</p>
                 <div class="review__add-review-container">
@@ -413,6 +433,27 @@
                 </div>
             </div>
         </div>
+        <div class="feedback-gallery-popup">
+            <img class="feedback-gallery-popup__close" src="images/feedback/close-gallery.svg" alt="">
+            <svg class="feedback-gallery-popup__prev" width="81" height="81" viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M56.3865 19.2615C57.7045 17.9435 57.7045 15.8065 56.3865 14.4885C55.0685 13.1705 52.9315 13.1705 51.6135 14.4885L27.9885 38.1135C26.6705 39.4315 26.6705 41.5685 27.9885 42.8865L51.6135 66.5115C52.9315 67.8295 55.0685 67.8295 56.3865 66.5115C57.7045 65.1935 57.7045 63.0565 56.3865 61.7385L35.148 40.5L56.3865 19.2615Z" fill="#C4C4C4"/>
+            </svg>
+            <div class="feedback-gallery-popup__slider">
+              <div class="feedback-gallery swiper-container">
+                <div class="swiper-wrapper">
+                 <!-- Сюда ничего не выводится, взаимодействие прописано в js -->
+                </div>
+              </div>
+              <div class="feedback-gallery_thumbs swiper-container">
+                <div class="swiper-wrapper">
+                  <!-- Сюда ничего не выводится, взаимодействие прописано в js -->
+                </div>
+              </div>
+            </div>
+            <svg class="feedback-gallery-popup__next" width="81" height="81" viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24.6136 19.2615C23.2956 17.9435 23.2956 15.8065 24.6136 14.4885C25.9317 13.1705 28.0686 13.1705 29.3866 14.4885L53.0116 38.1135C54.3296 39.4315 54.3296 41.5685 53.0116 42.8865L29.3866 66.5115C28.0686 67.8295 25.9317 67.8295 24.6136 66.5115C23.2956 65.1935 23.2956 63.0565 24.6136 61.7385L45.8522 40.5L24.6136 19.2615Z" fill="#C4C4C4"/>
+            </svg>
+          </div>
     </section>
     <section class="delivery">
         <div class="delivery__info">
@@ -520,5 +561,6 @@
 <script src="js/items-card/gallerySliderItemsCard.js"></script>
 <script src="js/propsPage.js"></script>
 <script src="js/addReview.js"></script>
+<script src="js/feedback/feedbackGallery.js"></script>
 </body>
 </html>
