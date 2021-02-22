@@ -12,7 +12,7 @@ function init() {
     const mySwiper = new Swiper('.swiper-container', {
         direction: 'horizontal',
         loop: true,
-        initialSlide: 1,
+        initialSlide: 0,
         pagination: {
             el: '.swiper-pagination',
             type: 'bullets',
@@ -22,6 +22,16 @@ function init() {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+        breakpoints: {
+            0: {
+                slidesPerView: 'auto',
+                spaceBetween: 12  
+            },
+            768: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            }
+        }
     });
 
 

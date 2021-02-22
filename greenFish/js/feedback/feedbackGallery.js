@@ -20,7 +20,7 @@ if (document.documentElement.clientWidth >= tabletWidth) {
   })
 
   const gallerySliderThumbs = new Swiper('.feedback-gallery_thumbs', {
-    direction: "vertical",
+    direction: 'vertical',
     spaceBetween: 10,
     slidesPerView: 'auto',
     freeMode: true,

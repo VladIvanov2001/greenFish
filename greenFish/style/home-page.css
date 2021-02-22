@@ -741,6 +741,14 @@
         max-width: 1110px;
     }
 
+    .slider__content__info {
+        width: 45%;
+    }
+
+    .slider__content__info.transit {
+        width: 48% !important;
+    }
+
     .slider__content__info-title {
         font-family: Roboto;
         font-style: normal;
@@ -769,7 +777,7 @@
 
     .slider__content__image img {
         max-width: 490px;
-        margin: 3px 3px 0 200px;
+        /*margin: 3px 3px 0 200px;*/
     }
 
     .slider__content__info-description {
@@ -1011,7 +1019,7 @@
 
     .advantages {
         margin-bottom: 106px;
-        padding-left: 76px;
+        padding-left: 70px;
     }
 
     .advantages__details__item:nth-child(2) {
@@ -1210,6 +1218,10 @@
     .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
         bottom: 63px !important;
         left: -211px !important;
+    }
+
+    .swiper-slide.for-tablet {
+        width: 569px;
     }
 
     .swiper-pagination-bullet-active {
@@ -1698,8 +1710,6 @@
     .swiper-slide {
         height: 293px !important;
         width: 298px !important;
-        margin-right: -16px !important;
-        margin-left: 50px;
     }
 
     .slider__content__image img {
@@ -2087,8 +2097,6 @@
     .swiper-container-for-tablet .swiper-slide {
         height: 445px !important;
         width: 298px !important;
-        margin-left: 15px;
-        margin-right: 47px !important;
     }
 
     .news__right-side__item-info {

@@ -1,5 +1,17 @@
-console.log('helle');
 const basketSwiper = new Swiper('.swiper-container-checked', {
-    slidesPerView: 3,
-    spaceBetween: 130,
+    slidesPerView: 'auto',
+    breakpoints: {
+        0: {
+            spaceBetween: 8
+        },
+        768: {
+            spaceBetween: 15
+        },
+        1200: {
+            spaceBetween: 31
+        },
+        1410: {
+            spaceBetween: 32
+        }
+    }
 });
