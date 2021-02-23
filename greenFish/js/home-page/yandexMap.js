@@ -8,7 +8,7 @@ function init() {
     ];
 
     const clusterIcons = [{
-        href: './images/home-page/label.svg',
+        href: './images/home-page/labelCluster.svg',
         size: [53, 52],
         offset: [0, 0]
     }];
@@ -21,6 +21,10 @@ function init() {
     }, {
         searchControlProvider: 'yandex#search'
     });
+
+    ClusterIconLayout = ymaps.templateLayoutFactory.createClass(
+        '<div style="color: #FFFFFF; font-weight: bold; font-size: 26px; position: relative; top: -6px;">$[properties.iconContent]</div>'
+    )
 
     BalloonContentLayout = ymaps.templateLayoutFactory.createClass(
         '<div class="info-popular-label">' +
@@ -52,6 +56,7 @@ function init() {
 
     const myClusterer = new ymaps.Clusterer({
         clusterIcons: clusterIcons,
+        clusterIconContentLayout: ClusterIconLayout,
         gridSize: 128
     });
 
