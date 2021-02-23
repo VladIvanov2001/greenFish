@@ -910,6 +910,12 @@
 
     .basket {
         padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .basket-main-left {
+        width: 100%;
+        margin-right: 0;
     }
 
     .basket-main-left__item {
@@ -961,7 +967,6 @@
     }
 
     .basket-main-left-note {
-        max-width: 309px;
         font-size: 14px;
         line-height: 19px;
         margin-bottom: 10px;
@@ -995,11 +1000,11 @@
     }
 
     .basket-main-left-personal label input {
-        width: 328px;
+        width: 100%;
     }
 
     .basket-main-left-textarea textarea {
-        max-width: 328px;
+        max-width: 100%;
     }
 
     .basket-main-left-textarea {

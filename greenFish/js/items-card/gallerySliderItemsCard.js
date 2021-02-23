@@ -5,6 +5,7 @@ const galleryThumbs = new Swiper('.gallery-thumbs', {
 });
 const galleryTop = new Swiper('.gallery-top', {
     spaceBetween: 10,
+    slidesPerView: 'auto',
     loop: true,
     thumbs: {
         swiper: galleryThumbs,
@@ -16,7 +17,7 @@ const galleryTop = new Swiper('.gallery-top', {
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-    },
+    }
 });
 
 const paletteItems = document.querySelectorAll('.item-card__palette__colors-item');
@@ -90,7 +91,14 @@ const reviewTop = new Swiper('.review-top', {
 
 const swiperForItem = new Swiper('.items-choice-customers', {
     slidesPerView: 'auto',
-    spaceBetween: 32,
+    breakpoints: {
+        0: {
+            spaceBetween: 8
+        },
+        1200: {
+            spaceBetween: 15
+        }
+    }
 });
 
 const swiperForReview = new Swiper('.reviews-pictures', {
