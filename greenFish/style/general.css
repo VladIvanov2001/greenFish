@@ -126,6 +126,14 @@
     color: #fff;
 }
 
+.ymaps-cluster-text {
+    position: relative; 
+    top: -6px;
+    color: #FFFFFF; 
+    font-weight: bold; 
+    font-size: 26px;
+}
+
 /* styles for catalog*/
 
 .cost-for-card{
