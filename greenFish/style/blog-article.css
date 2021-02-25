@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.navigation {
+    padding-bottom: 13px;
+    margin-bottom: 54px;
+}
+
+.navigation-list {
+    position: relative;
+    top: 0;
+    left: -5px;
+}
+
+
+.blog-article{
+    display: flex;
+}
+
+.blog-article__main{
+    width: 80%;
+}
+
+.blog-article__main__item-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+
+.blog-article__main__item img{
+    margin-bottom: 18px;
+}
+
+.blog-article__main__item-title{
+    margin-bottom: 24px;
+}
