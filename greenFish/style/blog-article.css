@@ -113,11 +113,143 @@
     margin-bottom: 7px;
 }
 
-.blog-article__side__item-info p:nth-child(2){
+.blog-article__side__item-info p:nth-child(2) {
     max-width: 265px;
     margin-bottom: 14px;
 }
 
-.blog-article__side__item-info p:nth-child(3){
+.blog-article__side__item-info p:nth-child(3) {
     margin-bottom: 96px;
+}
+
+.instagram__text {
+    padding-left: 0;
+}
+
+.instagram__pictures {
+    padding-top: 0;
+}
+
+.footer {
+    padding: 57px 0 31px 0;
+}
+
+@media (max-width: 1409.98px) {
+    .container {
+        max-width: 1110px;
+    }
+
+    .navigation {
+        margin-bottom: 53px;
+    }
+
+    .blog-article{
+        padding-left: 30px;
+    }
+
+    .blog-article__main {
+        width: 74%;
+    }
+
+    .blog-article__main__item img{
+        width: 824px;
+        height: 444px;
+    }
+
+    .blog-article__side__item{
+        max-width: 254px;
+        margin-bottom: 24px;
+    }
+
+    .blog-article__side__item img{
+        width: 254px;
+        height: 254px;
+        margin-bottom: 16px;
+    }
+
+    .blog-article__side__item-info {
+        padding-left: 18px;
+        margin-bottom: 12px;
+    }
+
+    .blog-article__main__item img {
+        margin-bottom: 28px;
+    }
+
+    .blog-article__side__item-info p:nth-child(3) {
+        margin-bottom: 75px;
+    }
+
+    .blog-article__main__item-info-tags span{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .blog-article__main__item p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .blog-article__main__item-info{
+        margin-bottom: 11px;
+    }
+
+    .blog-article__main__item {
+        margin-bottom: 24px;
+    }
+
+    .blog-article__main__item-double p:nth-child(2){
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .blog-article__main__item-double-pictures-one img{
+        height: 400px;
+        width: 399px;
+        margin-bottom: 11px;
+    }
+
+    .blog-article__main__item-double {
+        margin-bottom: 0px;
+    }
+
+    .blog-article__main__item-single h2{
+        letter-spacing: 0.2px;
+    }
+
+    .blog-article__main__item-single img{
+        width: 824px;
+        height: 444px;
+    }
+
+    .blog-article__main__item-single p:nth-child(2){
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 33px;
+    }
+
+    .instagram__text {
+        padding-top: 33px;
+        padding-left: 0;
+        margin-right: 18px;
+        position: relative;
+        right: 57px;
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .instagram__text h3 {
+        font-size: 33px;
+        margin-bottom: 54px;
+    }
+
+    .footer {
+        padding: 61px 0 25px 37px;
+        margin-top: -5px;
+    }
+
+    .footer__catalog__props {
+        font-size: 14px;
+    }
 }
