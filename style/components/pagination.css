@@ -1,0 +1,43 @@
+.feedback-main-pagination {
+    width: 272px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.feedback-main-pagination__elem {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D9DEDE;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 22px;
+    color: #373F41;
+    cursor: pointer;
+}
+
+.feedback-main-pagination__elem.active_page {
+    font-family: 'SF Pro Text';
+    font-size: 14px;
+    line-height: 20px;
+    color: #3CB156;
+    border-color: #3CB156;
+    pointer-events: none;
+}
+
+.feedback-main-pagination__elem.arrow {
+    fill: #D9DEDE;
+}
+
+.feedback-main-pagination__elem.arrow.disabled {
+    background: #767c7d;
+    border-color: #767c7d;
+    opacity: 0.5;
+    pointer-events: none;
+}
+

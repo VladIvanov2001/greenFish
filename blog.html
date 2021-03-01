@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Где купить</title>
+    <title>Блог</title>
+    <link rel="stylesheet" href="style/general.css">
     <link rel="stylesheet" href="style/components/header.css">
     <link rel="stylesheet" href="style/components/footer.css">
     <link rel="stylesheet" href="style/components/navigation.css">
     <link rel="stylesheet" href="style/components/instagram.css">
-    <link rel="stylesheet" href="style/general.css">
-    <link rel="stylesheet" href="style/shop-location.css">
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=fb603679-5ca0-475f-9617-e25c8a33b360"
-            type="text/javascript"></script>
-    <script src="js/home-page/sliderHomePageTablet.js"></script>
+    <link rel="stylesheet" href="style/components/news.css">
+    <link rel="stylesheet" href="style/components/pagination.css">
+    <link rel="stylesheet" href="style/blog.css">
 </head>
 <body>
 <header class="header">
@@ -69,6 +68,7 @@
                 </ul>
             </div>
         </div>
+
     </nav>
 </header>
 <main>
@@ -76,119 +76,62 @@
         <div class="navigation-info container">
             <ul class="navigation-list ">
                 <li><a class="active-link" href="">Главная</a></li>
-                <li>Где купить</li>
+                <li><a class="" href="">Блог</a></li>
             </ul>
         </div>
     </div>
-    <section class="location">
-        <div class="container location-main">
-            <div class="location-main__info">
-                <h1 class="main-title-of-item">Где купить приманки бренда </h1>
-                <p class="description-text">Выбирайте приманки в&nbsp;каталоге на&nbsp;сайте, оформляйте заявку и&nbsp;забирайте
-                    заказ в&nbsp;одном
-                    из&nbsp;магазинов-партнёров. Или приезжайте в&nbsp;ближайший к&nbsp;вам магазин и&nbsp;выбирайте
-                    приманки из&nbsp;тех, что в&nbsp;наличии.</p>
-            </div>
-            <a class="subtitle-text" href="">
-                <div class="location-main__catalog-link">
-                    Посмотреть каталог приманок
+    <section class="news">
+        <div class="container">
+            <h1 class="big-title">Блог</h1>
+            <article class="news-content">
+                <a class="news-content__left-side" href="">
+                    <div class="news-content__left-side__info">
+                        <h3 class="title-h3">Заголовок</h3>
+                        <p class="description-text-black">Описание события в компании, изменения в продукте или о новом
+                            партнёре бизнеса. </p>
+                        <p class="subtitle-text">12.08.2020</p>
+                        <span class="subtitle-text news__item-tag">#НХНЧ</span>
+                        <span class="subtitle-text news__item-tag">#ПРИМАНКИ</span>
+                    </div>
+                </a>
+                <div class="news__right-side">
+                    <a class="news__right-side__item" href="">
+                        <div class="news__right-side__item-info">
+                            <h3 class="title-h3">Заголовок</h3>
+                            <p class="description-text-black">Описание события в компании, изменения в продукте или о
+                                новом партнёре бизнеса. </p>
+                            <p class="subtitle-text">12.08.2020</p>
+                            <span class="subtitle-text news__item-tag">#рыбалкавбеларуси</span>
+                        </div>
+                        <div class="news__right-side__item-image"></div>
+                    </a>
+                    <a class="news__right-side__item" href="">
+                        <div class="news__right-side__item-info">
+                            <h3 class="title-h3">Заголовок</h3>
+                            <p class="description-text-black">Описание события в компании, изменения в продукте или о
+                                новом партнёре бизнеса. </p>
+                            <p class="subtitle-text">12.08.2020</p>
+                            <span class="subtitle-text news__item-tag">#рыбалкавбеларуси</span>
+                        </div>
+                        <div class="news__right-side__item-image"></div>
+                    </a>
                 </div>
-            </a>
-        </div>
-    </section>
-    <section class="shops">
-        <div class="container shops-location">
-            <h2 class="shops-location-title-mobile">Магазины-партнёры</h2>
-            <div id="map"></div>
-            <div class="shops-location__list">
-                <h2 class="big-title">Магазины-партнёры</h2>
-                <form class="shops-location__list-options">
-                    <span class="title-small">Выберите регион</span>
-                    <label>
-                        <select>
-                            <option>Любой регион</option>
-                            <option>Пункт 2</option>
-                        </select>
-                    </label>
-                </form>
-                <div class="shops-location__list-shop">
-                    <div class="shops-location__list__item">
-                        <div class="subtitle-text shops-location__list__item-top">
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M15.5705 19.62C16.7924 20.2624 17.9715 19.4069 17.738 18.0453L16.8622 12.9393C16.8707 12.9889 20.5591 9.36253 20.5591 9.36253C21.5477 8.39895 21.0984 7.01319 19.7312 6.81453L14.6045 6.06958C14.6544 6.07682 12.3453 1.44831 12.3453 1.44831C11.7343 0.210407 10.2776 0.209467 9.66616 1.44831L7.37342 6.09391C7.39572 6.04873 2.28019 6.81453 2.28019 6.81453C0.914084 7.01304 0.463022 8.39822 1.4523 9.36253L5.16203 12.9786C5.12595 12.9435 4.27349 18.0453 4.27349 18.0453C4.04013 19.4058 5.21813 20.2629 6.44094 19.62L11.0264 17.2093C10.9818 17.2327 15.5705 19.62 15.5705 19.62Z"
-                                      fill="#3CB156"/>
-                            </svg>
-                            представлен полный ассортимент товара
-                        </div>
-                        <div class="subtitle-text shops-location__list__item-address">
-                            <p class="description-text-black">г. Минск, Матусевича, 64, магазин «Рыбалка»</p>
-                            <p class="subtitle-text shops-location__list__item-choose">Выбрать</p>
-                            <div>
-                                <input class="shop-location-checkbox item-checkbox" type="checkbox"/>
-                                <label></label>
-                            </div>
-                        </div>
-                        <a class="subtitle-text" href="">https://nalim.by/</a>
-                    </div>
-                    <div class="shops-location__list__item">
-                        <div class="subtitle-text shops-location__list__item-top">
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M15.5705 19.62C16.7924 20.2624 17.9715 19.4069 17.738 18.0453L16.8622 12.9393C16.8707 12.9889 20.5591 9.36253 20.5591 9.36253C21.5477 8.39895 21.0984 7.01319 19.7312 6.81453L14.6045 6.06958C14.6544 6.07682 12.3453 1.44831 12.3453 1.44831C11.7343 0.210407 10.2776 0.209467 9.66616 1.44831L7.37342 6.09391C7.39572 6.04873 2.28019 6.81453 2.28019 6.81453C0.914084 7.01304 0.463022 8.39822 1.4523 9.36253L5.16203 12.9786C5.12595 12.9435 4.27349 18.0453 4.27349 18.0453C4.04013 19.4058 5.21813 20.2629 6.44094 19.62L11.0264 17.2093C10.9818 17.2327 15.5705 19.62 15.5705 19.62Z"
-                                      fill="#3CB156"/>
-                            </svg>
-                            представлен полный ассортимент товара
-                        </div>
-                        <div class="subtitle-text shops-location__list__item-address">
-                            <p class="description-text-black">г. Минск, Матусевича, 64, магазин «Рыбалка»</p>
-                            <p class="subtitle-text shops-location__list__item-choose">Выбрать</p>
-                            <div>
-                                <input class="shop-location-checkbox item-checkbox" type="checkbox"/>
-                                <label></label>
-                            </div>
-                        </div>
-                        <a class="subtitle-text" href="">https://nalim.by/</a>
-                    </div>
-                    <div class="shops-location__list__item">
-                        <div class="subtitle-text shops-location__list__item-top">
-                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M15.5705 19.62C16.7924 20.2624 17.9715 19.4069 17.738 18.0453L16.8622 12.9393C16.8707 12.9889 20.5591 9.36253 20.5591 9.36253C21.5477 8.39895 21.0984 7.01319 19.7312 6.81453L14.6045 6.06958C14.6544 6.07682 12.3453 1.44831 12.3453 1.44831C11.7343 0.210407 10.2776 0.209467 9.66616 1.44831L7.37342 6.09391C7.39572 6.04873 2.28019 6.81453 2.28019 6.81453C0.914084 7.01304 0.463022 8.39822 1.4523 9.36253L5.16203 12.9786C5.12595 12.9435 4.27349 18.0453 4.27349 18.0453C4.04013 19.4058 5.21813 20.2629 6.44094 19.62L11.0264 17.2093C10.9818 17.2327 15.5705 19.62 15.5705 19.62Z"
-                                      fill="#3CB156"/>
-                            </svg>
-                            представлен полный ассортимент товара
-                        </div>
-                        <div class="subtitle-text shops-location__list__item-address">
-                            <p class="description-text-black">г. Минск, Матусевича, 64, магазин «Рыбалка»</p>
-                            <p class="subtitle-text shops-location__list__item-choose">Выбрать</p>
-                            <div>
-                                <input class="shop-location-checkbox item-checkbox" type="checkbox"/>
-                                <label></label>
-                            </div>
-                        </div>
-                        <a class="subtitle-text" href="">https://nalim.by/</a>
-                    </div>
-                    <div class="shops-location__list__item">
-                        <div class="subtitle-text shops-location__list__item-address">
-                            <p class="description-text-black">г. Минск, Матусевича, 64, магазин «Рыбалка»</p>
-                            <p class="subtitle-text shops-location__list__item-choose">Выбрать</p>
-                            <div>
-                                <input class="shop-location-checkbox item-checkbox" type="checkbox"/>
-                                <label></label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="shops-location__list__item">
-                        <div class="subtitle-text shops-location__list__item-address">
-                            <p class="description-text-black">г. Минск, Матусевича, 64, магазин «Рыбалка»</p>
-                            <p class="subtitle-text shops-location__list__item-choose">Выбрать</p>
-                            <div>
-                                <input class="shop-location-checkbox item-checkbox" type="checkbox"/>
-                                <label></label>
-                            </div>
-                        </div>
-                    </div>
+            </article>
+            <div class="feedback-main-pagination">
+                <div class="feedback-main-pagination__elem arrow prev disabled">
+                    <svg width="9" height="12" viewBox="0 0 9 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.15997 1.41L3.57997 6L8.15997 10.59L6.74997 12L0.749973 6L6.74997 0L8.15997 1.41Z"/>
+                    </svg>
+                </div>
+                <div class="feedback-main-pagination__elem active_page">1</div>
+                <div class="feedback-main-pagination__elem">2</div>
+                <div class="feedback-main-pagination__elem dots">...</div>
+                <div class="feedback-main-pagination__elem">9</div>
+                <div class="feedback-main-pagination__elem">10</div>
+                <div class="feedback-main-pagination__elem arrow next">
+                    <svg width="9" height="12" viewBox="0 0 9 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.839996 1.41L5.42 6L0.839996 10.59L2.25 12L8.25 6L2.25 0L0.839996 1.41Z"/>
+                    </svg>
                 </div>
             </div>
         </div>
@@ -200,12 +143,12 @@
                 <a class="title-small" href="">Посмотреть профиль</a>
             </div>
             <div class="instagram__pictures">
-                <a href=""><img alt="" src="images/home-page/inst1.png"/></a>
-                <a href=""><img alt="" src="images/home-page/inst2.png"/></a>
-                <a href=""><img alt="" src="images/home-page/inst3.png"/></a>
-                <a href=""><img alt="" src="images/home-page/inst4.png"/></a>
-                <a href=""><img alt="" src="images/home-page/inst4.png"/></a>
-                <a href=""><img alt="" src="images/home-page/inst4.png"/></a>
+                <a href=""><img alt="" src="images/home-page/inst1.png"></a>
+                <a href=""><img alt="" src="images/home-page/inst2.png"></a>
+                <a href=""><img alt="" src="images/home-page/inst3.png"></a>
+                <a href=""><img alt="" src="images/home-page/inst4.png"></a>
+                <a href=""><img alt="" src="images/home-page/inst4.png"></a>
+                <a href=""><img alt="" src="images/home-page/inst4.png"></a>
             </div>
         </div>
     </section>
@@ -264,9 +207,6 @@
         </div>
     </div>
 </footer>
-<script src="js/shop-location/shopLocation.js"></script>
-<script src="js/home-page/scriptForMain.js"></script>
 <script src="js/propsPage.js"></script>
-<script src="js/home-page/yandexMap.js"></script>
 </body>
 </html>

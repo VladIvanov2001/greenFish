@@ -8,7 +8,7 @@ function init() {
     ];
 
     const clusterIcons = [{
-        href: './images/home-page/label.svg',
+        href: './images/home-page/labelCluster.svg',
         size: [53, 52],
         offset: [0, 0]
     }];
@@ -22,6 +22,10 @@ function init() {
         searchControlProvider: 'yandex#search'
     });
 
+    ClusterIconLayout = ymaps.templateLayoutFactory.createClass(
+        '<div class="ymaps-cluster-text">$[properties.iconContent]</div>'
+    )
+
     BalloonContentLayout = ymaps.templateLayoutFactory.createClass(
         '<div class="info-popular-label">' +
         '<div class="info-popular-label__top">' +
@@ -29,34 +33,36 @@ function init() {
         '<img alt="" src="./images/home-page/star.svg"> ' +
         '</div>' +
         '<div class="info-popular-label__bottom">' +
-        '<address>г. Минск, Матусевича, 64, магазин «Рыбалка»</address>'+
-        '<a href="https://nalim.by/">https://nalim.by/</a>'+
-        '</div>'+
+        '<address>г. Минск, Матусевича, 64, магазин «Рыбалка»</address>' +
+        '<a href="https://nalim.by/">https://nalim.by/</a>' +
+        '</div>' +
         '</div>')
 
     for (let i = 0; i < coords.length; i++) {
         myGeoObjects[i] = new ymaps.GeoObject({
-                geometry: {
-                    type: "Point",
-                    coordinates: coords[i]
-                },
-            }, {
-                iconLayout: 'default#image',
-                iconImageHref: './images/home-page/label.svg',
-                iconImageSize: [37, 49],
+            geometry: {
+                type: "Point",
+                coordinates: coords[i]
+            },
+        }, {
+            hideIconOnBalloonOpen: false,
+            iconLayout: 'default#image',
+            iconImageHref: './images/home-page/label.svg',
+            iconImageSize: [37, 49],
             balloonContentLayout: BalloonContentLayout,
-            closeButton:false
-         },
+            closeButton: false
+        },
         );
     }
 
     const myClusterer = new ymaps.Clusterer({
         clusterIcons: clusterIcons,
+        clusterIconContentLayout: ClusterIconLayout,
         gridSize: 128
     });
 
     myClusterer.add(myGeoObjects);
-    myGeoObjects.forEach(element =>{
+    myGeoObjects.forEach(element => {
         element.events
             .add('click', function (e) {
                 e.get('target').options.set({

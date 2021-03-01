@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Покупателям</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -136,22 +137,24 @@
             <p class="description-text certificate-main-description">Прикрепить скан сертификата о&nbsp;материале, скан копии свидетельства о&nbsp;внесении сведений в&nbsp;Торговый
                 реестр&nbsp;РБ, свидетельство о&nbsp;регистрации&nbsp;ИП, пример касового чека, если есть.
             </p>
-            <div class="certificate-main__content">
-                <div class="certificate-main__content__item">
-                    <img alt="" src="./images/buyers/certificate.png">
-                    <p class="subtitle-text">Свидетельство о государственной регистрации</p>
-                </div>
-                <div class="certificate-main__content__item">
-                    <img alt="" src="./images/buyers/certificate.png">
-                    <p class="subtitle-text">Свидетельство о государственной регистрации</p>
-                </div>
-                <div class="certificate-main__content__item">
-                    <img alt="" src="./images/buyers/certificate.png">
-                    <p class="subtitle-text">Свидетельство о государственной регистрации</p>
-                </div>
-                <div class="certificate-main__content__item">
-                    <img alt="" src="./images/buyers/certificate.png">
-                    <p class="subtitle-text">Свидетельство о государственной регистрации</p>
+            <div class="certificate-main__content swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="certificate-main__content__item swiper-slide">
+                        <img alt="" src="./images/buyers/certificate.png">
+                        <p class="subtitle-text">Свидетельство о государственной регистрации</p>
+                    </div>
+                    <div class="certificate-main__content__item swiper-slide">
+                        <img alt="" src="./images/buyers/certificate.png">
+                        <p class="subtitle-text">Свидетельство о государственной регистрации</p>
+                    </div>
+                    <div class="certificate-main__content__item swiper-slide">
+                        <img alt="" src="./images/buyers/certificate.png">
+                        <p class="subtitle-text">Свидетельство о государственной регистрации</p>
+                    </div>
+                    <div class="certificate-main__content__item swiper-slide">
+                        <img alt="" src="./images/buyers/certificate.png">
+                        <p class="subtitle-text">Свидетельство о государственной регистрации</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -172,6 +175,9 @@
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/buyers/buyers.js"></script>
 </main>
 <footer class="footer">
     <div class="container">

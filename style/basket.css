@@ -438,12 +438,8 @@
     height: 100%;
 }
 
-.swiper-slide-checked .swiper-slide {
-    width: 217.667px;
-    margin-right: 0;
-}
-
 .swiper-slide-checked {
+    width: 314px !important;
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -496,6 +492,10 @@
 
     .navigation-info {
         right: 119px;
+    }
+
+    .swiper-slide-checked {
+        width: 255px !important;
     }
 
     .basket {
@@ -621,6 +621,11 @@
         font-size: 11px;
     }
 
+    .main-info__catalog__products-image-fast-review {
+        left: 12px;
+        right: 12px;
+    }
+
     .footer {
         padding: 61px 0 58px 37px;
         margin-top: -13px;
@@ -634,6 +639,11 @@
 @media (max-width: 1199.98px) {
     .container {
         max-width: 691px;
+    }
+
+    .container.checked {
+        max-width: 100%;
+        margin-left: calc(50% - 345px);
     }
 
     .nav {
@@ -685,6 +695,10 @@
         display: flex;
         width: 345px;
         align-items: baseline;
+    }
+
+    .swiper-slide-checked {
+        width: 210px !important;
     }
 
     .basket-main__right {
@@ -826,6 +840,22 @@
         max-width: 100%;
     }
 
+    .container.checked {
+        margin-left: 0;
+        padding-left: 15px;
+    }
+    .checked h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .swiper-slide-checked {
+        width: 146px !important;
+    }
+
+    .main-info__catalog__products-item img {
+        width: 146px;
+    }
+
     .header {
         height: 62px;
         margin-bottom: 0;
@@ -880,6 +910,12 @@
 
     .basket {
         padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .basket-main-left {
+        width: 100%;
+        margin-right: 0;
     }
 
     .basket-main-left__item {
@@ -931,7 +967,6 @@
     }
 
     .basket-main-left-note {
-        max-width: 309px;
         font-size: 14px;
         line-height: 19px;
         margin-bottom: 10px;
@@ -965,11 +1000,11 @@
     }
 
     .basket-main-left-personal label input {
-        width: 328px;
+        width: 100%;
     }
 
     .basket-main-left-textarea textarea {
-        max-width: 328px;
+        max-width: 100%;
     }
 
     .basket-main-left-textarea {
@@ -982,11 +1017,6 @@
 
     .basket-main__right__agreement {
         margin-left: 3px;
-    }
-
-
-    .checked {
-        display: none;
     }
 
     .footer {

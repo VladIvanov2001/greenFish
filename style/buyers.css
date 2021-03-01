@@ -93,6 +93,7 @@
 }
 
 .certificate-main__content__item {
+    width: 315px;
     display: flex;
     flex-direction: column;
 }
@@ -195,6 +196,10 @@
 
     .certificate-main h2 {
         margin-bottom: 13px;
+    }
+
+    .certificate-main__content__item {
+        width: 255px;
     }
 
     .certificate-main__content__item img {
@@ -352,8 +357,8 @@
         line-height: 20px;
     }
 
-    .certificate-main__content__item:last-child {
-        display: none;
+    .certificate-main__content__item {
+        width: 209px;
     }
 
     .certificate-main__content__item img {
@@ -383,10 +388,6 @@
         padding-left: 16px;
     }
 
-    .container {
-        max-width: 100%;
-    }
-
     .header {
         height: 62px;
         margin-bottom: 0;
@@ -406,7 +407,7 @@
     }
 
     .navigation {
-        padding-bottom: 12px;
+        padding-bottom: 0;
         margin-bottom: 2px;
     }
 
@@ -416,11 +417,12 @@
 
     .navigation-list {
         top: -5px;
-        left: 13%;
+        left: 0;
     }
 
     .buyers {
         margin-bottom: 36px;
+        margin-top: 14px;
     }
 
     .buyers-main {
@@ -472,6 +474,10 @@
         margin-bottom: 23px;
     }
 
+    .advantages .container {
+        padding-right: 15px;
+    }
+
     .advantages h2 {
         text-align: left;
     }
@@ -507,10 +513,7 @@
 
     .certificate-main-description {
         margin-bottom: 19px;
-    }
-
-    .certificate-main__content__item:not(:first-child) {
-        display: none;
+        padding-right: 15px;
     }
 
     .certificate-main__content__item p {

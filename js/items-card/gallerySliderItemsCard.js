@@ -1,21 +1,12 @@
 const galleryThumbs = new Swiper('.gallery-thumbs', {
-    spaceBetween: 5,
-    slidesPerView: 5,
-    loop: true,
-    freeMode: true,
-    loopedSlides: 8,
-    watchSlidesVisibility: true,
-    watchSlidesProgress: true,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-
+    spaceBetween: 13,
+    slidesPerView: 'auto',
+    freeMode: true
 });
 const galleryTop = new Swiper('.gallery-top', {
     spaceBetween: 10,
+    slidesPerView: 'auto',
     loop: true,
-    loopedSlides: 8,
     thumbs: {
         swiper: galleryThumbs,
     },
@@ -23,15 +14,20 @@ const galleryTop = new Swiper('.gallery-top', {
         el: '.swiper-pagination',
         type: 'bullets',
     },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    }
 });
 
 const paletteItems = document.querySelectorAll('.item-card__palette__colors-item');
 const sizeItems = document.querySelectorAll('.item-card__size__params-item')
 const paletteValue = document.querySelector('.palette-number');
-const mainPictureOnSlider = document.querySelector('.gallery-top .swiper-slide-active img');
+const mainPictureOnSlider = document.querySelectorAll('.gallery-top .swiper-slide[data-swiper-slide-index="0"] img');
 const minusBtn = document.querySelector('.item-card__count__choice-amount-minus');
 const plusBtn = document.querySelector('.item-card__count__choice-amount-plus');
 const itemsCounter = document.querySelector('.item-card__count__choice-number')
+const thumbGalleryFirstItem = document.querySelector('.gallery-thumbs .swiper-slide:first-child img')
 
 paletteItems.forEach((paletteItem) => {
     paletteItem.addEventListener('click', () => {
@@ -39,8 +35,11 @@ paletteItems.forEach((paletteItem) => {
             paletteItem.classList.remove('active-palette');
         });
         paletteValue.textContent = `#${paletteItem.getAttribute('data-value')}`;
-        mainPictureOnSlider.src = paletteItem.firstElementChild.src;
         paletteItem.classList.add('active-palette');
+        mainPictureOnSlider.forEach((galleryItem) => {
+            galleryItem.src = paletteItem.firstElementChild.src;
+        })
+        thumbGalleryFirstItem.src = paletteItem.firstElementChild.src;
     })
 });
 
@@ -91,13 +90,15 @@ const reviewTop = new Swiper('.review-top', {
 });
 
 const swiperForItem = new Swiper('.items-choice-customers', {
-    slidesPerView: 2,
-    spaceBetween: 10,
-    freeMode: true,
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
+    slidesPerView: 'auto',
+    breakpoints: {
+        0: {
+            spaceBetween: 8
+        },
+        1200: {
+            spaceBetween: 15
+        }
+    }
 });
 
 const swiperForReview = new Swiper('.reviews-pictures', {
