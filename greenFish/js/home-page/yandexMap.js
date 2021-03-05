@@ -26,7 +26,7 @@ function init() {
         '<div class="ymaps-cluster-text">$[properties.iconContent]</div>'
     )
 
-    BalloonContentLayout = ymaps.templateLayoutFactory.createClass(
+    let BalloonContentLayout = ymaps.templateLayoutFactory.createClass(
         '<div class="info-popular-label">' +
         '<div class="info-popular-label__top">' +
         '<p>представлен полный ассортимент товара</p> ' +
@@ -37,6 +37,10 @@ function init() {
         '<a href="https://nalim.by/">https://nalim.by/</a>' +
         '</div>' +
         '</div>')
+    let MyBalloonContentLayout = ymaps.templateLayoutFactory.createClass(
+        '<h3 class="popover-title">$[properties.balloonHeader]</h3>' +
+        '<div class="popover-content">$[properties.balloonContent]</div>'
+    )
 
     for (let i = 0; i < coords.length; i++) {
         myGeoObjects[i] = new ymaps.GeoObject({
@@ -50,8 +54,11 @@ function init() {
             iconImageHref: './images/home-page/label.svg',
             iconImageSize: [37, 49],
             balloonContentLayout: BalloonContentLayout,
-            closeButton: false
-        },
+            closeButton: true,
+            balloonShadow: false,
+            balloonLayout: BalloonContentLayout,
+            balloonPanelMaxMapArea: 0
+            },
         );
     }
 
